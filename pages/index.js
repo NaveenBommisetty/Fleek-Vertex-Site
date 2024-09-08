@@ -86,7 +86,7 @@ const HomePage1 = () => {
                         <div className="row mt-10">
                             <div className="col-xl-5 col-lg-12 mb-40">
                                 <h2 className="color-brand-336699 mt-10 mb-15">Business can also be simple</h2>
-                                <p className="font-md color-grey-500">Access advanced order types including limit, market, stop limit and dollar cost averaging. Track your total asset holdings, values and equity over time. Monitor markets, manage your portfolio, and trade crypto on the go.</p>
+                                <p className="font-md color-gray-900">Access advanced order types including limit, market, stop limit and dollar cost averaging. Track your total asset holdings, values and equity over time. Monitor markets, manage your portfolio, and trade crypto on the go.</p>
                                 <div className="mt-20">
                                     <ul className="list-ticks">
                                         <li>

@@ -3389,7 +3389,7 @@ body {
   border-bottom: none;
 }
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav .mobile-menu li.has-children .menu-expand {
-  right: 0;
+  left: 100%;
   position: absolute;
   cursor: pointer;
   z-index: 9;
@@ -3421,7 +3421,7 @@ body {
   font-weight: 500;
   position: relative;
   display: inline-block;
-  color: #98c222;
+  color: #232323;
   transition-duration: 0.2s;
   text-decoration: none;
 }
@@ -3553,7 +3553,7 @@ body {
   z-index: 1004;
 }
 .burger-icon.burger-close {
-  width: 15px;
+  width: 20px;
 }
 .burger-icon > span {
   display: block;
@@ -5641,7 +5641,7 @@ footer a {
 }
 .list-ticks li {
   width: 50%;
-  color: #3D565F;
+  color: #232323;
   font-size: 14px;
   line-height: 18px;
   margin-bottom: 18px;
