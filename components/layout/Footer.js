@@ -18,7 +18,7 @@ const Footer = () => {
                                 <ul className="menu-footer">
                                     <li><Link href="/about">Mission &amp; Vision</Link></li>
                                     <li><Link href="/team">Our Team</Link></li>
-                                    <li><Link href="/career">Careers</Link></li>
+                                    <li><Link href="/">Careers</Link></li>
                                     <li><Link href="#">Press &amp; Media</Link></li>
                                 </ul>
                             </div>

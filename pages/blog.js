@@ -3,7 +3,7 @@ import Head from 'next/head';
 import React from 'react';
 import Layout from '../components/layout/Layout';
 
-const Blog1 = () => {
+const Blog = () => {
     return (
         <>
             <Head>
@@ -205,4 +205,4 @@ const Blog1 = () => {
     );
 };
 
-export default Blog1;
+export default Blog;

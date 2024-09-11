@@ -91,13 +91,14 @@
                                                 </div> */}
                                             </li>
                                             <li><Link href="/about">Company</Link></li>
-                                            <li className="has-children"><Link href="/service">Our Services</Link>
+                                            <li className="has-children"><Link href="/services">Our Services</Link>
                                                 <ul className="sub-menu">
-                                                    <li><Link href="/career">Web Development</Link></li>
-                                                    <li><Link href="/job-detail">Mobile App Development</Link></li>
-                                                    <li><Link href="/job-detail">Cloud Services</Link></li>
-                                                    <li><Link href="/job-detail">JIRA Administration</Link></li>
-                                                    <li><Link href="/job-detail">JIRA Administration</Link></li>
+                                                    <li><Link href="/web-development-company">Web Development Company</Link></li>
+                                                    <li><Link href="/mobile-app-development-compnay">Mobile App Development</Link></li>
+                                                    <li><Link href="/digital-marketing-compnay">Digital Marketing Company</Link></li>
+                                                    <li><Link href="/cloud-migration-company">Cloud Services</Link></li>
+                                                    <li><Link href="/jira-administration-services">JIRA Administration</Link></li>
+                                                    <li><Link href="/branding-services">Branding Services</Link></li>
                                                 </ul>
                                             </li>
                                             <li><Link href="blog">Blog</Link></li> 

@@ -260,8 +260,8 @@ h1 {
 
 h2 {
   font-weight: 700;
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 40px;
+  line-height: 45px;
 }
 
 h3 {
@@ -1994,6 +1994,9 @@ body {
 .card-small .card-info .icon-up {
   background: url(../imgs/page/homepage3/up.svg) no-repeat right top 8px;
 }
+.card-small .card-info .icon-up-black {
+  background: url(../imgs/page/homepage3/up-black.svg) no-repeat right top 8px;
+}
 .card-small:hover {
   border-color: #AFEAE4;
   box-shadow: 0px 0px 30px 0px rgba(14, 41, 50, 0.08);
@@ -3002,7 +3005,7 @@ body {
   top: 100%;
   left: 0px;
   z-index: 999999;
-  min-width: 220px;
+  min-width: 240px;
   border-radius: 8px;
   padding: 8px 0px 8px 0;
   background-color: #fff;
@@ -5776,6 +5779,12 @@ footer a {
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
+.accordion-button.text-heading-5.collapsed {
+  border: 1px solid #ccc;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-bottom: 1px;
+}
 .accordion .accordion-body {
   padding: 0px 50px 30px 30px;
 }
@@ -7546,7 +7555,7 @@ footer a {
 .banner-contact {
   background: linear-gradient(360deg, rgba(205, 226, 231, 0.44) 0%, rgba(205, 226, 231, 0) 100%);
   position: relative;
-  padding: 10px 0px 150px 0px;
+  padding: 80px 0px 150px 0px;
 }
 .banner-contact .banner-1 {
   padding: 0px;

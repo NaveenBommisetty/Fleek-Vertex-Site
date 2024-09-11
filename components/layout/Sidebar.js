@@ -44,7 +44,7 @@ const Sidebar = ({ openClass }) => {
                                                         </span>
                                                         <Link href="/service">Our Services</Link>
                                                         <ul className={isActive.key == 5 ? "sub-menu d-block" : "sub-menu d-none"}>
-                                                            <li><Link href="/career">Web Development</Link></li>
+                                                            <li><Link href="/web-development-company">Web Development Company</Link></li>
                                                             <li><Link href="/job-detail">Mobile App Development</Link></li>
                                                             <li><Link href="/job-detail">Cloud Services</Link></li>
                                                             <li><Link href="/job-detail">JIRA Administration</Link></li>

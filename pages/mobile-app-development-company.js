@@ -5,66 +5,51 @@ import Accordion from '../components/elements/Accordion';
 import Layout from '../components/layout/Layout';
 import { useState } from 'react';
 
-const Career = () => {
+const MobileAppDevelopmentCompany = () => {
 
     const [activeIndex, setActiveIndex] = useState(1);
     const handleOnClick = (index) => {
         setActiveIndex(index);
     };
 
-    // FAQ categories and titles data
-    const faqCategories = [
-        { id: 1, title: 'General Support' },
-        { id: 2, title: 'Order / Purchase' },
-        { id: 3, title: 'Download / Install' },
-        { id: 4, title: 'Technology' },
-        { id: 5, title: 'Your Account' }
-    ];
-
-
-
-
     return (
         <>
             <Head>
-                <title>Career</title>
+                <title>Digital Marketing Company</title>
             </Head>
-
             <Layout>
-                <section className="section mt-40">
+            <section className="section banner-contact">
                     <div className="container">
                         <div className="banner-1">
                             <div className="row align-items-center">
-                                <div className="col-lg-7"><span className="title-line line-48">Who we are</span>
-                                    <h1 className="color-brand-5 mb-20 mt-10">About us</h1>
+                                <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
+                                    <h1 className="color-brand-5 mb-20 mt-10">Digital Marketing Company</h1>
                                     <div className="row">
                                         <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">Fleek Vertex is a software development and IT consulting company that was founded in 2023. Our company serves IT and non-IT organizations, helping to achieve a variety of goals and objectives with digital solutions and recent trend technologies.</p>
+                                            <p className="font-md color-gray-900">Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our.</p>
+                                            <div className="box-button text-start mt-40">
+                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Contact Us</Link>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </div> 
                                 </div>
-                                
-                                <div className="box-button text-start mt-40">
-                                     <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Contact Us</Link>
-                                       </div>
+                                <div className="col-lg-5 d-none d-lg-block">
+                                    <div className="box-banner-contact"><img src="assets/imgs/page/contact/banner.png" alt="iori" /></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </section>
-                <section className="section mt-50">
+                </section> 
+                <section className="section mt-20">
                     <div className="container">
                         <div className="row mt-50">
                             <div className="col-xl-6 col-lg-5">
                                 <div className="box-images-project">
                                     <div className="title-line mb-10">Why choose us?</div>
-                                    <h2 className="color-brand-1 mb-25">See why we are trusted the world over</h2>
+                                    <h2 className="color-brand-1 mb-25">See why we are top trusted company in the world</h2>
                                     <p className="color-grey-500 mb-15">Necessary to deliver white glove, fully managed campaigns that surpass industry benchmarks.Take your career to next level. Apply to our team and see what we can do together. You’re good enough.</p>
                                     <p className="color-grey-500">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex. Ex illum officiis id.</p>
-                                    <div className="box-button text-start mt-40"> <Link className="btn btn-brand-1 hover-up" href="#">Download App</Link><Link className="btn btn-default font-sm-bold hover-up" href="#">
-                                        Learn More
-                                        <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                        </svg></Link></div>
+                                    <div className="box-button text-start mt-40"> <Link className="btn btn-brand-1 hover-up" href="#">Learn More</Link></div>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">
@@ -95,11 +80,11 @@ const Career = () => {
                     </div>
                 </section>
 
-                <section className="section mt-80">
+                <section className="section bg-grey-60 p-40">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 text-center">
-                                <h2 className="color-brand-1 mb-20">Why You Should Consider Applying</h2>
+                                <h3 className="color-brand-1 mb-20">Why You Should Consider Applying</h3>
                                 <p className="font-lg color-gray-500">We're lively, not corporate. We have the energy and boldness of a startup and <br className="d-none d-lg-block" />the expertise and pragmatism of a scale-up. All in one place.</p>
                             </div>
                         </div>
@@ -137,7 +122,7 @@ const Career = () => {
                             <div className="col-lg-3 col-md-6 col-sm-6">
                                 <div className="card-small card-small-2">
                                     <div className="card-image"><Link href="#">
-                                        <div className="box-image"><img src="assets/imgs/page/career/persuasion.png" alt="iori" /></div></Link></div>
+                                        <div className="box-image"><img src="assets/imgs/pages/homepage2/persuasion.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
                                         <h6 className="color-brand-1 mb-10">Persuasion</h6></Link>
                                         <p className="font-xs color-grey-500">Knowing that there is real value to be gained from helping people to simplify whatever it is that they do and bring.</p>
@@ -151,7 +136,7 @@ const Career = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 text-center">
-                                <h2 className="color-brand-1 mb-20">What We Offer</h2>
+                                <h2 className="color-brand-1 mb-20">Services We Offer</h2>
                                 <p className="font-lg color-gray-500">What makes us different from others? We give holistic solutions<br className="d-none d-lg-block" />with strategy, design &amp; technology.</p>
                             </div>
                         </div>
@@ -234,26 +219,30 @@ const Career = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="mt-40 mb-50 text-center"> <Link className="btn btn-brand-1 hover-up" href="#">Download App </Link><Link className="btn btn-default font-sm-bold hover-up" href="#">Learn More
-                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg></Link></div>
+                        </div> 
                     </div>
                 </section>
                 <section className="section mt-80">
-                    <div className="container">
+                    <div className='container'>
+                        <div className="row">
+                            <div className="col-lg-12 text-center">
+                                <h2 className="color-brand-1 mb-20">Industries We Serve</h2>
+                                <p className="font-lg color-gray-500">What makes us different from others? We give holistic solutions<br className="d-none d-lg-block" />with strategy, design &amp; technology.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container mt-50 mb-40">
                         <div className="row">
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
-                                <div className="card-small">
+                                <div className="card-small bg-1">
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/certification.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Certification</h6></Link></div>
+                                        <h6 className="icon-up-black">Certification</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
-                                <div className="card-small">
+                                <div className="card-small bg-2">
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/conference.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
@@ -261,7 +250,7 @@ const Career = () => {
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
-                                <div className="card-small">
+                                <div className="card-small bg-3">
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/research.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
@@ -269,7 +258,7 @@ const Career = () => {
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
-                                <div className="card-small">
+                                <div className="card-small bg-4">
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/dispersal.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
@@ -277,7 +266,7 @@ const Career = () => {
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
-                                <div className="card-small">
+                                <div className="card-small bg-5">
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/enterprise.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
@@ -285,7 +274,7 @@ const Career = () => {
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
-                                <div className="card-small">
+                                <div className="card-small bg-7">
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
@@ -535,70 +524,12 @@ const Career = () => {
                                     contact our supporters for help.
                                 </p>
                             </div>
-                            <div className="col-lg-4 col-md-4 text-md-end text-start">
-                                <Link className="btn btn-brand-1 hover-up" href="/contact">Contact Us</Link>
-                            </div>
+                            
                         </div>
 
-                        <div className="row mt-50 mb-100">
-                            {/* FAQ List */}
-                            <div className="col-xl-3 col-lg-4">
-                                <ul className="list-faqs nav nav-tabs" role="tablist">
-                                    <li>
-                                        <a className={activeIndex === 1 ? "active" : ""} onClick={() => handleOnClick(1)}>
-                                            <span>General Support</span>
-                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className={activeIndex === 2 ? "active" : ""} onClick={() => handleOnClick(2)}>
-                                            <span>Order / Purchase</span>
-                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className={activeIndex === 3 ? "active" : ""} onClick={() => handleOnClick(3)}>
-                                            <span>Download / Install</span>
-                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className={activeIndex === 4 ? "active" : ""} onClick={() => handleOnClick(4)}>
-                                            <span>Technology</span>
-                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className={activeIndex === 5 ? "active" : ""} onClick={() => handleOnClick(5)}>
-                                            <span>Your Account</span>
-                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul>
-
-                                <div className="mt-80 text-start mb-40">
-                                    <Link className="btn btn-brand-1 hover-up" href="/contact">Contact Us</Link>
-                                    <Link className="btn btn-default font-sm-bold hover-up" href="/support-center">
-                                        Support Center
-                                        <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                        </svg>
-                                    </Link>
-                                </div>
-                            </div>
-
+                        <div className="container mt-50 mb-100">
                             {/* FAQ Content */}
-                            <div className="col-xl-9 col-lg-8">
+                            <div className="col-xl-12 col-lg-12">
                                 <div className="tab-content tab-content-slider">
                                     <div className={activeIndex === 1 ? "tab-pane fade active show" : "tab-pane fade"}>
                                         <Accordion title="General Support FAQs" />
@@ -619,76 +550,8 @@ const Career = () => {
                             </div>
                         </div>
                     </div>
-                    <section className="section banner-contact">
-                    <div className="container">
-                        <div className="banner-1">
-                            <div className="row align-items-center">
-                                <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
-                                    <h1 className="color-brand-5 mb-20 mt-10">We’d love to hear<br className="d-none d-lg-block" />from you.</h1>
-                                    <div className="row">
-                                        <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our.</p>
-                                        </div>
-                                    </div> 
-                                </div>
-                                <div className="col-lg-5 d-none d-lg-block">
-                                    <div className="box-banner-contact"><img src="assets/imgs/page/contact/banner.png" alt="iori" /></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section className="section mt-50 ">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-4 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2 color-gray-900">
-                                    <div className="card-image">
-                                        <div className="box-image"><img src="assets/imgs/page/contact/headphone.png" alt="iori" /></div>
-                                    </div>
-                                    <div className="card-info">
-                                        <h6 className="color-brand-5 mb-10">Help &amp; support</h6>
-                                        <p className="font-sm color-gray-900">Email <a className="color-success" href="mailto:info@fleekvertex.com">info@fleekvertex.com </a><br />For help with a current product or service or refer to FAQs and developer tools</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image">
-                                        <div className="box-image"><img src="assets/imgs/page/contact/phone.png" alt="iori" /></div>
-                                    </div>
-                                    <div className="card-info">
-                                        <h6 className="color-brand-5 mb-10">Call Us</h6>
-                                        <p className="font-sm color-gray-900">Call us to speak to a member of our team.<br />(+91) 9346 261 550<br />(+91) 9346 261 550</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image">
-                                        <div className="box-image"><img src="assets/imgs/page/contact/chart.png" alt="iori" /></div>
-                                    </div>
-                                    <div className="card-info">
-                                        <h6 className="color-brand-5 mb-10">Bussiness Department</h6>
-                                        <p className="font-sm color-gray-900">Contact the sales department about cooperation projects<br />(+01) 789 456 23</p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image">
-                                        <div className="box-image"><img src="assets/imgs/page/contact/earth.png" alt="iori" /></div>
-                                    </div>
-                                    <div className="card-info">
-                                        <h6 className="color-brand-5 mb-10">Global branch</h6>
-                                        <p className="font-sm color-grey-500">Contact us to open our branches globally.<br />(+01) 234 567 89<br />(+01) 456 789 23</p>
-                                    </div>
-                                </div>
-                            </div> */}
-                        </div>
-                    </div>
-                </section>
-                <section className="section mt-10 mb-50" id="get-in-touch">
+                   </section>
+                <section className="section mt-10 mb-60 mt-70" id="get-in-touch">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-5">
@@ -766,15 +629,10 @@ const Career = () => {
                         </div>
                     </div>
                 </section>
-                    <div className="border-bottom" />
-                    
-                </section>
-                
-
             </Layout>
 
         </>
     );
 };
 
-export default Career;
+export default MobileAppDevelopmentCompany;
