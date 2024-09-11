@@ -3,10 +3,9 @@ import Head from 'next/head';
 import { React } from 'react';
 import Accordion from '../components/elements/Accordion';
 import Layout from '../components/layout/Layout';
-import PageHead from '../components/layout/PageHead'
 import { useState } from 'react';
 
-const CloudMigrationCompany = () => {
+const SoftwareDevelopmentCompany = () => {
 
     const [activeIndex, setActiveIndex] = useState(1);
     const handleOnClick = (index) => {
@@ -15,19 +14,25 @@ const CloudMigrationCompany = () => {
 
     return (
         <>
-            <PageHead headTitle="Cloud Migration Services - Fleek Vertex" />
+            <Head>
+                <title>Software Development Company</title>
+            </Head>
+
             <Layout>
             <section className="section banner-contact">
                     <div className="container">
                         <div className="banner-1">
                             <div className="row align-items-center">
                                 <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
-                                    <h1 className="color-brand-5 mb-20 mt-10">Cloud Migration Services</h1>
+                                    <h1 className="color-brand-5 mb-20 mt-10">Software Development Company</h1>
                                     <div className="row">
                                         <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our.</p>
+                                            <p className="font-md color-gray-900">Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our. 
+                                            Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our.
+                                            Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our.
+                                            </p>
                                             <div className="box-button text-start mt-40">
-                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Contact Us</Link>
+                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Get in Touch</Link>
                                             </div>
                                         </div>
                                     </div> 
@@ -48,7 +53,9 @@ const CloudMigrationCompany = () => {
                                     <h2 className="color-brand-1 mb-25">See why we are top trusted company in the world</h2>
                                     <p className="color-grey-500 mb-15">Necessary to deliver white glove, fully managed campaigns that surpass industry benchmarks.Take your career to next level. Apply to our team and see what we can do together. You’re good enough.</p>
                                     <p className="color-grey-500">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex. Ex illum officiis id.</p>
-                                    <div className="box-button text-start mt-40"> <Link className="btn btn-brand-1 hover-up" href="#">Learn More</Link></div>
+                                    
+                                    <p className="color-grey-500">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex. Ex illum officiis id.</p>
+                                    {/* <div className="box-button text-start mt-40"> <Link className="btn btn-brand-1 hover-up" href="#">Learn More</Link></div> */}
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">
@@ -58,7 +65,7 @@ const CloudMigrationCompany = () => {
                                             <div className="card-head">465k</div>
                                             <div className="card-description">Social followers</div>
                                         </div>
-                                        <div className="cardNumber bg-brand-2">
+                                        <div className="cardNumber bg-3">
                                             <div className="card-head">756+</div>
                                             <div className="card-description">Project Done</div>
                                         </div>
@@ -68,7 +75,7 @@ const CloudMigrationCompany = () => {
                                             <div className="card-head">5000+</div>
                                             <div className="card-description">Happy Clients</div>
                                         </div>
-                                        <div className="cardNumber bg-4">
+                                        <div className="cardNumber bg-5">
                                             <div className="card-head">100%</div>
                                             <div className="card-description">Client Satisfaction</div>
                                         </div>
@@ -129,6 +136,48 @@ const CloudMigrationCompany = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="row mt-65">
+                            <div className="col-lg-3 col-md-6 col-sm-6">
+                                <div className="card-small card-small-2">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage1/free.svg" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 mb-10">Connected</h6></Link>
+                                        <p className="font-xs color-grey-500">We come together wherever we are – across time zones, regions, offices and screens. You will receive support from your teammates anytime and anywhere.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-6">
+                                <div className="card-small card-small-2">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage1/cross.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 mb-10">Inclusive</h6></Link>
+                                        <p className="font-xs color-grey-500">Our teams reflect the rich diversity of our world, with equitable access to opportunity for everyone. No matter where you come from</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-6">
+                                <div className="card-small card-small-2">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage2/identity.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 mb-10">Flexible</h6></Link>
+                                        <p className="font-xs color-grey-500">We believe in your freedom to work when and how you work best, to help us all thrive. Only freedom and independent work can bring out the best in you.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-6">
+                                <div className="card-small card-small-2">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/pages/homepage2/persuasion.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 mb-10">Persuasion</h6></Link>
+                                        <p className="font-xs color-grey-500">Knowing that there is real value to be gained from helping people to simplify whatever it is that they do and bring.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
                 <section className="section mt-80">
@@ -144,7 +193,7 @@ const CloudMigrationCompany = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer1.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">Manage budgets and resources</Link></h4>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/mobile-app-development-company">Mobile App Development Company</Link></h4>
                                         <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -634,4 +683,4 @@ const CloudMigrationCompany = () => {
     );
 };
 
-export default CloudMigrationCompany;
+export default SoftwareDevelopmentCompany;

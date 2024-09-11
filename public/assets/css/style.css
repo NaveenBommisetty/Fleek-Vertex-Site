@@ -254,8 +254,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-weight: 700;
-  font-size: 55px;
-  line-height: 65px;
+  font-size: 45px;
+  line-height: 60px;
 }
 
 h2 {
@@ -3005,7 +3005,7 @@ body {
   top: 100%;
   left: 0px;
   z-index: 999999;
-  min-width: 240px;
+  min-width: 260px;
   border-radius: 8px;
   padding: 8px 0px 8px 0;
   background-color: #fff;

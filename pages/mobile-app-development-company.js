@@ -15,7 +15,7 @@ const MobileAppDevelopmentCompany = () => {
     return (
         <>
             <Head>
-                <title>Digital Marketing Company</title>
+                <title>Mobile App Development Company</title>
             </Head>
             <Layout>
             <section className="section banner-contact">
@@ -23,10 +23,13 @@ const MobileAppDevelopmentCompany = () => {
                         <div className="banner-1">
                             <div className="row align-items-center">
                                 <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
-                                    <h1 className="color-brand-5 mb-20 mt-10">Digital Marketing Company</h1>
+                                    <h1 className="color-brand-5 mb-20 mt-10">Mobile App Development Company</h1>
                                     <div className="row">
                                         <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our.</p>
+                                            <p className="font-md color-gray-900">Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our.
+                                            Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our.
+                                            Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our.
+                                            </p>
                                             <div className="box-button text-start mt-40">
                                                 <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Contact Us</Link>
                                             </div>
