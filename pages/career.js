@@ -1,9 +1,29 @@
 import Link from 'next/link';
 import Head from 'next/head';
-import React from 'react';
+import { React } from 'react';
+import Accordion from '../components/elements/Accordion';
 import Layout from '../components/layout/Layout';
+import { useState } from 'react';
 
 const Career = () => {
+
+    const [activeIndex, setActiveIndex] = useState(1);
+    const handleOnClick = (index) => {
+        setActiveIndex(index);
+    };
+
+    // FAQ categories and titles data
+    const faqCategories = [
+        { id: 1, title: 'General Support' },
+        { id: 2, title: 'Order / Purchase' },
+        { id: 3, title: 'Download / Install' },
+        { id: 4, title: 'Technology' },
+        { id: 5, title: 'Your Account' }
+    ];
+
+
+
+
     return (
         <>
             <Head>
@@ -11,18 +31,71 @@ const Career = () => {
             </Head>
 
             <Layout>
-                <section className="section mt-90">
+                <section className="section mt-40">
                     <div className="container">
-                        <div className="text-center">
-                            <h6 className="color-grey-500 mb-15">Take a look at our current openings</h6>
-                            <h2 className="color-brand-1">We are Always Searching For <br className="d-none d-lg-block" />Amazing People to Join Our Team. </h2>
-                        </div>
-                        <div className="box-video mt-70"> <img src="assets/imgs/page/career/img-video.png" alt="iori" />
-                            <div className="image-1 shape-1"><img src="assets/imgs/page/career/certify.png" alt="iori" /></div>
+                        <div className="banner-1">
+                            <div className="row align-items-center">
+                                <div className="col-lg-7"><span className="title-line line-48">Who we are</span>
+                                    <h1 className="color-brand-5 mb-20 mt-10">About us</h1>
+                                    <div className="row">
+                                        <div className="col-lg-9">
+                                            <p className="font-md color-gray-900">Fleek Vertex is a software development and IT consulting company that was founded in 2023. Our company serves IT and non-IT organizations, helping to achieve a variety of goals and objectives with digital solutions and recent trend technologies.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div className="box-button text-start mt-40">
+                                     <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Contact Us</Link>
+                                       </div>
+                            </div>
                         </div>
                     </div>
                 </section>
-                <section className="section mt-100">
+                <section className="section mt-50">
+                    <div className="container">
+                        <div className="row mt-50">
+                            <div className="col-xl-6 col-lg-5">
+                                <div className="box-images-project">
+                                    <div className="title-line mb-10">Why choose us?</div>
+                                    <h2 className="color-brand-1 mb-25">See why we are trusted the world over</h2>
+                                    <p className="color-grey-500 mb-15">Necessary to deliver white glove, fully managed campaigns that surpass industry benchmarks.Take your career to next level. Apply to our team and see what we can do together. You’re good enough.</p>
+                                    <p className="color-grey-500">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex. Ex illum officiis id.</p>
+                                    <div className="box-button text-start mt-40"> <Link className="btn btn-brand-1 hover-up" href="#">Download App</Link><Link className="btn btn-default font-sm-bold hover-up" href="#">
+                                        Learn More
+                                        <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                        </svg></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-xl-6 col-lg-7">
+                                <div className="row pt-40">
+                                    <div className="col-lg-6 col-md-6">
+                                        <div className="cardNumber hasBorder mt-50">
+                                            <div className="card-head">465k</div>
+                                            <div className="card-description">Social followers</div>
+                                        </div>
+                                        <div className="cardNumber bg-brand-2">
+                                            <div className="card-head">756+</div>
+                                            <div className="card-description">Project Done</div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-6">
+                                        <div className="cardNumber bg-2">
+                                            <div className="card-head">5000+</div>
+                                            <div className="card-description">Happy Clients</div>
+                                        </div>
+                                        <div className="cardNumber bg-4">
+                                            <div className="card-head">100%</div>
+                                            <div className="card-description">Client Satisfaction</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="section mt-80">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 text-center">
@@ -74,12 +147,12 @@ const Career = () => {
                         </div>
                     </div>
                 </section>
-                <section className="section mt-100">
+                <section className="section mt-80">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 text-center">
-                                <h2 className="color-brand-1 mb-20">Career Opportunities</h2>
-                                <p className="font-lg color-gray-500">Explore our open roles for working totally remotely, from the<br className="d-none d-lg-block" />office or somewhere in between.</p>
+                                <h2 className="color-brand-1 mb-20">What We Offer</h2>
+                                <p className="font-lg color-gray-500">What makes us different from others? We give holistic solutions<br className="d-none d-lg-block" />with strategy, design &amp; technology.</p>
                             </div>
                         </div>
                         <div className="row mt-50">
@@ -87,8 +160,8 @@ const Career = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer1.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/job-detail">Manage budgets and resources</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Seamless importing and round-tripping of Microsoft Project plans, Excel files &amp; CSV files.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">Manage budgets and resources</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -100,8 +173,8 @@ const Career = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer2.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/job-detail">Employee Assessments</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Employee Assessments</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -113,8 +186,8 @@ const Career = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer3.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/job-detail">Smart Installation Tools</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">No lag time, no lost effort when priorities change, no email black hole. As team collaboration improves</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="No lag time, no lost effort when priorities change, no email black hole. As team collaboration improves">Smart Installation Tools</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -126,8 +199,8 @@ const Career = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer4.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/job-detail">Collaborative to the core.</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Share updates instantly within our project management software, and get the entire team collaborating</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Share updates instantly within our project management software, and get the entire team collaborating">Collaborative to the core.</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -139,8 +212,8 @@ const Career = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer5.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/job-detail">Manage budgets and resources</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Seamless importing and round-tripping of Microsoft Project plans, Excel files &amp; CSV files.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">Manage budgets and resources</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -152,8 +225,8 @@ const Career = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/job-detail">Unlimited ways to work</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Unlimited ways to work</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -162,216 +235,542 @@ const Career = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="mt-40 mb-50 text-center"><Link className="btn btn-brand-1 hover-up" href="contact">Contact Us</Link><a className="btn btn-default font-sm-bold hover-up" href="#">Learn More
+                        <div className="mt-40 mb-50 text-center"> <Link className="btn btn-brand-1 hover-up" href="#">Download App </Link><Link className="btn btn-default font-sm-bold hover-up" href="#">Learn More
                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg></a></div>
+                            </svg></Link></div>
                     </div>
                 </section>
-                <section className="section pt-0 pb-50 bg-core-value bg-grey-60 mb-40">
+                <section className="section mt-80">
                     <div className="container">
-                        <div className="row box-list-core-value">
-                            <div className="col-lg-4 mb-70">
-                                <div className="box-core-value">
-                                    <div className="shape-left shape-1" />
-                                    <h3 className="color-brand-1 mb-15">Core values</h3>
-                                    <p className="font-md color-grey-400">We break down barriers so teams can focus on what matters – working together to create products their customers love.</p>
+                        <div className="row">
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/certification.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Certification</h6></Link></div>
                                 </div>
                             </div>
-                            <div className="col-lg-4">
-                                <ul className="list-core-value">
-                                    <li> <span className="ticked" />
-                                        <h5 className="color-brand-1 mb-5">Customers First</h5>
-                                        <div className="box-border-dashed">
-                                            <p className="font-md color-grey-500 mb-20">Our company exists to help merchants sell more. We make every decision and measure every outcome based on how well it serves our customers.</p>
-                                        </div>
-                                    </li>
-                                    <li> <span className="ticked" />
-                                        <h5 className="color-brand-1 mb-5">Act With Integrity</h5>
-                                        <div className="box-border-dashed">
-                                            <p className="font-md color-grey-500 mb-20">We’re honest, transparent and committed to doing what’s best for our customers and our company. We openly collaborate in pursuit of the truth. We have no tolerance for politics, hidden agendas or passive-aggressive behavior.</p>
-                                        </div>
-                                    </li>
-                                    <li> <span className="ticked" />
-                                        <h5 className="color-brand-1 mb-5">Make a Difference Every Day</h5>
-                                        <div className="box-border-dashed">
-                                            <p className="font-md color-grey-500 mb-20">Our company exists to help merchants sell more. We make every decision and measure every outcome based on how well it serves our customers.</p>
-                                        </div>
-                                    </li>
-                                </ul>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/conference.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Conference</h6></Link></div>
+                                </div>
                             </div>
-                            <div className="col-lg-4">
-                                <ul className="list-core-value">
-                                    <li> <span className="ticked" />
-                                        <h5 className="color-brand-1 mb-5">Think Big</h5>
-                                        <div className="box-border-dashed">
-                                            <p className="font-md color-grey-500 mb-20">Being the world's leading commerce platform requires unrivaled vision, innovation and execution. We never settle. We challenge our ideas of what’s possible in order to better meet the needs of our customers.</p>
-                                        </div>
-                                    </li>
-                                    <li> <span className="ticked" />
-                                        <h5 className="color-brand-1 mb-5">Do the right thing</h5>
-                                        <div className="box-border-dashed">
-                                            <p className="font-md color-grey-500 mb-20">Integrity is the foundation for everything we do. We are admired and respected for our commitment to honesty, trust, and transparency. </p>
-                                        </div>
-                                    </li>
-                                    <li> <span className="ticked" />
-                                        <h5 className="color-brand-1 mb-5">Stronger united</h5>
-                                        <div className="box-border-dashed">
-                                            <p className="font-md color-grey-500 mb-20">We’ve created a positive and inclusive culture that fosters open, honest, and meaningful relationships.</p>
-                                        </div>
-                                    </li>
-                                </ul>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/research.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Research</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/dispersal.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Dispersal</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/enterprise.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Enterprise</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Team Building</h6></Link></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className="section mt-80 mb-30">
-                    <div className="container">
-                        <div className="text-start">
-                            <h3 className="color-brand-1 mb-20">Loved By Developers <br className="d-none d-lg-block" />Trusted By Enterprises</h3>
-                            <p className="font-lg color-grey-500">We helped these brands turn online assessments into success stories. </p>
-                        </div>
-                        <div className="mt-50">
-                            <ul className="list-partners list-partners-left text-start">
-                                <li><img src="assets/imgs/page/homepage1/placed.png" alt="iori" /></li>
-                                <li><img src="assets/imgs/page/homepage1/cuebiq.png" alt="iori" /></li>
-                                <li><img src="assets/imgs/page/homepage1/factual.png" alt="iori" /></li>
-                                <li><img src="assets/imgs/page/homepage1/placeiq.png" alt="iori" /></li>
-                                <li><img src="assets/imgs/page/homepage1/airmeet.png" alt="iori" /></li>
-                                <li><img src="assets/imgs/page/homepage1/spen.png" alt="iori" /></li>
-                                <li><img src="assets/imgs/page/homepage1/klippa.png" alt="iori" /></li>
-                                <li><img src="assets/imgs/page/homepage1/matrix.png" alt="iori" /></li>
-                                <li><img src="assets/imgs/page/homepage2/reed.png" alt="iori" /></li>
-                                <li><img src="assets/imgs/page/homepage2/vuori.png" alt="iori" /></li>
-                                <li><img src="assets/imgs/page/homepage2/versed.png" alt="iori" /></li>
-                                <li><img src="assets/imgs/page/homepage1/klippa.png" alt="iori" /></li>
-                                <li><img src="assets/imgs/page/homepage1/factual.png" alt="iori" /></li>
-                            </ul>
+                <div className="col-xl-12 mb-30">
+                    <div className="card-radius-32 bg-grey-60">
+                        <div className="row">
+                            <div className="col-lg-6">
+                                <div className="box-cover-pd">
+                                    <div className="box-image-rd-30"> <img className="w-100" src="/assets/imgs/page/homepage7/img.png" alt="iori" />
+                                        <h4 className="color-brand-1 lbl-on-top">IORI Business Platform</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="box-cover-pd-2">
+                                    <h2 className="color-brand-1 mb-30">How to grow your <br className="d-none d-lg-block" />business fast</h2>
+                                    <div className="item-number hover-up">
+                                        <div className="num-ele">1</div>
+                                        <div className="info-num">
+                                            <h5 className="color-brand-1 mb-15">Create an account</h5>
+                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                        </div>
+                                    </div>
+                                    <div className="item-number hover-up">
+                                        <div className="num-ele">2</div>
+                                        <div className="info-num">
+                                            <h5 className="color-brand-1 mb-15">Build your founding team</h5>
+                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                        </div>
+                                    </div>
+                                    <div className="item-number hover-up">
+                                        <div className="num-ele">3</div>
+                                        <div className="info-num">
+                                            <h5 className="color-brand-1 mb-15">Launch and Scale</h5>
+                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </section>
-                <section className="section mt-50 pt-50 pb-40">
-                    <div className="container">
-                        <div className="box-cover-border">
-                            <div className="row align-items-center">
-                                <div className="col-lg-6"><img className="d-block" src="assets/imgs/page/homepage2/img-marketing.png" alt="iori" /></div>
-                                <div className="col-lg-6">
-                                    <div className="box-info-video"><span className="btn btn-tag">Get in touch</span>
-                                        <h2 className="color-brand-1 mt-15 mb-20">Want to talk to a marketing expert?</h2>
-                                        <p className="font-md color-grey-500">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
-                                        <div className="box-button text-start mt-65"> <Link className="btn btn-brand-1 hover-up" href="#">Contact Us</Link><a className="btn btn-default font-sm-bold hover-up" href="#">
-                                            Support Center
-                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                </div>
+                <div className="container">
+                    <div className="row align-items-start">
+                        <div className="col-lg-12 text-center mb-50">
+                            <h2 className="color-brand-1 mb-20">Case Studies</h2>
+                            <p className="font-lg color-gray-500">What makes us different from others? We give holistic solutions<br className="d-none d-lg-block" />with strategy, design &amp; technology.</p>
+                        </div>
+                        <div className="col-xl-6 col-lg-6 mb-30">
+                            <div className="card-radius-32">
+                                <div className="card-info">
+                                    <h3 className="color-brand-1 mb-20">Financial Management</h3>
+                                    <p className="font-md color-grey-500 mb-20">Track, manage, and control your expenses. The only financial management tool you’ll ever need.</p>
+                                    <div className="text-center"> <Link href="#"><img className="mr-10" src="/assets/imgs/template/appstore.png" alt="iori" /></Link><Link href="#"><img src="/assets/imgs/template/google-play.png" alt="iori" /></Link></div>
+                                </div>
+                                <div className="card-image"> <img src="/assets/imgs/page/homepage7/img-financial.png" alt="iori" /></div>
+                            </div>
+                        </div>
+                        <div className="col-xl-6 col-lg-6 mb-30">
+                            <div className="card-radius-32 bg-4">
+                                <div className="card-info">
+                                    <h3 className="color-brand-1 mb-20">Automated Platform</h3>
+                                    <p className="font-md color-grey-500 mb-20">Synchronize and automate all your business in the cloud. Save time and effort, enjoy great vacations.</p>
+                                    <div className="mt-0"> <Link className="btn btn-brand-1-small" href="#">Get Started Now
+                                        <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                        </svg></Link></div>
+                                </div>
+                                <div className="card-image"> <img src="/assets/imgs/page/homepage7/automated.png" alt="iori" /></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <section>
+                    <div className='container'>
+                        <div className="row mt-50">
+                            <div className="col-lg-12 text-center mb-50">
+                                <h2 className="color-brand-1 mb-20">Technologies We Use</h2>
+                                <p className="font-lg color-gray-500">What makes us different from others? We give holistic solutions<br className="d-none d-lg-block" />with strategy, design &amp; technology.</p>
+                            </div>
+                            <div className="col-xl-3 col-lg-6 col-md-6">
+                                <div className="card-plan-style-2 hover-up">
+                                    <div className="card-plan">
+                                        <div className="card-image-plan">
+                                            <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
+                                            <div className="info-plan">
+                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div className="mt-30 mb-30">
+                                        <ul className="list-ticks list-ticks-2">
+                                            <li>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                </svg>React.Js
+                                            </li>
+                                            <li>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                </svg>Java Script
+                                            </li>
+                                            <li>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                </svg>Html5
+                                            </li>
+                                            <li>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                </svg>CSS3
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-6 col-md-6">
+                                <div className="card-plan-style-2 hover-up">
+                                    <div className="card-plan">
+                                        <div className="card-image-plan">
+                                            <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
+                                            <div className="info-plan">
+                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div className="mt-30 mb-30">
+                                        <ul className="list-ticks list-ticks-2">
+                                            <li>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                </svg>React.Js
+                                            </li>
+                                            <li>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                </svg>Java Script
+                                            </li>
+                                            <li>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                </svg>Html5
+                                            </li>
+                                            <li>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                </svg>CSS3
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-6 col-md-6">
+                                <div className="card-plan-style-2 hover-up">
+                                    <div className="card-plan">
+                                        <div className="card-image-plan">
+                                            <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
+                                            <div className="info-plan">
+                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div className="mt-30 mb-30">
+                                        <ul className="list-ticks list-ticks-2">
+                                            <li>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                </svg>React.Js
+                                            </li>
+                                            <li>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                </svg>Java Script
+                                            </li>
+                                            <li>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                </svg>Html5
+                                            </li>
+                                            <li>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                </svg>CSS3
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-6 col-md-6">
+                                <div className="card-plan-style-2 hover-up">
+                                    <div className="card-plan">
+                                        <div className="card-image-plan">
+                                            <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
+                                            <div className="info-plan">
+                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div className="mt-30 mb-30">
+                                        <ul className="list-ticks list-ticks-2">
+                                            <li>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                </svg>React.Js
+                                            </li>
+                                            <li>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                </svg>Java Script
+                                            </li>
+                                            <li>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                </svg>Html5
+                                            </li>
+                                            <li>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                </svg>CSS3
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className="section mt-50">
+                <section className="section pt-80 mb-30 bg-faqs">
                     <div className="container">
                         <div className="row align-items-end">
                             <div className="col-lg-8 col-md-8">
-                                <h2 className="color-brand-1 mb-20">From our blog </h2>
-                                <p className="font-lg color-gray-500">Aenean velit nisl, aliquam eget diam eu, rhoncus tristique dolor.<br className="d-none d-lg-block" />Aenean vulputate sodales urna ut vestibulum</p>
+                                <h2 className="color-brand-1 mb-20">Frequently asked questions</h2>
+                                <p className="font-lg color-gray-500">
+                                    Feeling inquisitive? Have a read through some of our FAQs or
+                                    <br className="d-none d-lg-block" />
+                                    contact our supporters for help.
+                                </p>
                             </div>
-                            <div className="col-lg-4 col-md-4 text-md-end text-start"><a className="btn btn-default font-sm-bold pl-0">View All
-                                <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                </svg></a></div>
+                            <div className="col-lg-4 col-md-4 text-md-end text-start">
+                                <Link className="btn btn-brand-1 hover-up" href="/contact">Contact Us</Link>
+                            </div>
                         </div>
-                        <div className="row mt-55">
-                            <div className="col-xl-3 col-lg-6 col-md-6">
-                                <div className="card-blog-grid card-blog-grid-2 hover-up">
-                                    <div className="card-image"><Link href="/blog-detail"><img src="assets/imgs/page/homepage2/news1.png" alt="iori" /></Link></div>
-                                    <div className="card-info"><Link href="/blog-detail">
-                                        <h6 className="color-brand-1">Easy Ways to Make Money While You Sleep</h6></Link>
-                                        <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
-                                        <div className="mt-20 d-flex align-items-center border-top pt-20"><Link className="btn btn-border-brand-1 mr-15" href="/blog">Technology</Link><span className="date-post font-xs color-grey-300 mr-15">
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                                            </svg>29 May 2022</span><span className="time-read font-xs color-grey-300">
-                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                                </svg>3 mins read</span></div>
-                                    </div>
+
+                        <div className="row mt-50 mb-100">
+                            {/* FAQ List */}
+                            <div className="col-xl-3 col-lg-4">
+                                <ul className="list-faqs nav nav-tabs" role="tablist">
+                                    <li>
+                                        <a className={activeIndex === 1 ? "active" : ""} onClick={() => handleOnClick(1)}>
+                                            <span>General Support</span>
+                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a className={activeIndex === 2 ? "active" : ""} onClick={() => handleOnClick(2)}>
+                                            <span>Order / Purchase</span>
+                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a className={activeIndex === 3 ? "active" : ""} onClick={() => handleOnClick(3)}>
+                                            <span>Download / Install</span>
+                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a className={activeIndex === 4 ? "active" : ""} onClick={() => handleOnClick(4)}>
+                                            <span>Technology</span>
+                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a className={activeIndex === 5 ? "active" : ""} onClick={() => handleOnClick(5)}>
+                                            <span>Your Account</span>
+                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                                <div className="mt-80 text-start mb-40">
+                                    <Link className="btn btn-brand-1 hover-up" href="/contact">Contact Us</Link>
+                                    <Link className="btn btn-default font-sm-bold hover-up" href="/support-center">
+                                        Support Center
+                                        <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                        </svg>
+                                    </Link>
                                 </div>
                             </div>
-                            <div className="col-xl-3 col-lg-6 col-md-6">
-                                <div className="card-blog-grid card-blog-grid-2 hover-up">
-                                    <div className="card-image"><Link href="/blog-detail"><img src="assets/imgs/page/homepage2/news2.png" alt="iori" /></Link></div>
-                                    <div className="card-info"><Link href="/blog-detail">
-                                        <h6 className="color-brand-1">Tiktok video size guide: Everything you need to know</h6></Link>
-                                        <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
-                                        <div className="mt-20 d-flex align-items-center border-top pt-20"><Link className="btn btn-border-brand-1 mr-15" href="/blog">Marketting</Link><span className="date-post font-xs color-grey-300 mr-15">
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                                            </svg>29 May 2022</span><span className="time-read font-xs color-grey-300">
-                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                                </svg>3 mins read</span></div>
+
+                            {/* FAQ Content */}
+                            <div className="col-xl-9 col-lg-8">
+                                <div className="tab-content tab-content-slider">
+                                    <div className={activeIndex === 1 ? "tab-pane fade active show" : "tab-pane fade"}>
+                                        <Accordion title="General Support FAQs" />
                                     </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-lg-6 col-md-6">
-                                <div className="card-blog-grid card-blog-grid-2 hover-up">
-                                    <div className="card-image"><Link href="/blog-detail"><img src="assets/imgs/page/homepage1/news2.png" alt="iori" /></Link></div>
-                                    <div className="card-info"><Link href="/blog-detail">
-                                        <h6 className="color-brand-1">How to convert video to MP4 for free online</h6></Link>
-                                        <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
-                                        <div className="mt-20 d-flex align-items-center border-top pt-20"><Link className="btn btn-border-brand-1 mr-15" href="/blog">Media</Link><span className="date-post font-xs color-grey-300 mr-15">
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                                            </svg>29 May 2022</span><span className="time-read font-xs color-grey-300">
-                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                                </svg>3 mins read</span></div>
+                                    <div className={activeIndex === 2 ? "tab-pane fade active show" : "tab-pane fade"}>
+                                        <Accordion title="Order / Purchase FAQs" />
                                     </div>
-                                </div>
-                            </div>
-                            <div className="col-xl-3 col-lg-6 col-md-6">
-                                <div className="card-blog-grid card-blog-grid-2 hover-up">
-                                    <div className="card-image"><Link href="/blog-detail"><img src="assets/imgs/page/homepage2/news3.png" alt="iori" /></Link></div>
-                                    <div className="card-info"><Link href="/blog-detail">
-                                        <h6 className="color-brand-1">5 fastest ways to increase search engine rankings</h6></Link>
-                                        <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
-                                        <div className="mt-20 d-flex align-items-center border-top pt-20"><Link className="btn btn-border-brand-1 mr-15" href="/blog">SEO</Link><span className="date-post font-xs color-grey-300 mr-15">
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                                            </svg>29 May 2022</span><span className="time-read font-xs color-grey-300">
-                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                                </svg>3 mins read</span></div>
+                                    <div className={activeIndex === 3 ? "tab-pane fade active show" : "tab-pane fade"}>
+                                        <Accordion title="Download / Install FAQs" />
+                                    </div>
+                                    <div className={activeIndex === 4 ? "tab-pane fade active show" : "tab-pane fade"}>
+                                        <Accordion title="Technology FAQs" />
+                                    </div>
+                                    <div className={activeIndex === 5 ? "tab-pane fade active show" : "tab-pane fade"}>
+                                        <Accordion title="Your Account FAQs" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
-                <section className="section mt-50">
+                    <section className="section banner-contact">
                     <div className="container">
-                        <div className="box-newsletter box-newsletter-2">
+                        <div className="banner-1">
                             <div className="row align-items-center">
-                                <div className="col-lg-6 col-md-7 m-auto text-center"><span className="font-lg color-brand-1">Newsletter</span>
-                                    <h2 className="color-brand-1 mb-15 mt-5">Subcribe our newsletter</h2>
-                                    <p className="font-md color-grey-500">Do not miss the latest information from us about the trending in the market. By clicking the button, you are agreeing with our Term &amp; Conditions</p>
-                                    <div className="form-newsletter mt-30">
-                                        <form action="#">
-                                            <input type="text" placeholder="Enter you mail .." />
-                                            <button className="btn btn-submit-newsletter" type="submit">
-                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                                </svg>
-                                            </button>
-                                        </form>
+                                <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
+                                    <h1 className="color-brand-5 mb-20 mt-10">We’d love to hear<br className="d-none d-lg-block" />from you.</h1>
+                                    <div className="row">
+                                        <div className="col-lg-9">
+                                            <p className="font-md color-gray-900">Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our.</p>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div className="col-lg-5 d-none d-lg-block">
+                                    <div className="box-banner-contact"><img src="assets/imgs/page/contact/banner.png" alt="iori" /></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="section mt-50 ">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-4 col-md-6 col-sm-6">
+                                <div className="card-small card-small-2 color-gray-900">
+                                    <div className="card-image">
+                                        <div className="box-image"><img src="assets/imgs/page/contact/headphone.png" alt="iori" /></div>
+                                    </div>
+                                    <div className="card-info">
+                                        <h6 className="color-brand-5 mb-10">Help &amp; support</h6>
+                                        <p className="font-sm color-gray-900">Email <a className="color-success" href="mailto:info@fleekvertex.com">info@fleekvertex.com </a><br />For help with a current product or service or refer to FAQs and developer tools</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-6">
+                                <div className="card-small card-small-2">
+                                    <div className="card-image">
+                                        <div className="box-image"><img src="assets/imgs/page/contact/phone.png" alt="iori" /></div>
+                                    </div>
+                                    <div className="card-info">
+                                        <h6 className="color-brand-5 mb-10">Call Us</h6>
+                                        <p className="font-sm color-gray-900">Call us to speak to a member of our team.<br />(+91) 9346 261 550<br />(+91) 9346 261 550</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-6">
+                                <div className="card-small card-small-2">
+                                    <div className="card-image">
+                                        <div className="box-image"><img src="assets/imgs/page/contact/chart.png" alt="iori" /></div>
+                                    </div>
+                                    <div className="card-info">
+                                        <h6 className="color-brand-5 mb-10">Bussiness Department</h6>
+                                        <p className="font-sm color-gray-900">Contact the sales department about cooperation projects<br />(+01) 789 456 23</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* <div className="col-lg-3 col-md-6 col-sm-6">
+                                <div className="card-small card-small-2">
+                                    <div className="card-image">
+                                        <div className="box-image"><img src="assets/imgs/page/contact/earth.png" alt="iori" /></div>
+                                    </div>
+                                    <div className="card-info">
+                                        <h6 className="color-brand-5 mb-10">Global branch</h6>
+                                        <p className="font-sm color-grey-500">Contact us to open our branches globally.<br />(+01) 234 567 89<br />(+01) 456 789 23</p>
+                                    </div>
+                                </div>
+                            </div> */}
+                        </div>
+                    </div>
+                </section>
+                <section className="section mt-10 mb-50" id="get-in-touch">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-5">
+                                <h2 className="color-brand-5 mb-15" >Get in touch</h2>
+                                <p className="font-sm color-grey-500">Do you want to know more or contact our sales department?</p>
+                                <div className="mt-50">
+                                    <div className="card-offer card-we-do card-contact hover-up">
+                                        <div className="card-image"><img src="assets/imgs/page/contact/img1.png" alt="iori" /></div>
+                                        <div className="card-info">
+                                            <h6 className="color-brand-5 mb-10">Visit the Knowledge Base</h6>
+                                            <p className="font-md color-grey-500 mb-5">Browse customer support articles and step-by-step instructions for specific features.</p>
+                                        </div>
+                                    </div>
+                                    <div className="card-offer card-we-do card-contact hover-up">
+                                        <div className="card-image"><img src="assets/imgs/page/contact/img2.png" alt="iori" /></div>
+                                        <div className="card-info">
+                                            <h6 className="color-brand-5 mb-10">Watch Product Videos</h6>
+                                            <p className="font-md color-grey-500 mb-5">Watch our video tutorials for visual walkthroughs on how to use our features.</p>
+                                        </div>
+                                    </div>
+                                    <div className="card-offer card-we-do card-contact hover-up">
+                                        <div className="card-image"><img src="assets/imgs/page/contact/img3.png" alt="iori" /></div>
+                                        <div className="card-info">
+                                            <h6 className="color-brand-5 mb-10">Get in touch with Sales</h6>
+                                            <p className="font-md color-grey-500 mb-5">Let us talk about how we can help your enterprise.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-7">
+                                <div className="box-form-contact">
+                                    <div className="row">
+                                        <div className="col-lg-6 col-sm-6">
+                                            <div className="form-group mb-25">
+                                                <input className="form-control icon-user" type="text" placeholder="Your name" />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 col-sm-6">
+                                            <div className="form-group mb-25">
+                                                <input className="form-control icon-email" type="text" placeholder="Email" />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 col-sm-6">
+                                            <div className="form-group mb-25">
+                                                <input className="form-control icon-phone" type="text" placeholder="Phone" />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 col-sm-6">
+                                            <div className="form-group mb-25">
+                                                <input className="form-control icon-company" type="text" placeholder="Company" />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-12">
+                                            <div className="form-group mb-25">
+                                                <input className="form-control" type="text" placeholder="Subject" />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-12">
+                                            <div className="form-group mb-25">
+                                                <textarea className="form-control textarea-control" placeholder="Write something" defaultValue={""} />
+                                            </div>
+                                        </div>
+                                        <div className="col-xl-4 col-lg-5 col-md-5 col-sm-6 col-9">
+                                            <div className="form-group">
+                                                <button className="btn btn-brand-1-full font-sm" type="submit">Send message
+                                                    <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+                    <div className="border-bottom" />
+                    
+                </section>
+                
+
             </Layout>
 
         </>
