@@ -2,11 +2,11 @@ import Link from 'next/link';
 import Head from 'next/head';
 import React, { useState } from 'react';
 import Layout from '../components/layout/Layout';
+import PageHead from '../components/layout/PageHead';
 import Testimonial from '../components/slider/Testimonial';
 import ModalVideo from 'react-modal-video';
-import Knowledgebase from '../components/slider/Knowledgebase';
 
-const HomePage1 = () => {
+const HomePage = () => {
     const [isOpen, setOpen] = useState(false)
     const [activeIndex, setActiveIndex] = useState(1);
 
@@ -15,9 +15,10 @@ const HomePage1 = () => {
     };
     return (
         <>
-            <Head>
+            {/* <Head>
                 <title>Fleek Vertex - Software Development Company Bangalore</title>
-            </Head>
+            </Head> */}
+            <PageHead headTitle="Home - Fleek Vertex" />
             <Layout>
             <section className="section banner-2">
                     <div className="container">
@@ -645,4 +646,4 @@ const HomePage1 = () => {
     );
 };
 
-export default HomePage1;
+export default HomePage;
