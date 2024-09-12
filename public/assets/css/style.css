@@ -283,8 +283,8 @@ h5 {
 }
 
 h6 {
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 16px;
   line-height: 24px;
 }
 
@@ -1657,7 +1657,18 @@ body {
   left: -6px;
   top: -6px;
 }
-
+.card-shadow{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.btn.btn-tag-green {
+  padding: 6px 10px 6px 11px;
+  color: #024430;
+  background: #afeae4;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  margin-bottom: 10px;
+}
 .card-blog-grid {
   margin-bottom: 30px;
 }

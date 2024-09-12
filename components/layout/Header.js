@@ -26,7 +26,7 @@
                                     <nav className="nav-main-menu d-none d-xl-block">
                                         <ul className="main-menu">
                                             <li><Link className="active" href="/">Home</Link></li>
-                                            <li><Link href="/about">Company</Link></li>
+                                            <li><Link href="/about-fleek-vertex">Company</Link></li>
                                             <li className="has-children"><Link href="/services">Our Services</Link>
                                                 <ul className="sub-menu">
                                                     <li><Link href="/software-development-company">Software Development</Link></li>

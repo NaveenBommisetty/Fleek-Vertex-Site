@@ -15,7 +15,7 @@ const pageAbout = () => {
                         <div className="banner-1">
                             <div className="row align-items-center">
                                 <div className="col-lg-7"><span className="title-line line-48">Who we are</span>
-                                    <h1 className="color-brand-5 mb-20 mt-10">About us</h1>
+                                <h1 className="color-brand-5 mb-20 mt-10">About Fleek Vertex</h1>
                                     <div className="row">
                                         <div className="col-lg-9">
                                             <p className="font-md color-gray-900">Fleek Vertex is a software development and IT consulting company that was founded in 2023. Our company serves IT and non-IT organizations, helping to achieve a variety of goals and objectives with digital solutions and recent trend technologies.</p>
@@ -243,55 +243,7 @@ const pageAbout = () => {
                             </div>
                         </div>
                     </div>
-                </section>
-                <section className="section mt-100 box-testimonial-2">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-5 text-start pt-50"><span className="title-line line-48">Testimonials</span>
-                                <h2 className="color-brand-1 mb-20 mt-15">What our clients<br className="d-none d-lg-block" />say about us</h2>
-                                <div className="row">
-                                    <div className="col-lg-10">
-                                        <p className="font-md color-gray-500 mb-30">Access advanced order types including limit, market, stop limit and dollar cost averaging. Track your total asset holdings, values and equity over time. Monitor markets, manage your portfolio, and trade crypto on the go.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-7 bg-testimonials position-relative">
-                                <div className="ml-20">
-                                    <div className="card-testimonial-list">
-                                        <div className="d-flex align-items-center">
-                                            <div className="box-author mb-10"><Link href="#"><img src="assets/imgs/page/homepage1/author.png" alt="iori" /></Link>
-                                                <div className="author-info"><Link href="#"><span className="font-md-bold color-brand-1 author-name">Guy Hawkins</span></Link><span className="font-xs color-grey-500 department">Bank of America</span></div>
-                                            </div>
-                                            <div className="rating text-end"><img src="assets/imgs/template/icons/star.svg" alt="iori" /><img src="assets/imgs/template/icons/star.svg" alt="iori" /><img src="assets/imgs/template/icons/star.svg" alt="iori" /><img src="assets/imgs/template/icons/star.svg" alt="iori" /><img src="assets/imgs/template/icons/star.svg" alt="iori" /></div>
-                                        </div>
-                                        <p className="font-md color-grey-500">Access the same project through five different dynamic views: a kanban board, Gantt chart, spreadsheet, calendar or simple task list.</p>
-                                    </div>
-                                </div>
-                                <div className="ml-100">
-                                    <div className="card-testimonial-list">
-                                        <div className="d-flex align-items-center">
-                                            <div className="box-author mb-10"><Link href="#"><img src="assets/imgs/page/homepage2/author2.png" alt="iori" /></Link>
-                                                <div className="author-info"><Link href="#"><span className="font-md-bold color-brand-1 author-name">Guy Hawkins</span></Link><span className="font-xs color-grey-500 department">Bank of America</span></div>
-                                            </div>
-                                            <div className="rating text-end"><img src="assets/imgs/template/icons/star.svg" alt="iori" /><img src="assets/imgs/template/icons/star.svg" alt="iori" /><img src="assets/imgs/template/icons/star.svg" alt="iori" /><img src="assets/imgs/template/icons/star.svg" alt="iori" /><img src="assets/imgs/template/icons/star-gray.svg" alt="iori" /></div>
-                                        </div>
-                                        <p className="font-md color-grey-500">Access the same project through five different dynamic views: a kanban board, Gantt chart, spreadsheet, calendar or simple task list.</p>
-                                    </div>
-                                </div>
-                                <div className="card-testimonial-list">
-                                    <div className="d-flex align-items-center">
-                                        <div className="box-author mb-10"><Link href="#"><img src="assets/imgs/page/homepage2/author3.png" alt="iori" /></Link>
-                                            <div className="author-info"><Link href="#"><span className="font-md-bold color-brand-1 author-name">Guy Hawkins</span></Link><span className="font-xs color-grey-500 department">Bank of America</span></div>
-                                        </div>
-                                        <div className="rating text-end"><img src="assets/imgs/template/icons/star.svg" alt="iori" /><img src="assets/imgs/template/icons/star.svg" alt="iori" /><img src="assets/imgs/template/icons/star.svg" alt="iori" /><img src="assets/imgs/template/icons/star.svg" alt="iori" /><img src="assets/imgs/template/icons/star-gray.svg" alt="iori" /></div>
-                                    </div>
-                                    <p className="font-md color-grey-500">Access the same project through five different dynamic views: a kanban board, Gantt chart, spreadsheet, calendar or simple task list.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                
+                </section>                
             </Layout>
 
         </>
