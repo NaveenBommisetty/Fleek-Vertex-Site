@@ -29,13 +29,15 @@
                                             <li><Link href="/about">Company</Link></li>
                                             <li className="has-children"><Link href="/services">Our Services</Link>
                                                 <ul className="sub-menu">
-                                                    <li><Link href="/software-development-company">Software Development Company</Link></li>
-                                                    <li><Link href="/web-development-company">Web Development Company</Link></li>
+                                                    <li><Link href="/software-development-company">Software Development</Link></li>
+                                                    <li><Link href="/web-development-company">Web Development</Link></li>
                                                     <li><Link href="/mobile-app-development-company">Mobile App Development</Link></li>
-                                                    <li><Link href="/digital-marketing-company">Digital Marketing Company</Link></li>
+                                                    <li><Link href="/digital-marketing-company">Digital Marketing</Link></li>
                                                     <li><Link href="/cloud-migration-company">Cloud Services</Link></li>
                                                     <li><Link href="/jira-administration-services">JIRA Administration</Link></li>
                                                     <li><Link href="/branding-services">Branding Services</Link></li>
+                                                    <li><Link href="/software-testing-company">Software Testing</Link></li>
+                                                    <li><Link href="/website-hosting-and-maintanance">Hosting & Maintanance</Link></li>
                                                 </ul>
                                             </li>
                                             <li><Link href="blog">Blog</Link></li> 
