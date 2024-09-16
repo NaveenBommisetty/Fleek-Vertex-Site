@@ -24,14 +24,13 @@ const SoftwareDevelopmentCompany = () => {
                         <div className="banner-1">
                             <div className="row align-items-center">
                                 <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
-                                    <h1 className="color-brand-5 mb-20 mt-10">Custom Software Development Services</h1>
+                                    <h1 className="color-brand-5 mb-20 mt-10">Software Development Services</h1>
                                     <div className="row">
                                         <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our.
-                                                Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our.
-                                                Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our.
-                                            </p>
-                                            <div className="box-button text-start mt-40">
+                                            <p className="font-md color-gray-900">In today's digital world, you can take your business to the next level with software designed just for you. Online presence is crucial for companies in an ever-changing and highly competitive world. When developing your software, you can stand out from the crowd and offer unique solutions to your users.
+                                            </p><p className='mt-20'></p>
+                                            <p className="font-md color-gray-900">Contact our team via our contact form or call to discuss how we can help you achieve your digital goals. Our experts are ready to bring your ideas to life, whether you need a complete software solution, a mobile application, or a web platform. Contact us immediately to discuss your custom software development needs!</p>
+                                            <div className="box-button text-start mt-20">
                                                 <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Get in Touch</Link>
                                             </div>
                                         </div>
@@ -51,12 +50,11 @@ const SoftwareDevelopmentCompany = () => {
                                 <div className="box-images-project">
                                     <span class="btn btn-tag-green">Get in touch</span>
                                     <h2 className="color-brand-1 mb-15">Elevating your digital presence</h2>
-                                    <p className="color-grey-500 mb-15">Necessary to deliver white glove, fully managed campaigns that surpass industry benchmarks.Take your career to next level. Apply to our team and see what we can do together. You’re good enough.</p>
-                                    <p className="color-grey-500 mb-15">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex. Ex illum officiis id.</p>
-                                    <p className="color-grey-500 mb-15">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex. Ex illum officiis id.</p>
-                                    <p className="color-grey-500 mb-15 mt-40">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex. Ex illum officiis id.</p>
-                                    <p className="color-grey-500 mb-15">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex. Ex illum officiis id.</p>
-
+                                    <p className="color-gray-900 mb-15">In a world where digital interactions are becoming increasingly important, improving your digital profile is no longer a choice; it's mandatory. A solid and engaged online presence makes your brand more visible and gives your audience more reason to believe in and trust you. </p>
+                                    <p className="color-gray-900 mb-15">This type of software development involves collaboration between the client and the development team, considering their goals, objectives, and specific business plans. It also involves thorough testing and quality control to ensure that the software works properly before deployment.</p>
+                                    <p className="color-gray-900 mb-15">Custom software development is an intelligent way to do this because it lets you get solutions that fit your business's needs and challenges. You can give your users a smooth experience, speed up processes, and increase engagement by ensuring that your digital tools perfectly match your workflows and objectives. Getting into custom software is a way to strengthen your digital presence and stay competitive in a market that is changing quickly. This can be done through optimised websites, user-friendly mobile apps, or systems that work together.</p>
+                                    <p className="color-gray-900 mb-15 mt-40">One of the best things about custom software development is that it can give businesses an edge over their competitors. Businesses may distinguish themselves from their rivals and give their customers a more personalised experience if they have a response that fits their needs.
+                                    With the world becoming more digital, having the right tools can make or break a business. Custom software development that fits your business goals is what we do best at Fleek Vertex. Our expert team is here to help tech companies of all sizes transition from analog to digital without problems.</p>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">
@@ -72,7 +70,7 @@ const SoftwareDevelopmentCompany = () => {
                         <div className="row">
                             <div className="col-lg-12 text-center">
                                 <h3 className="color-brand-1 mb-20">Why You Should Consider Applying</h3>
-                                <p className="font-lg color-gray-500">Our tailor-made business software solutions comprehensively offers services to multiple businesses.</p>
+                                <p className="font-lg color-gray-500">We offer our clients a comprehensive range of custom-made business software solutions designed to meet their needs.</p>
                             </div>
                         </div>
                         <div class="row mt-50">
@@ -83,7 +81,7 @@ const SoftwareDevelopmentCompany = () => {
                                     </div>
                                     <div class="card-info">
                                         <h4 class="color-brand-1 mb-15">Bespoke Software Development</h4>
-                                        <p class="font-md color-grey-500 mb-15">Seamless importing and round-tripping of Microsoft Project plans, Excel files &amp; CSV files.</p>
+                                        <p class="font-md color-grey-500 mb-15">Customized solutions that deal with the problems and possibilities your business meets. We get to know your business well to make unique software that improves your processes, makes them more efficient, and helps your business grow.</p>
                                     </div>
                                 </div>
                             </div>
@@ -94,7 +92,7 @@ const SoftwareDevelopmentCompany = () => {
                                     </div>
                                     <div class="card-info">
                                         <h4 class="color-brand-1 mb-15">Application Migration and Re-Engineering</h4>
-                                        <p class="font-md color-grey-500 mb-15">Seamless importing and round-tripping of Microsoft Project plans, Excel files &amp; CSV files.</p>
+                                        <p class="font-md color-grey-500 mb-15">Updating your old platforms can improve performance and scalability. Our team will examine your existing tools, find ways to improve them and make a plan to move your business forward.</p>
                                     </div>
                                 </div>
                             </div>
@@ -105,7 +103,7 @@ const SoftwareDevelopmentCompany = () => {
                                     </div>
                                     <div class="card-info">
                                         <h4 class="color-brand-1 mb-15">Software Application Maintenance</h4>
-                                        <p class="font-md color-grey-500 mb-15">Seamless importing and round-tripping of Microsoft Project plans, Excel files &amp; CSV files.</p>
+                                        <p class="font-md color-grey-500 mb-15">Regular support and maintenance will help your program run smoothly. Do not worry; our team will handle updates, bug fixes, and other tech problems, leaving you to run your business.</p>
                                     </div>
                                 </div>
                             </div>
@@ -116,7 +114,7 @@ const SoftwareDevelopmentCompany = () => {
                                     </div>
                                     <div class="card-info">
                                         <h4 class="color-brand-1 mb-15">SaaS Applications</h4>
-                                        <p class="font-md color-grey-500 mb-15">Seamless importing and round-tripping of Microsoft Project plans, Excel files &amp; CSV files.</p>
+                                        <p class="font-md color-grey-500 mb-15">Make sure your business's SaaS options are reliable and scalable. Our team knows how to make safe applications that work well and can be viewed anywhere.</p>
                                     </div>
                                 </div>
                             </div>
@@ -127,7 +125,7 @@ const SoftwareDevelopmentCompany = () => {
                                     </div>
                                     <div class="card-info">
                                         <h4 class="color-brand-1 mb-15">Application Integration</h4>
-                                        <p class="font-md color-grey-500 mb-15">Seamless importing and round-tripping of Microsoft Project plans, Excel files &amp; CSV files.</p>
+                                        <p class="font-md color-grey-500 mb-15">Integrate different apps without problems to make your business processes run more smoothly. Our team can connect your software systems and make them work better by making unique integrations or using existing APIs.</p>
                                     </div>
                                 </div>
                             </div>
@@ -138,7 +136,7 @@ const SoftwareDevelopmentCompany = () => {
                                     </div>
                                     <div class="card-info">
                                         <h4 class="color-brand-1 mb-15">Maintenance and Support</h4>
-                                        <p class="font-md color-grey-500 mb-15">Seamless importing and round-tripping of Microsoft Project plans, Excel files &amp; CSV files.</p>
+                                        <p class="font-md color-grey-500 mb-15">24/7 support to keep your devices running smoothly. Our team is available 24 hours a day, seven days a week, to help with any technical problems and ensure that your software is always up to date through regular maintenance.</p>
                                     </div>
                                 </div>
                             </div>
@@ -150,7 +148,7 @@ const SoftwareDevelopmentCompany = () => {
                         <div className="row">
                             <div className="col-lg-12 text-center">
                                 <h2 className="color-brand-1 mb-20">Services We Offer</h2>
-                                <p className="font-lg color-gray-500">What makes us different from others? We give holistic solutions<br className="d-none d-lg-block" />with strategy, design &amp; technology.</p>
+                                <p className="font-lg color-gray-500">How do we differ from others? We provide a holistic approach. Technology, strategy, <br className="d-none d-lg-block" />and design are all part of the process.</p>
                             </div>
                         </div>
                         <div className="row mt-50">
@@ -159,7 +157,7 @@ const SoftwareDevelopmentCompany = () => {
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer1.png" alt="iori" /></div>
                                     <div className="card-info">
                                         <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/mobile-app-development-company">Mobile App Development Services</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <p className="font-md color-grey-500 mb-5">Our team specialises in making apps that work on iOS and Android so users can enjoy the same experience on all their devices. Use our knowledge to create top-notch mobile apps that keep customers interested and help your business grow.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -172,7 +170,7 @@ const SoftwareDevelopmentCompany = () => {
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer2.png" alt="iori" /></div>
                                     <div className="card-info">
                                         <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="#">Web Development Services</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <p className="font-md color-grey-500 mb-5">Our web development services create responsive, attractive websites that improve your online profile. We create unique web solutions that meet your business goals and give users a great experience, from e-commerce platforms to content management systems.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -185,7 +183,7 @@ const SoftwareDevelopmentCompany = () => {
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer3.png" alt="iori" /></div>
                                     <div className="card-info">
                                         <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="#">E-commerce Development Services</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <p className="font-md color-grey-500 mb-5">Our e-commerce software services are all about creating safe, scalable, and working online stores. Our custom ecommerce solutions can help you increase sales and give your users a great shopping experience.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -198,7 +196,7 @@ const SoftwareDevelopmentCompany = () => {
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer4.png" alt="iori" /></div>
                                     <div className="card-info">
                                         <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="#">Cloud Migration Services.</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <p className="font-md color-grey-500 mb-5">Moving your business to the cloud will give you more freedom and save money. If you switch to cloud-based services, you'll have better access to cutting-edge technology, secure data, & better ways to work together.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -211,7 +209,7 @@ const SoftwareDevelopmentCompany = () => {
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer5.png" alt="iori" /></div>
                                     <div className="card-info">
                                         <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="#">JIRA Administration</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <p className="font-md color-grey-500 mb-5">Our JIRA administrators will help you set up, set up, and maintain your instance of JIRA to ensure it meets your project management needs. Our professional JIRA administration services will help you get more done and make your processes more efficient.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -224,7 +222,7 @@ const SoftwareDevelopmentCompany = () => {
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
                                     <div className="card-info">
                                         <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="#">Software Testing Services</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <p className="font-md color-grey-500 mb-5">Our testing services include functional testing, speed testing, and security testing. They are all meant to create strong and reliable software solutions. You can count on our team to find and fix any problems with your software before it goes live. </p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -357,7 +355,7 @@ const SoftwareDevelopmentCompany = () => {
                             </div>
                             <div className="col-lg-6">
                                 <div className="box-cover-pd-2">
-                                    <h2 className="color-brand-1 mb-30">How to grow your <br className="d-none d-lg-block" />business fast</h2>
+                                    <h2 className="color-brand-1 mb-30">A quick guide to growing <br className="d-none d-lg-block" />your business</h2>
                                     <div className="item-number hover-up">
                                         <div className="num-ele">1</div>
                                         <div className="info-num">
@@ -548,9 +546,9 @@ const SoftwareDevelopmentCompany = () => {
                             <div className="col-lg-8 col-md-8">
                                 <h2 className="color-brand-1 mb-20">Frequently asked questions</h2>
                                 <p className="font-lg color-gray-500">
-                                    Feeling inquisitive? Have a read through some of our FAQs or
+                                Have you been feeling curious lately? Check out some of our FAQs or
                                     <br className="d-none d-lg-block" />
-                                    contact our supporters for help.
+                                    Contact us for more information. Our team of experts is always happy to help and provide you with the best solutions.
                                 </p>
                             </div>
 
@@ -561,7 +559,7 @@ const SoftwareDevelopmentCompany = () => {
                             <div className="col-xl-12 col-lg-12">
                                 <div className="tab-content tab-content-slider">
                                     <div className={activeIndex === 1 ? "tab-pane fade active show" : "tab-pane fade"}>
-                                        <Accordion title="General Support FAQs" />
+                                        <Accordion title="What types of businesses do you work with?" />
                                     </div>
                                     <div className={activeIndex === 2 ? "tab-pane fade active show" : "tab-pane fade"}>
                                         <Accordion title="Order / Purchase FAQs" />
