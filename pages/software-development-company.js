@@ -49,16 +49,17 @@ const SoftwareDevelopmentCompany = () => {
                             <div className="col-xl-6 col-lg-5">
                                 <div className="box-images-project">
                                     <span class="btn btn-tag-green">Get in touch</span>
-                                    <h2 className="color-brand-1 mb-15">Elevating your digital presence</h2>
-                                    <p className="color-gray-900 mb-15">In a world where digital interactions are becoming increasingly important, improving your digital profile is no longer a choice; it's mandatory. A solid and engaged online presence makes your brand more visible and gives your audience more reason to believe in and trust you. </p>
-                                    <p className="color-gray-900 mb-15">This type of software development involves collaboration between the client and the development team, considering their goals, objectives, and specific business plans. It also involves thorough testing and quality control to ensure that the software works properly before deployment.</p>
-                                    <p className="color-gray-900 mb-15">Custom software development is an intelligent way to do this because it lets you get solutions that fit your business's needs and challenges. You can give your users a smooth experience, speed up processes, and increase engagement by ensuring that your digital tools perfectly match your workflows and objectives. Getting into custom software is a way to strengthen your digital presence and stay competitive in a market that is changing quickly. This can be done through optimised websites, user-friendly mobile apps, or systems that work together.</p>
-                                    <p className="color-gray-900 mb-15 mt-40">One of the best things about custom software development is that it can give businesses an edge over their competitors. Businesses may distinguish themselves from their rivals and give their customers a more personalised experience if they have a response that fits their needs.
-                                    With the world becoming more digital, having the right tools can make or break a business. Custom software development that fits your business goals is what we do best at Fleek Vertex. Our expert team is here to help tech companies of all sizes transition from analog to digital without problems.</p>
+                                    <h2 className="color-brand-1 mb-15">Hire a Reputable, High-Quality, and Best Custom Software Development Company in Bangalore, India</h2>
+                                    <p className="color-gray-900 mb-15 font-md">Custom software development is essential to staying competitive in today's constantly evolving digital world. Businesses increasingly use custom software solutions to streamline processes, boost efficiency and productivity, and provide a better customer and employee experience.
+Businesses need to find a reputable, high-quality custom software development company to understand their unique needs and deliver customized solutions tailored to them in a highly competitive market. FleekVertex in Bangalore, India, is the perfect example of this.</p>
+                                    <p className="color-gray-900 mb-15 mt-10 font-md">Bangalore has become a top destination for custom software development due to its skilled workforce, cost-effective services, technological advancements, and favorable business environment. It has some of India's best software development companies, from digital transformation and enterprise solutions to web and mobile app development.</p>
+                                    <p className="color-gray-900 mb-15 mt-10 font-md">This type of software development involves collaboration between the client and the development team, considering their goals, objectives, and specific business plans. It also involves thorough testing and quality control to ensure the software works properly before deployment.</p>
+                                    <p className="color-gray-900 mb-15 mt-10 font-md">One of the best things about custom software development is that it can give businesses an edge over their competitors. Companies may differentiate themselves from their rivals and give their customers a more personalized experience if they have a response that fits their needs.</p>
+                                    <p className="color-gray-900 mb-15 mt-10 font-md">With the world becoming more digital, having the right tools can make or break a business. Custom software development that fits your business goals is what we do best at Fleek Vertex. Our expert team is here to help tech companies of all sizes transition from analog to digital without problems.</p>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">
-                                <div className="row pt-40">
+                                <div className="row pt-200">
                                     <div className="box-image"><img src="assets/imgs/page/homepage2/img-marketing.png" alt="iori" /></div>
                                 </div>
                             </div>
@@ -81,7 +82,7 @@ const SoftwareDevelopmentCompany = () => {
                                     </div>
                                     <div class="card-info">
                                         <h4 class="color-brand-1 mb-15">Bespoke Software Development</h4>
-                                        <p class="font-md color-grey-500 mb-15">Customized solutions that deal with the problems and possibilities your business meets. We get to know your business well to make unique software that improves your processes, makes them more efficient, and helps your business grow.</p>
+                                        <p class="font-md color-grey-500 mb-15">Customized solutions that deal with the problems and possibilities your business meets. We get to know your business well so that we can make unique software that improves your processes, makes them more efficient, and helps your business grow.</p>
                                     </div>
                                 </div>
                             </div>
@@ -92,7 +93,7 @@ const SoftwareDevelopmentCompany = () => {
                                     </div>
                                     <div class="card-info">
                                         <h4 class="color-brand-1 mb-15">Application Migration and Re-Engineering</h4>
-                                        <p class="font-md color-grey-500 mb-15">Updating your old platforms can improve performance and scalability. Our team will examine your existing tools, find ways to improve them and make a plan to move your business forward.</p>
+                                        <p class="font-md color-grey-500 mb-15">You can improve performance and scalability by updating your old platforms. Our team will look at the tools you already have, find ways to make it better, and make a plan for moving your business forward.</p>
                                     </div>
                                 </div>
                             </div>
@@ -103,7 +104,7 @@ const SoftwareDevelopmentCompany = () => {
                                     </div>
                                     <div class="card-info">
                                         <h4 class="color-brand-1 mb-15">Software Application Maintenance</h4>
-                                        <p class="font-md color-grey-500 mb-15">Regular support and maintenance will help your program run smoothly. Do not worry; our team will handle updates, bug fixes, and other tech problems, leaving you to run your business.</p>
+                                        <p class="font-md color-grey-500 mb-15">Regular support and maintenance will help your program run smoothly. Not to worry, our team will take care of updates, bug fixes, and any other tech problems, leaving you to run your business.</p>
                                     </div>
                                 </div>
                             </div>
@@ -114,7 +115,7 @@ const SoftwareDevelopmentCompany = () => {
                                     </div>
                                     <div class="card-info">
                                         <h4 class="color-brand-1 mb-15">SaaS Applications</h4>
-                                        <p class="font-md color-grey-500 mb-15">Make sure your business's SaaS options are reliable and scalable. Our team knows how to make safe applications that work well and can be viewed anywhere.</p>
+                                        <p class="font-md color-grey-500 mb-15">Make sure your business's SaaS options are reliable and scalable. Our team knows how to make applications that are safe, work well, and can be viewed from anywhere at any time.                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -125,7 +126,7 @@ const SoftwareDevelopmentCompany = () => {
                                     </div>
                                     <div class="card-info">
                                         <h4 class="color-brand-1 mb-15">Application Integration</h4>
-                                        <p class="font-md color-grey-500 mb-15">Integrate different apps without problems to make your business processes run more smoothly. Our team can connect your software systems and make them work better by making unique integrations or using existing APIs.</p>
+                                        <p class="font-md color-grey-500 mb-15">Integrate different apps without any problems to make your business processes run more smoothly. To connect your software systems and make them work better, our team can either make unique integrations or use existing APIs</p>
                                     </div>
                                 </div>
                             </div>
@@ -136,7 +137,7 @@ const SoftwareDevelopmentCompany = () => {
                                     </div>
                                     <div class="card-info">
                                         <h4 class="color-brand-1 mb-15">Maintenance and Support</h4>
-                                        <p class="font-md color-grey-500 mb-15">24/7 support to keep your devices running smoothly. Our team is available 24 hours a day, seven days a week, to help with any technical problems and ensure that your software is always up to date through regular maintenance.</p>
+                                        <p class="font-md color-grey-500 mb-15">24/7 support to keep your devices running smoothly. Our team is available 24 hours a day, seven days a week to help with any technical problems and to make sure that your software is always up to date through regular maintenance.</p>
                                     </div>
                                 </div>
                             </div>
@@ -148,7 +149,7 @@ const SoftwareDevelopmentCompany = () => {
                         <div className="row">
                             <div className="col-lg-12 text-center">
                                 <h2 className="color-brand-1 mb-20">Services We Offer</h2>
-                                <p className="font-lg color-gray-500">How do we differ from others? We provide a holistic approach. Technology, strategy, <br className="d-none d-lg-block" />and design are all part of the process.</p>
+                                <p className="font-lg color-gray-500">How do we differ from others? We provide a holistic approach. Technology, strategy, and design are all part of the process.</p>
                             </div>
                         </div>
                         <div className="row mt-50">
@@ -157,7 +158,7 @@ const SoftwareDevelopmentCompany = () => {
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer1.png" alt="iori" /></div>
                                     <div className="card-info">
                                         <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/mobile-app-development-company">Mobile App Development Services</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Our team specialises in making apps that work on iOS and Android so users can enjoy the same experience on all their devices. Use our knowledge to create top-notch mobile apps that keep customers interested and help your business grow.</p>
+                                        <p className="font-md color-grey-500 mb-5">Our team specializes in making apps that work on iOS and Android so users can enjoy the same experience on all their devices. Use our knowledge to create top-notch mobile apps that keep customers interested and help your business grow.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -196,7 +197,7 @@ const SoftwareDevelopmentCompany = () => {
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer4.png" alt="iori" /></div>
                                     <div className="card-info">
                                         <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="#">Cloud Migration Services.</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Moving your business to the cloud will give you more freedom and save money. If you switch to cloud-based services, you'll have better access to cutting-edge technology, secure data, & better ways to work together.</p>
+                                        <p className="font-md color-grey-500 mb-5">Moving your business to the cloud will give you more freedom and save money. If you switch to cloud-based services, you'll have better access to cutting-edge technology, more secure data, and better ways to work together. Our team will ensure the transfer goes smoothly and doesn't cause too much trouble for your business.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -222,7 +223,7 @@ const SoftwareDevelopmentCompany = () => {
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
                                     <div className="card-info">
                                         <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="#">Software Testing Services</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Our testing services include functional testing, speed testing, and security testing. They are all meant to create strong and reliable software solutions. You can count on our team to find and fix any problems with your software before it goes live. </p>
+                                        <p className="font-md color-grey-500 mb-5">Our testing services include functional testing, speed testing, and security testing. They are all meant to create strong and reliable software solutions. You can count on our team to find and fix any problems with your software before it goes live. This will give you peace of mind and ensure that users have a great time.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -355,26 +356,27 @@ const SoftwareDevelopmentCompany = () => {
                             </div>
                             <div className="col-lg-6">
                                 <div className="box-cover-pd-2">
-                                    <h2 className="color-brand-1 mb-30">A quick guide to growing <br className="d-none d-lg-block" />your business</h2>
+                                    <h2 className="color-brand-1 mb-30">Boost your business with our<br className="d-none d-lg-block" />3-step strategy</h2>
+                                    <p className="font-md color-grey-500">Business growth can be challenging in today's competitive environment. However, our flexible system makes achieving sustainable, stress-free growth easy.</p>
                                     <div className="item-number hover-up">
                                         <div className="num-ele">1</div>
                                         <div className="info-num">
-                                            <h5 className="color-brand-1 mb-15">Create an account</h5>
-                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                            <h5 className="color-brand-1 mb-15">Make sure you're in the correct position</h5>
+                                            <p className="font-md color-grey-500">We analyze your business to identify strengths, weaknesses, opportunities, and threats. This foundational step ensures we have a clear understanding of your startup.</p>
                                         </div>
                                     </div>
                                     <div className="item-number hover-up">
                                         <div className="num-ele">2</div>
                                         <div className="info-num">
-                                            <h5 className="color-brand-1 mb-15">Build your founding team</h5>
-                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                            <h5 className="color-brand-1 mb-15">Make a development plan.</h5>
+                                            <p className="font-md color-grey-500">Our team develops a customized strategy based on your business objectives. This strategy includes actionable steps to improve efficiency, enhance marketing efforts, and generate revenue.</p>
                                         </div>
                                     </div>
                                     <div className="item-number hover-up">
                                         <div className="num-ele">3</div>
                                         <div className="info-num">
-                                            <h5 className="color-brand-1 mb-15">Launch and Scale</h5>
-                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                            <h5 className="color-brand-1 mb-15">Implementation and maintenance</h5>
+                                            <p className="font-md color-grey-500">We provide the tools and guidance you need to succeed during the implementation phase. Our data-driven approach keeps your business running smoothly by constantly monitoring progress.</p>
                                         </div>
                                     </div>
                                 </div>
