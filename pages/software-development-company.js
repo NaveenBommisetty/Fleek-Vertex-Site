@@ -49,7 +49,7 @@ const SoftwareDevelopmentCompany = () => {
                             <div className="col-xl-6 col-lg-5">
                                 <div className="box-images-project">
                                     <span class="btn btn-tag-green">Get in touch</span>
-                                    <h2 className="color-brand-1 mb-15">Hire a Reputable, High-Quality, and Best Custom Software Development Company in Bangalore, India</h2>
+                                    <h2 className="color-brand-1 mb-15">Best Custom Software Development Company in Bangalore, India</h2>
                                     <p className="color-gray-900 mb-15 font-md">Custom software development is essential to staying competitive in today's constantly evolving digital world. Businesses increasingly use custom software solutions to streamline processes, boost efficiency and productivity, and provide a better customer and employee experience.
 Businesses need to find a reputable, high-quality custom software development company to understand their unique needs and deliver customized solutions tailored to them in a highly competitive market. FleekVertex in Bangalore, India, is the perfect example of this.</p>
                                     <p className="color-gray-900 mb-15 mt-10 font-md">Bangalore has become a top destination for custom software development due to its skilled workforce, cost-effective services, technological advancements, and favorable business environment. It has some of India's best software development companies, from digital transformation and enterprise solutions to web and mobile app development.</p>
