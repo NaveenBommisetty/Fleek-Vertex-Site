@@ -4,11 +4,45 @@ import React, { useState } from 'react';
 import Layout from '../components/layout/Layout';
 
 const ContactUs = () => {
-    const [activeIndex, setActiveIndex] = useState(1);
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        phone: '',
+        company: '',
+        subject: '',
+        message: ''
+    });
 
-    const handleOnClick = (index) => {
-        setActiveIndex(index); // remove the curly braces
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({ ...formData, [name]: value });
     };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+      
+        try {
+          const response = await fetch('/api/contact', { // Ensure the path matches the API file path
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+          });
+      
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+      
+          const result = await response.json();
+          alert('Your message has been sent successfully!');
+        } catch (error) {
+          console.error('Error sending email:', error);
+          alert('There was an error sending your message. Please try again.');
+        }
+      };
+      
+
     return (
         <>
             <Head>
@@ -20,13 +54,14 @@ const ContactUs = () => {
                     <div className="container">
                         <div className="banner-1">
                             <div className="row align-items-center">
-                                <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
+                                <div className="col-lg-7">
+                                    <span className="title-line line-48">Get in Touch</span>
                                     <h1 className="color-brand-5 mb-20 mt-10">We’d love to hear<br className="d-none d-lg-block" />from you.</h1>
                                     <div className="row">
                                         <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our.</p>
+                                            <p className="font-md color-gray-900">Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Corporation, check out our.</p>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="box-banner-contact"><img src="assets/imgs/page/contact/banner.png" alt="iori" /></div>
@@ -35,9 +70,10 @@ const ContactUs = () => {
                         </div>
                     </div>
                 </section>
-                <section className="section mt-50 ">
+                <section className="section mt-50">
                     <div className="container">
                         <div className="row">
+                            {/* Help & Support Card */}
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="card-small card-small-2 color-gray-900">
                                     <div className="card-image">
@@ -45,10 +81,11 @@ const ContactUs = () => {
                                     </div>
                                     <div className="card-info">
                                         <h6 className="color-brand-5 mb-10">Help &amp; support</h6>
-                                        <p className="font-sm color-gray-900">Email <a className="color-success" href="mailto:info@fleekvertex.com">info@fleekvertex.com </a><br />For help with a current product or service or refer to FAQs and developer tools</p>
+                                        <p className="font-sm color-gray-900">Email <a className="color-success" href="mailto:info@fleekvertex.com">info@fleekvertex.com</a><br />For help with a current product or service or refer to FAQs and developer tools</p>
                                     </div>
                                 </div>
                             </div>
+                            {/* Call Us Card */}
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="card-small card-small-2">
                                     <div className="card-image">
@@ -60,28 +97,18 @@ const ContactUs = () => {
                                     </div>
                                 </div>
                             </div>
+                            {/* Business Department Card */}
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="card-small card-small-2">
                                     <div className="card-image">
                                         <div className="box-image"><img src="assets/imgs/page/contact/chart.png" alt="iori" /></div>
                                     </div>
                                     <div className="card-info">
-                                        <h6 className="color-brand-5 mb-10">Bussiness Department</h6>
+                                        <h6 className="color-brand-5 mb-10">Business Department</h6>
                                         <p className="font-sm color-gray-900">Contact the sales department about cooperation projects<br />(+01) 789 456 23</p>
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image">
-                                        <div className="box-image"><img src="assets/imgs/page/contact/earth.png" alt="iori" /></div>
-                                    </div>
-                                    <div className="card-info">
-                                        <h6 className="color-brand-5 mb-10">Global branch</h6>
-                                        <p className="font-sm color-grey-500">Contact us to open our branches globally.<br />(+01) 234 567 89<br />(+01) 456 789 23</p>
-                                    </div>
-                                </div>
-                            </div> */}
                         </div>
                     </div>
                 </section>
@@ -92,6 +119,7 @@ const ContactUs = () => {
                                 <h2 className="color-brand-5 mb-15">Get in touch</h2>
                                 <p className="font-sm color-grey-500">Do you want to know more or contact our sales department?</p>
                                 <div className="mt-50">
+                                    {/* Knowledge Base Card */}
                                     <div className="card-offer card-we-do card-contact hover-up">
                                         <div className="card-image"><img src="assets/imgs/page/contact/img1.png" alt="iori" /></div>
                                         <div className="card-info">
@@ -99,6 +127,7 @@ const ContactUs = () => {
                                             <p className="font-md color-grey-500 mb-5">Browse customer support articles and step-by-step instructions for specific features.</p>
                                         </div>
                                     </div>
+                                    {/* Product Videos Card */}
                                     <div className="card-offer card-we-do card-contact hover-up">
                                         <div className="card-image"><img src="assets/imgs/page/contact/img2.png" alt="iori" /></div>
                                         <div className="card-info">
@@ -106,6 +135,7 @@ const ContactUs = () => {
                                             <p className="font-md color-grey-500 mb-5">Watch our video tutorials for visual walkthroughs on how to use our features.</p>
                                         </div>
                                     </div>
+                                    {/* Get in Touch with Sales Card */}
                                     <div className="card-offer card-we-do card-contact hover-up">
                                         <div className="card-image"><img src="assets/imgs/page/contact/img3.png" alt="iori" /></div>
                                         <div className="card-info">
@@ -117,55 +147,55 @@ const ContactUs = () => {
                             </div>
                             <div className="col-lg-7">
                                 <div className="box-form-contact">
-                                    <div className="row">
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group mb-25">
-                                                <input className="form-control icon-user" type="text" placeholder="Your name" />
+                                    <form onSubmit={handleSubmit}>
+                                        <div className="row">
+                                            <div className="col-lg-6 col-sm-6">
+                                                <div className="form-group mb-25">
+                                                    <input name="name" className="form-control icon-user" type="text" placeholder="Your name" value={formData.name} onChange={handleChange} required />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6 col-sm-6">
+                                                <div className="form-group mb-25">
+                                                    <input name="email" className="form-control icon-email" type="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6 col-sm-6">
+                                                <div className="form-group mb-25">
+                                                    <input name="phone" className="form-control icon-phone" type="text" placeholder="Phone" value={formData.phone} onChange={handleChange} required />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6 col-sm-6">
+                                                <div className="form-group mb-25">
+                                                    <input name="company" className="form-control icon-company" type="text" placeholder="Company" value={formData.company} onChange={handleChange} required />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-12">
+                                                <div className="form-group mb-25">
+                                                    <input name="subject" className="form-control" type="text" placeholder="Subject" value={formData.subject} onChange={handleChange} required />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-12">
+                                                <div className="form-group mb-25">
+                                                    <textarea name="message" className="form-control textarea-control" placeholder="Write something" value={formData.message} onChange={handleChange} required></textarea>
+                                                </div>
+                                            </div>
+                                            <div className="col-xl-4 col-lg-5 col-md-5 col-sm-6 col-9">
+                                                <div className="form-group">
+                                                    <button className="btn btn-brand-1-full font-sm" type="submit">Send message
+                                                        <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                                        </svg>
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group mb-25">
-                                                <input className="form-control icon-email" type="text" placeholder="Email" />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group mb-25">
-                                                <input className="form-control icon-phone" type="text" placeholder="Phone" />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group mb-25">
-                                                <input className="form-control icon-company" type="text" placeholder="Company" />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-12">
-                                            <div className="form-group mb-25">
-                                                <input className="form-control" type="text" placeholder="Subject" />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-12">
-                                            <div className="form-group mb-25">
-                                                <textarea className="form-control textarea-control" placeholder="Write something" defaultValue={""} />
-                                            </div>
-                                        </div>
-                                        <div className="col-xl-4 col-lg-5 col-md-5 col-sm-6 col-9">
-                                            <div className="form-group">
-                                                <button className="btn btn-brand-1-full font-sm" type="submit">Send message
-                                                    <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                                    </svg>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                 
             </Layout>
-
         </>
     );
 };
