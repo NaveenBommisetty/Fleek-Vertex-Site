@@ -25,7 +25,7 @@ const WebDevelopmentCompany = () => {
                                     <h1 className="color-brand-5 mb-20 mt-10">Web Development</h1>
                                     <div className="row">
                                         <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">A solid online presence is essential for businesses that want to compete in today’s fast-paced digital environment. With our web development services, you can boost your business and differentiate yourself from your competitors. We build web platforms that resonate with your audience and meet your specific needs, focusing on custom web solutions.
+                                            <p className="font-md color-gray-900">
 We build stunning websites, exciting eCommerce platforms, and dynamic web applications that meet your business needs. Our custom web solutions enhance the user experience and productivity.
 </p>
 <p className="font-md color-gray-900 mt-10">Are you looking to transform your online visibility? Contact us through our contact form or give us a call to see how we can help you achieve your web development goals. Our dedicated staff is ready to help you create a compelling and engaging online presence. Contact us today to get started!</p>

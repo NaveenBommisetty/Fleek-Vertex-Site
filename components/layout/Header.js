@@ -33,7 +33,7 @@
                                                     <li><Link href="/web-development-company">Web Development</Link></li>
                                                     <li><Link href="/mobile-app-development-company">Mobile App Development</Link></li>
                                                     <li><Link href="/ecommerce-development-company">Ecommerce Development</Link></li>
-                                                    <li><Link href="/cloud-migration-company">Cloud Services</Link></li>
+                                                    <li><Link href="/cloud-migration-services">Cloud Services</Link></li>
                                                     <li><Link href="/jira-administration-services">JIRA Administration</Link></li>
                                                     <li><Link href="/branding-services">Branding Services</Link></li>
                                                     <li><Link href="/software-testing-company">Software Testing</Link></li>

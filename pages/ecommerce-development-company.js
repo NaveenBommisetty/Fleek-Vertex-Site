@@ -26,7 +26,7 @@ const ecommerceDevelopmentCompany = () => {
                                     <h1 className="color-brand-5 mb-20 mt-10">Ecommerce Development Company</h1>
                                     <div className="row">
                                         <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">We understand your business, goals, and target audience and have started to develop the solutions you need. Our team of experts will design user-friendly and visually appealing eCommerce websites optimized for conversion. Once your store is live, our ongoing support and maintenance services ensure flawless operation. Our experts specialize in customized eCommerce solutions to suit your needs. We are an experienced team of professionals with eCommerce development, design, and marketing expertise.</p>
+                                            <p className="font-md color-gray-900">We understand your business, goals, and target audience and have started to develop the solutions you need. Our team of experts will design user-friendly and visually appealing eCommerce websites optimized for conversion. Our experts specialize in customized eCommerce solutions to suit your needs.</p>
                                             <p className="font-md color-gray-900 mt-20">               If you’re ready to elevate your business with a bespoke eCommerce solution, we’re here to help. Contact us today to discuss your project and see how we can bring your vision to life.</p>
 
                                             <div className="box-button text-start mt-40">

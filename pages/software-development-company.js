@@ -24,12 +24,12 @@ const SoftwareDevelopmentCompany = () => {
                         <div className="banner-1">
                             <div className="row align-items-center">
                                 <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
-                                    <h1 className="color-brand-5 mb-20 mt-10">Software Development Services</h1>
+                                    <h1 className="color-brand-5 mb-10 mt-10">Software Development Services</h1>
                                     <div className="row">
                                         <div className="col-lg-9">
                                             <p className="font-md color-gray-900">In today's digital world, you can take your business to the next level with software designed just for you. Online presence is crucial for companies in an ever-changing and highly competitive world. When developing your software, you can stand out from the crowd and offer unique solutions to your users.
                                             </p><p className='mt-20'></p>
-                                            <p className="font-md color-gray-900">Contact our team via our contact form or call to discuss how we can help you achieve your digital goals. Our experts are ready to bring your ideas to life, whether you need a complete software solution, a mobile application, or a web platform. Contact us immediately to discuss your custom software development needs!</p>
+                                            <p className="font-md color-gray-900">Contact our team via our contact form or call to discuss how we can help you achieve your digital goals. Our experts are ready to bring your ideas to life, whether you need a complete software solution, a mobile application, or a web platform.</p>
                                             <div className="box-button text-start mt-20">
                                                 <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Get in Touch</Link>
                                             </div>

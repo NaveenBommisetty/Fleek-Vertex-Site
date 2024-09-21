@@ -26,7 +26,7 @@ const JiraAdministrationServices = () => {
                                     <h1 className="color-brand-5 mb-20 mt-10">Jira Administration Service</h1>
                                     <div className="row">
                                         <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">Our flexible project management features and customized workflows allow teams to meet their unique needs. You can improve your productivity by automating processes and using advanced reporting tools. You can take your projects to the next level with JIRA Administration. The JIRA Administration tool provides you with the ability to customize workflows based on your team's specific needs. Therefore, you can automate project management tasks. Your team can focus on what really matters - delivering amazing results.</p>
+                                            <p className="font-md color-gray-900">You can take your projects to the next level with JIRA Administration. The JIRA Administration tool provides you with the ability to customize workflows based on your team's specific needs. Therefore, you can automate project management tasks. Your team can focus on what really matters - delivering amazing results.</p>
                                             <p className="font-md color-gray-900 mt-20">We are here to help you every step of the way. Get in touch with us today to learn how JIRA collaboration can help your team become more productive.</p>
                                             <div className="box-button text-start mt-40">
                                                 <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Contact Us</Link>
