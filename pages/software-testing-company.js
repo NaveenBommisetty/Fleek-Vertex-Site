@@ -52,8 +52,8 @@ const SoftwareTesting = () => {
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">
-                                <div className="row pt-200">
-                                    <div className="box-image"><img src="assets/imgs/page/homepage2/img-marketing.png" alt="iori" /></div>
+                                <div className="row pt-100">
+                                    <div className="box-image"><img src="assets/imgs/software-testing-company.webp" alt="software testing company" /></div>
                                 </div>
                             </div>
                         </div>

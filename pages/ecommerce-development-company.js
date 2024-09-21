@@ -57,8 +57,8 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">
-                                <div className="row pt-200">
-                                    <div className="box-image"><img src="assets/imgs/page/homepage2/img-marketing.png" alt="iori" /></div>
+                                <div className="row pt-80">
+                                    <div className="box-image"><img src="assets/imgs/e-commerce-development-company.webp" alt="iori" /></div>
                                 </div>
                             </div>
                         </div>

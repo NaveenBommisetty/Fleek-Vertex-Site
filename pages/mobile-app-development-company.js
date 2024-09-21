@@ -58,8 +58,8 @@ const MobileAppDevelopmentCompany = () => {
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">
-                                <div className="row pt-180">
-                                    <div className="box-image"><img src="assets/imgs/page/homepage2/img-marketing.png" alt="iori" /></div>
+                                <div className="row pt-80 pb-50">
+                                    <div className="box-image"><img src="assets/imgs/mobile-app-development-company.webp" alt="iori" /></div>
                                 </div>
                             </div>
                         </div>
