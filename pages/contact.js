@@ -20,9 +20,9 @@ const ContactUs = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-      
+        
         try {
-          const response = await fetch('/api/contact', { // Ensure the path matches the API file path
+          const response = await fetch('/api/send-email', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -41,7 +41,6 @@ const ContactUs = () => {
           alert('There was an error sending your message. Please try again.');
         }
       };
-      
 
     return (
         <>
