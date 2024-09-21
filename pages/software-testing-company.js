@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Head from 'next/head';
 import { React } from 'react';
-import Accordion from '../components/elements/Accordion';
+import SoftwareTestingFaq from '../components/elements/SoftwareTestingFaq';
 import Layout from '../components/layout/Layout';
 import PageHead from '../components/layout/PageHead'
 import { useState } from 'react';
@@ -22,10 +22,10 @@ const SoftwareTesting = () => {
                         <div className="banner-1">
                             <div className="row align-items-center">
                                 <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
-                                    <h1 className="color-brand-5 mb-20 mt-10">Web Development Company</h1>
+                                    <h1 className="color-brand-5 mb-20 mt-10">Software Testing Company</h1>
                                     <div className="row">
                                         <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our.</p>
+                                            <p className="font-md color-gray-900">Fleek Vertex provides comprehensive software testing solutions. Our software testing services identify and fix bugs, errors, and other issues. We use the latest testing tools and methods to ensure your software meets its requirements. Our team understands the importance of delivering high-quality software. Our testing services are designed to meet the unique needs of our clients. A solid understanding of test methods and equipment is part of our team. If you're ready to improve the quality of your software through Fleek Vertex's expert testing, we'd love to hear from you. Get in touch with our team today to discuss your project requirements.</p>
                                             <div className="box-button text-start mt-40">
                                                 <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Contact Us</Link>
                                             </div>
@@ -41,38 +41,19 @@ const SoftwareTesting = () => {
                 </section> 
                 <section className="section mt-20">
                     <div className="container">
-                        <div className="row mt-50">
+                        <div className="row mt-50 mb-50">
                             <div className="col-xl-6 col-lg-5">
                                 <div className="box-images-project">
-                                    <div className="title-line mb-10">Why choose us?</div>
-                                    <h2 className="color-brand-1 mb-25">See why we are top trusted company in the world</h2>
-                                    <p className="color-grey-500 mb-15">Necessary to deliver white glove, fully managed campaigns that surpass industry benchmarks.Take your career to next level. Apply to our team and see what we can do together. You’re good enough.</p>
-                                    <p className="color-grey-500">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex. Ex illum officiis id.</p>
-                                    {/* <div className="box-button text-start mt-40"> <Link className="btn btn-brand-1 hover-up" href="#">Learn More</Link></div> */}
+                                    <span class="btn btn-tag-green">Get in touch</span>
+                                    <h2 className="color-brand-1 mb-15">Perfect Testing is the key to success.</h2>
+                                    <p className="color-gray-900 mb-15 font-md">Today's fast-paced digital environment makes it impossible to deliver high-quality software. Fleek Vertex provides robust software testing services to ensure your application is bug-free, secure, and ready to deliver an exceptional user experience. Our team of experts reviews your software carefully to identify vulnerabilities that automated scripts may miss. Manual testing allows even the tiniest defect to be caught. Automated Testing can speed up your release cycle. We offer continuous integration and delivery tools, ensuring you always have high-quality software. </p>
+                                    <p className="color-gray-900 mb-15 mt-10 font-md">Our extensive functional testing services ensure that your application will perform as expected. Our seamless user interface embraces everything and every service. A flawless app is essential in a mobile-first world. Mobile application testing covers various devices, operating systems, and network environments. </p>
+                                    <p className="color-gray-900 mb-15 mt-10 font-md">APIs are the backbone of modern software applications. Our API testing services ensure your APIs are reliable and secure and perform flawlessly under all conditions. We also provide comprehensive security testing for your software to prevent vulnerabilities. Our team identifies and mitigates potential risks to ensure the security of your application and the confidentiality of your data. If you’re ready to increase the quality of your software with Fleek Vertex’s expert testing services, we’d love to hear from you. Contact our team today to discuss your project requirements and learn how we can help your company. Let's work together to make your software stand out and provide an exceptional user experience.</p>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">
-                                <div className="row pt-40">
-                                    <div className="col-lg-6 col-md-6">
-                                        <div className="cardNumber hasBorder mt-50">
-                                            <div className="card-head">465k</div>
-                                            <div className="card-description">Social followers</div>
-                                        </div>
-                                        <div className="cardNumber bg-brand-2">
-                                            <div className="card-head">756+</div>
-                                            <div className="card-description">Project Done</div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6 col-md-6">
-                                        <div className="cardNumber bg-2">
-                                            <div className="card-head">5000+</div>
-                                            <div className="card-description">Happy Clients</div>
-                                        </div>
-                                        <div className="cardNumber bg-4">
-                                            <div className="card-head">100%</div>
-                                            <div className="card-description">Client Satisfaction</div>
-                                        </div>
-                                    </div>
+                                <div className="row pt-200">
+                                    <div className="box-image"><img src="assets/imgs/page/homepage2/img-marketing.png" alt="iori" /></div>
                                 </div>
                             </div>
                         </div>
@@ -84,89 +65,73 @@ const SoftwareTesting = () => {
                         <div className="row">
                             <div className="col-lg-12 text-center">
                                 <h3 className="color-brand-1 mb-20">Why You Should Consider Applying</h3>
-                                <p className="font-lg color-gray-500">We're lively, not corporate. We have the energy and boldness of a startup and <br className="d-none d-lg-block" />the expertise and pragmatism of a scale-up. All in one place.</p>
+                                <p className="font-lg color-gray-500">We offer our clients a comprehensive range of custom-made business software solutions designed to meet their needs.</p>
                             </div>
                         </div>
-                        <div className="row mt-65">
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image"><Link href="#">
-                                        <div className="box-image"><img src="assets/imgs/page/homepage1/free.svg" alt="iori" /></div></Link></div>
-                                    <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 mb-10">Connected</h6></Link>
-                                        <p className="font-xs color-grey-500">We come together wherever we are – across time zones, regions, offices and screens. You will receive support from your teammates anytime and anywhere.</p>
+                        <div class="row mt-50">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">Bespoke Software Development</h4>
+                                        <p class="font-md color-grey-500 mb-15">Customized solutions that deal with the problems and possibilities your business meets. We get to know your business well so that we can make unique software that improves your processes, makes them more efficient, and helps your business grow.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image"><Link href="#">
-                                        <div className="box-image"><img src="assets/imgs/page/homepage1/cross.png" alt="iori" /></div></Link></div>
-                                    <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 mb-10">Inclusive</h6></Link>
-                                        <p className="font-xs color-grey-500">Our teams reflect the rich diversity of our world, with equitable access to opportunity for everyone. No matter where you come from</p>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">Application Migration and Re-Engineering</h4>
+                                        <p class="font-md color-grey-500 mb-15">You can improve performance and scalability by updating your old platforms. Our team will look at the tools you already have, find ways to make it better, and make a plan for moving your business forward.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image"><Link href="#">
-                                        <div className="box-image"><img src="assets/imgs/page/homepage2/identity.png" alt="iori" /></div></Link></div>
-                                    <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 mb-10">Flexible</h6></Link>
-                                        <p className="font-xs color-grey-500">We believe in your freedom to work when and how you work best, to help us all thrive. Only freedom and independent work can bring out the best in you.</p>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">Software Application Maintenance</h4>
+                                        <p class="font-md color-grey-500 mb-15">Regular support and maintenance will help your program run smoothly. Not to worry, our team will take care of updates, bug fixes, and any other tech problems, leaving you to run your business.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image"><Link href="#">
-                                        <div className="box-image"><img src="assets/imgs/pages/homepage2/persuasion.png" alt="iori" /></div></Link></div>
-                                    <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 mb-10">Persuasion</h6></Link>
-                                        <p className="font-xs color-grey-500">Knowing that there is real value to be gained from helping people to simplify whatever it is that they do and bring.</p>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">SaaS Applications</h4>
+                                        <p class="font-md color-grey-500 mb-15">Make sure your business's SaaS options are reliable and scalable. Our team knows how to make applications that are safe, work well, and can be viewed from anywhere at any time.                                        </p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="row mt-65">
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image"><Link href="#">
-                                        <div className="box-image"><img src="assets/imgs/page/homepage1/free.svg" alt="iori" /></div></Link></div>
-                                    <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 mb-10">Connected</h6></Link>
-                                        <p className="font-xs color-grey-500">We come together wherever we are – across time zones, regions, offices and screens. You will receive support from your teammates anytime and anywhere.</p>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">Application Integration</h4>
+                                        <p class="font-md color-grey-500 mb-15">Integrate different apps without any problems to make your business processes run more smoothly. To connect your software systems and make them work better, our team can either make unique integrations or use existing APIs</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image"><Link href="#">
-                                        <div className="box-image"><img src="assets/imgs/page/homepage1/cross.png" alt="iori" /></div></Link></div>
-                                    <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 mb-10">Inclusive</h6></Link>
-                                        <p className="font-xs color-grey-500">Our teams reflect the rich diversity of our world, with equitable access to opportunity for everyone. No matter where you come from</p>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
                                     </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image"><Link href="#">
-                                        <div className="box-image"><img src="assets/imgs/page/homepage2/identity.png" alt="iori" /></div></Link></div>
-                                    <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 mb-10">Flexible</h6></Link>
-                                        <p className="font-xs color-grey-500">We believe in your freedom to work when and how you work best, to help us all thrive. Only freedom and independent work can bring out the best in you.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image"><Link href="#">
-                                        <div className="box-image"><img src="assets/imgs/pages/homepage2/persuasion.png" alt="iori" /></div></Link></div>
-                                    <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 mb-10">Persuasion</h6></Link>
-                                        <p className="font-xs color-grey-500">Knowing that there is real value to be gained from helping people to simplify whatever it is that they do and bring.</p>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">Maintenance and Support</h4>
+                                        <p class="font-md color-grey-500 mb-15">24/7 support to keep your devices running smoothly. Our team is available 24 hours a day, seven days a week to help with any technical problems and to make sure that your software is always up to date through regular maintenance.</p>
                                     </div>
                                 </div>
                             </div>
@@ -177,7 +142,7 @@ const SoftwareTesting = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 text-center">
-                                <h2 className="color-brand-1 mb-20">Services We Offer</h2>
+                                <h2 className="color-brand-1 mb-20">What We Offer</h2>
                                 <p className="font-lg color-gray-500">What makes us different from others? We give holistic solutions<br className="d-none d-lg-block" />with strategy, design &amp; technology.</p>
                             </div>
                         </div>
@@ -186,8 +151,8 @@ const SoftwareTesting = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer1.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/mobile-app-development-company">Mobile App Development Company</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/mobile-app-development-company">Manual Testing</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">Fleek Vertex provides hands-on testing services that ensure your software meets the highest standards. Our team ensures your application works smoothly across devices and platforms. Our manual testing solutions offer comprehensive insights into user experience, helping you achieve superior product quality.</p>
                                         <div className="box-button-offer"><Link href="/mobile-app-development-company" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -199,8 +164,8 @@ const SoftwareTesting = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer2.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/software-development-company">Software Development Company</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/software-development-company">Automated Testing</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">Our Testing extends the development life of your software with speed and accuracy unmatched by manual Testing. We enable rapid Testing with robust automation and state-of-the-art tools. Automation reduces human error, saves time, and reduces operational costs, helping high-quality software be deployed faster.</p>
                                         <div className="box-button-offer"><Link href="/software-development-company" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -212,8 +177,8 @@ const SoftwareTesting = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer3.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/digital-marketing-services">Digital Marketing Services</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/digital-marketing-services">Functional Testing</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">Functional Testing ensures that your software's features align with your business goals. We rigorously test all features, from user interfaces to APIs, to ensure they function as intended in real-world scenarios. By detecting anomalies and inconsistencies, we ensure a robust and reliable product before release.</p>
                                         <div className="box-button-offer"><Link href="/digital-marketing-services" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -225,8 +190,8 @@ const SoftwareTesting = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer4.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/cloud-migration-services">Cloud Migration Services</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/cloud-migration-services">Mobile App Testing</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">We offer top-notch Mobile App Testing Services for all platforms and devices. Our experts use manual and automated testing strategies to assess usability, functionality, and security. Our simulations identify potential issues, ensuring precision performance, rapid response time, and seamless user experience.</p>
                                         <div className="box-button-offer"><Link href="/cloud-migration-services" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -238,8 +203,8 @@ const SoftwareTesting = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer5.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">Manage budgets and resources</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">API Testing</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">API testing ensures your software integration is highly reliable and functional. Automated manual Testing ensures API functionality under various conditions. Our responsibility is to test for issues such as incorrect data structures, security vulnerabilities, and performance challenges.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -251,8 +216,8 @@ const SoftwareTesting = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Unlimited ways to work</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Security Testing</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">Software security testing is critical to protecting it from potential vulnerabilities and threats. Our security tester scans your application, runs penetrating tests, and reviews the security code. We simulate real-world cyber attacks to assess your software's resilience and recommend improving its security.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -279,7 +244,7 @@ const SoftwareTesting = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/certification.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="icon-up-black">Certification</h6></Link></div>
+                                        <h6 className="icon-up-black">Education</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -287,7 +252,7 @@ const SoftwareTesting = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/conference.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Conference</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Construction</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -295,7 +260,7 @@ const SoftwareTesting = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/research.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Research</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Retail & Ecommerce</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -303,7 +268,7 @@ const SoftwareTesting = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/dispersal.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Dispersal</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Health Care</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -311,7 +276,7 @@ const SoftwareTesting = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/enterprise.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Enterprise</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Travel & Hospitality</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -319,7 +284,55 @@ const SoftwareTesting = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Team Building</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Oil & Gas</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-8">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Energy</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-10">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Entertainment</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-11">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">E-commerce</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-1">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Mining</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-2">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Public Sector</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-3">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Logistics</h6></Link></div>
                                 </div>
                             </div>
                         </div>
@@ -337,26 +350,27 @@ const SoftwareTesting = () => {
                             </div>
                             <div className="col-lg-6">
                                 <div className="box-cover-pd-2">
-                                    <h2 className="color-brand-1 mb-30">How to grow your <br className="d-none d-lg-block" />business fast</h2>
+                                    <h2 className="color-brand-1 mb-30">Boost your business with our<br className="d-none d-lg-block" />3-step strategy</h2>
+                                    <p className="font-md color-grey-500">Business growth can be challenging in today's competitive environment. However, our flexible system makes achieving sustainable, stress-free growth easy.</p>
                                     <div className="item-number hover-up">
                                         <div className="num-ele">1</div>
                                         <div className="info-num">
-                                            <h5 className="color-brand-1 mb-15">Create an account</h5>
-                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                            <h5 className="color-brand-1 mb-15">Make sure you're in the correct position</h5>
+                                            <p className="font-md color-grey-500">We analyze your business to identify strengths, weaknesses, opportunities, and threats. This foundational step ensures we have a clear understanding of your startup.</p>
                                         </div>
                                     </div>
                                     <div className="item-number hover-up">
                                         <div className="num-ele">2</div>
                                         <div className="info-num">
-                                            <h5 className="color-brand-1 mb-15">Build your founding team</h5>
-                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                            <h5 className="color-brand-1 mb-15">Make a development plan.</h5>
+                                            <p className="font-md color-grey-500">Our team develops a customized strategy based on your business objectives. This strategy includes actionable steps to improve efficiency, enhance marketing efforts, and generate revenue.</p>
                                         </div>
                                     </div>
                                     <div className="item-number hover-up">
                                         <div className="num-ele">3</div>
                                         <div className="info-num">
-                                            <h5 className="color-brand-1 mb-15">Launch and Scale</h5>
-                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                            <h5 className="color-brand-1 mb-15">Implementation and maintenance</h5>
+                                            <p className="font-md color-grey-500">We provide the tools and guidance you need to succeed during the implementation phase. Our data-driven approach keeps your business running smoothly by constantly monitoring progress.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -573,19 +587,19 @@ const SoftwareTesting = () => {
                             <div className="col-xl-12 col-lg-12">
                                 <div className="tab-content tab-content-slider">
                                     <div className={activeIndex === 1 ? "tab-pane fade active show" : "tab-pane fade"}>
-                                        <Accordion title="General Support FAQs" />
+                                        <SoftwareTestingFaq title="General Support FAQs" />
                                     </div>
                                     <div className={activeIndex === 2 ? "tab-pane fade active show" : "tab-pane fade"}>
-                                        <Accordion title="Order / Purchase FAQs" />
+                                        <SoftwareTestingFaq title="Order / Purchase FAQs" />
                                     </div>
                                     <div className={activeIndex === 3 ? "tab-pane fade active show" : "tab-pane fade"}>
-                                        <Accordion title="Download / Install FAQs" />
+                                        <SoftwareTestingFaq title="Download / Install FAQs" />
                                     </div>
                                     <div className={activeIndex === 4 ? "tab-pane fade active show" : "tab-pane fade"}>
-                                        <Accordion title="Technology FAQs" />
+                                        <SoftwareTestingFaq title="Technology FAQs" />
                                     </div>
                                     <div className={activeIndex === 5 ? "tab-pane fade active show" : "tab-pane fade"}>
-                                        <Accordion title="Your Account FAQs" />
+                                        <SoftwareTestingFaq title="Your Account FAQs" />
                                     </div>
                                 </div>
                             </div>

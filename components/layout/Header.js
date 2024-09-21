@@ -37,7 +37,7 @@
                                                     <li><Link href="/jira-administration-services">JIRA Administration</Link></li>
                                                     <li><Link href="/branding-services">Branding Services</Link></li>
                                                     <li><Link href="/software-testing-company">Software Testing</Link></li>
-                                                    <li><Link href="/website-hosting-and-maintanance">Hosting & Maintanance</Link></li>
+                                                    {/* <li><Link href="/website-hosting-and-maintanance">Hosting & Maintanance</Link></li> */}
                                                 </ul>
                                             </li>
                                             <li><Link href="blog">Blog</Link></li> 

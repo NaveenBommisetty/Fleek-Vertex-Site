@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Head from 'next/head';
 import { React } from 'react';
-import Accordion from '../components/elements/Accordion';
+import JiraFaq from '../components/elements/JiraFaq';
 import Layout from '../components/layout/Layout';
 import { useState } from 'react';
 
@@ -15,7 +15,7 @@ const JiraAdministrationServices = () => {
     return (
         <>
             <Head>
-                <title>Digital Marketing Company</title>
+                <title>Jira Administration Service Company</title>
             </Head>
             <Layout>
             <section className="section banner-contact">
@@ -23,10 +23,11 @@ const JiraAdministrationServices = () => {
                         <div className="banner-1">
                             <div className="row align-items-center">
                                 <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
-                                    <h1 className="color-brand-5 mb-20 mt-10">Digital Marketing Company</h1>
+                                    <h1 className="color-brand-5 mb-20 mt-10">Jira Administration Service</h1>
                                     <div className="row">
                                         <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our.</p>
+                                            <p className="font-md color-gray-900">Our flexible project management features and customized workflows allow teams to meet their unique needs. You can improve your productivity by automating processes and using advanced reporting tools. You can take your projects to the next level with JIRA Administration. The JIRA Administration tool provides you with the ability to customize workflows based on your team's specific needs. Therefore, you can automate project management tasks. Your team can focus on what really matters - delivering amazing results.</p>
+                                            <p className="font-md color-gray-900 mt-20">We are here to help you every step of the way. Get in touch with us today to learn how JIRA collaboration can help your team become more productive.</p>
                                             <div className="box-button text-start mt-40">
                                                 <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Contact Us</Link>
                                             </div>
@@ -42,38 +43,21 @@ const JiraAdministrationServices = () => {
                 </section> 
                 <section className="section mt-20">
                     <div className="container">
-                        <div className="row mt-50">
+                        <div className="row mt-50 mb-50">
                             <div className="col-xl-6 col-lg-5">
                                 <div className="box-images-project">
-                                    <div className="title-line mb-10">Why choose us?</div>
-                                    <h2 className="color-brand-1 mb-25">See why we are top trusted company in the world</h2>
-                                    <p className="color-grey-500 mb-15">Necessary to deliver white glove, fully managed campaigns that surpass industry benchmarks.Take your career to next level. Apply to our team and see what we can do together. You’re good enough.</p>
-                                    <p className="color-grey-500">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex. Ex illum officiis id.</p>
-                                    <div className="box-button text-start mt-40"> <Link className="btn btn-brand-1 hover-up" href="#">Learn More</Link></div>
+                                    <span class="btn btn-tag-green">Get in touch</span>
+                                    <h2 className="color-brand-1 mb-15">Why You Should Use JIRA Administration</h2>
+                                    <p className="color-gray-900 mb-15 font-md">JIRA Administration gives you the flexibility to create different workflows for different projects. Whatever the project, whether it is a marketing campaign or a software development project, you can design a workflow to suit its needs. It not only saves time, but streamlined processes ensure maximum efficiency for your team.</p>
+                                    <p className="color-gray-900 mb-15 mt-10 font-md">A major advantage of JIRA's performance is its capability to produce better reports. Your business can be monitored in real-time with customizable dashboards and accurate data so that you can make informed decisions. This makes it easier to identify improvement areas, which results in better project outcomes.</p>
+                                    <p className="color-gray-900 mb-15 mt-10 font-md">A number of powerful automation features are available in JIRA Administration, which can reduce the amount of manual work and increase productivity. You can automate tasks, assign tasks based on skills, and trigger notifications based on certain conditions. By using these systems, your team is able to save time and energy.</p>
+                                    <p className="color-gray-900 mb-15 mt-10 font-md">JIRA Workshops also provide collaboration tools to facilitate seamless communication between team members. All team members can easily access important information with notes, comments, and attachments. Communication is improved overall as a result of maintaining transparency.</p>
+                                    <p className="color-gray-900 mb-15 mt-10 font-md">JIRA Administration provides powerful features as well as a user-friendly interface. This makes it easy for beginners and experienced users alike to use the platform. JIRA's performance ensures a smooth user experience, thanks to its scalable design and flexible configuration. Let us help you revolutionize your team's workflow with JIRA Administration. As a team, we can achieve outstanding results and make your projects a success.</p>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">
-                                <div className="row pt-40">
-                                    <div className="col-lg-6 col-md-6">
-                                        <div className="cardNumber hasBorder mt-50">
-                                            <div className="card-head">465k</div>
-                                            <div className="card-description">Social followers</div>
-                                        </div>
-                                        <div className="cardNumber bg-brand-2">
-                                            <div className="card-head">756+</div>
-                                            <div className="card-description">Project Done</div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6 col-md-6">
-                                        <div className="cardNumber bg-2">
-                                            <div className="card-head">5000+</div>
-                                            <div className="card-description">Happy Clients</div>
-                                        </div>
-                                        <div className="cardNumber bg-4">
-                                            <div className="card-head">100%</div>
-                                            <div className="card-description">Client Satisfaction</div>
-                                        </div>
-                                    </div>
+                                <div className="row pt-200">
+                                    <div className="box-image"><img src="assets/imgs/page/homepage2/img-marketing.png" alt="iori" /></div>
                                 </div>
                             </div>
                         </div>
@@ -85,47 +69,73 @@ const JiraAdministrationServices = () => {
                         <div className="row">
                             <div className="col-lg-12 text-center">
                                 <h3 className="color-brand-1 mb-20">Why You Should Consider Applying</h3>
-                                <p className="font-lg color-gray-500">We're lively, not corporate. We have the energy and boldness of a startup and <br className="d-none d-lg-block" />the expertise and pragmatism of a scale-up. All in one place.</p>
+                                <p className="font-lg color-gray-500">We offer our clients a comprehensive range of custom-made business software solutions designed to meet their needs.</p>
                             </div>
                         </div>
-                        <div className="row mt-65">
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image"><Link href="#">
-                                        <div className="box-image"><img src="assets/imgs/page/homepage1/free.svg" alt="iori" /></div></Link></div>
-                                    <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 mb-10">Connected</h6></Link>
-                                        <p className="font-xs color-grey-500">We come together wherever we are – across time zones, regions, offices and screens. You will receive support from your teammates anytime and anywhere.</p>
+                        <div class="row mt-50">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">Bespoke Software Development</h4>
+                                        <p class="font-md color-grey-500 mb-15">Customized solutions that deal with the problems and possibilities your business meets. We get to know your business well so that we can make unique software that improves your processes, makes them more efficient, and helps your business grow.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image"><Link href="#">
-                                        <div className="box-image"><img src="assets/imgs/page/homepage1/cross.png" alt="iori" /></div></Link></div>
-                                    <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 mb-10">Inclusive</h6></Link>
-                                        <p className="font-xs color-grey-500">Our teams reflect the rich diversity of our world, with equitable access to opportunity for everyone. No matter where you come from</p>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">Application Migration and Re-Engineering</h4>
+                                        <p class="font-md color-grey-500 mb-15">You can improve performance and scalability by updating your old platforms. Our team will look at the tools you already have, find ways to make it better, and make a plan for moving your business forward.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image"><Link href="#">
-                                        <div className="box-image"><img src="assets/imgs/page/homepage2/identity.png" alt="iori" /></div></Link></div>
-                                    <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 mb-10">Flexible</h6></Link>
-                                        <p className="font-xs color-grey-500">We believe in your freedom to work when and how you work best, to help us all thrive. Only freedom and independent work can bring out the best in you.</p>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">Software Application Maintenance</h4>
+                                        <p class="font-md color-grey-500 mb-15">Regular support and maintenance will help your program run smoothly. Not to worry, our team will take care of updates, bug fixes, and any other tech problems, leaving you to run your business.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image"><Link href="#">
-                                        <div className="box-image"><img src="assets/imgs/pages/homepage2/persuasion.png" alt="iori" /></div></Link></div>
-                                    <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 mb-10">Persuasion</h6></Link>
-                                        <p className="font-xs color-grey-500">Knowing that there is real value to be gained from helping people to simplify whatever it is that they do and bring.</p>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">SaaS Applications</h4>
+                                        <p class="font-md color-grey-500 mb-15">Make sure your business's SaaS options are reliable and scalable. Our team knows how to make applications that are safe, work well, and can be viewed from anywhere at any time.                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">Application Integration</h4>
+                                        <p class="font-md color-grey-500 mb-15">Integrate different apps without any problems to make your business processes run more smoothly. To connect your software systems and make them work better, our team can either make unique integrations or use existing APIs</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">Maintenance and Support</h4>
+                                        <p class="font-md color-grey-500 mb-15">24/7 support to keep your devices running smoothly. Our team is available 24 hours a day, seven days a week to help with any technical problems and to make sure that your software is always up to date through regular maintenance.</p>
                                     </div>
                                 </div>
                             </div>
@@ -136,7 +146,7 @@ const JiraAdministrationServices = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 text-center">
-                                <h2 className="color-brand-1 mb-20">Services We Offer</h2>
+                                <h2 className="color-brand-1 mb-20">What We Offer</h2>
                                 <p className="font-lg color-gray-500">What makes us different from others? We give holistic solutions<br className="d-none d-lg-block" />with strategy, design &amp; technology.</p>
                             </div>
                         </div>
@@ -145,8 +155,8 @@ const JiraAdministrationServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer1.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">Manage budgets and resources</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">Project Management & Configuration</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">JIRA collaboration is based on effective project management and planning. You can handle everything effortlessly with robust project management tools. You can configure granularity, configuration, permissions, and workflows to suit your team's needs. These features include Project Configuration, Permission Management, Custom Workflows, and Third-Party Tool Integration.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -158,8 +168,8 @@ const JiraAdministrationServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer2.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Employee Assessments</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">User Management</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">With JIRA Administration, you can manage users appropriately, ensuring they have access to the right resources. JIRA allows you to configure permissions based on business process requirements. It lets us add and manage users, set up groups, plan routes, and measure accountability.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -171,8 +181,8 @@ const JiraAdministrationServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer3.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="No lag time, no lost effort when priorities change, no email black hole. As team collaboration improves">Smart Installation Tools</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="No lag time, no lost effort when priorities change, no email black hole. As team collaboration improves">Workflow Configuration</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">Your project's workflows can be tailored with JIRA Administration's versatile tools. It is possible to set up a flexible process using steps, variables, and actions. It allows you to define business steps, manage change, automate workflows, and create custom actions.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -184,8 +194,8 @@ const JiraAdministrationServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer4.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Share updates instantly within our project management software, and get the entire team collaborating">Collaborative to the core.</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Share updates instantly within our project management software, and get the entire team collaborating">JIRA Service Management</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">JIRA Service Management provides comprehensive tools for IT service management, customer service, and more. The JIRA Software integrates seamlessly with JIRA Software, providing a unified platform for managing events, requests, changes, and policies, resulting in enhanced productivity and responsiveness.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -197,8 +207,8 @@ const JiraAdministrationServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer5.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">Manage budgets and resources</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">JIRA Software (Agile) Configuration</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">The JIRA Software provides powerful design methods for Agile methodologies. Workflows can be monitored, created, and managed by sprints, project visibility, and swimlanes with JIRA workflows. Your team can focus on delivering continuous value by aligning the JIRA Software framework with your Agile practices.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -210,8 +220,47 @@ const JiraAdministrationServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Unlimited ways to work</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Automation Rules</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">A JIRA automation rule simplifies common tasks, saves time, and reduces errors. Business processes can be automated using triggers, conditions, and actions. Automation increases productivity, accuracy, and compliance. You can achieve business success and efficiency by using JIRA's flexible rules automation.</p>
+                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="card-offer card-we-do hover-up">
+                                    <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
+                                    <div className="card-info">
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">JIRA Reporting and Dashboards</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">JIRA Reports and Dashboards are powerful tools for analyzing business performance. You can create customized dashboards for JIRA projects to provide teams with key information at a glance and to help them track progress, identify challenges, and make decisions. It provides a comprehensive overview of team health.</p>
+                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="card-offer card-we-do hover-up">
+                                    <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
+                                    <div className="card-info">
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Add-On/Plugin Management</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">In JIRA, adding plugins and add-ons extends its functionality to meet team needs. JIRA plugins, including time tracking, reporting, and advanced workflows, can be discovered, installed, and managed through the Atlassian Marketplace. Installing and updating plugins is easy with the intuitive interface.</p>
+                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                            </svg></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="card-offer card-we-do hover-up">
+                                    <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
+                                    <div className="card-info">
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Integration With Third-party Apps</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">JIRA's functionality can be extended by adding plugins and add-ons. JIRA plugins, such as real-time tracking and reporting, can be discovered, installed, and managed through Atlassian Marketplace. We integrated JIRA with tools such as Confluence, Bitbucket, Slack, and third-party apps to enhance collaboration.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -238,7 +287,7 @@ const JiraAdministrationServices = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/certification.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="icon-up-black">Certification</h6></Link></div>
+                                        <h6 className="icon-up-black">Education</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -246,7 +295,7 @@ const JiraAdministrationServices = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/conference.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Conference</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Construction</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -254,7 +303,7 @@ const JiraAdministrationServices = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/research.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Research</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Retail & Ecommerce</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -262,7 +311,7 @@ const JiraAdministrationServices = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/dispersal.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Dispersal</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Health Care</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -270,7 +319,7 @@ const JiraAdministrationServices = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/enterprise.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Enterprise</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Travel & Hospitality</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -278,7 +327,55 @@ const JiraAdministrationServices = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Team Building</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Oil & Gas</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-8">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Energy</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-10">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Entertainment</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-11">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">E-commerce</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-1">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Mining</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-2">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Public Sector</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-3">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Logistics</h6></Link></div>
                                 </div>
                             </div>
                         </div>
@@ -296,26 +393,27 @@ const JiraAdministrationServices = () => {
                             </div>
                             <div className="col-lg-6">
                                 <div className="box-cover-pd-2">
-                                    <h2 className="color-brand-1 mb-30">How to grow your <br className="d-none d-lg-block" />business fast</h2>
+                                    <h2 className="color-brand-1 mb-30">Boost your business with our<br className="d-none d-lg-block" />3-step strategy</h2>
+                                    <p className="font-md color-grey-500">Business growth can be challenging in today's competitive environment. However, our flexible system makes achieving sustainable, stress-free growth easy.</p>
                                     <div className="item-number hover-up">
                                         <div className="num-ele">1</div>
                                         <div className="info-num">
-                                            <h5 className="color-brand-1 mb-15">Create an account</h5>
-                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                            <h5 className="color-brand-1 mb-15">Make sure you're in the correct position</h5>
+                                            <p className="font-md color-grey-500">We analyze your business to identify strengths, weaknesses, opportunities, and threats. This foundational step ensures we have a clear understanding of your startup.</p>
                                         </div>
                                     </div>
                                     <div className="item-number hover-up">
                                         <div className="num-ele">2</div>
                                         <div className="info-num">
-                                            <h5 className="color-brand-1 mb-15">Build your founding team</h5>
-                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                            <h5 className="color-brand-1 mb-15">Make a development plan.</h5>
+                                            <p className="font-md color-grey-500">Our team develops a customized strategy based on your business objectives. This strategy includes actionable steps to improve efficiency, enhance marketing efforts, and generate revenue.</p>
                                         </div>
                                     </div>
                                     <div className="item-number hover-up">
                                         <div className="num-ele">3</div>
                                         <div className="info-num">
-                                            <h5 className="color-brand-1 mb-15">Launch and Scale</h5>
-                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                            <h5 className="color-brand-1 mb-15">Implementation and maintenance</h5>
+                                            <p className="font-md color-grey-500">We provide the tools and guidance you need to succeed during the implementation phase. Our data-driven approach keeps your business running smoothly by constantly monitoring progress.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -532,19 +630,19 @@ const JiraAdministrationServices = () => {
                             <div className="col-xl-12 col-lg-12">
                                 <div className="tab-content tab-content-slider">
                                     <div className={activeIndex === 1 ? "tab-pane fade active show" : "tab-pane fade"}>
-                                        <Accordion title="General Support FAQs" />
+                                        <JiraFaq title="General Support FAQs" />
                                     </div>
                                     <div className={activeIndex === 2 ? "tab-pane fade active show" : "tab-pane fade"}>
-                                        <Accordion title="Order / Purchase FAQs" />
+                                        <JiraFaq title="Order / Purchase FAQs" />
                                     </div>
                                     <div className={activeIndex === 3 ? "tab-pane fade active show" : "tab-pane fade"}>
-                                        <Accordion title="Download / Install FAQs" />
+                                        <JiraFaq title="Download / Install FAQs" />
                                     </div>
                                     <div className={activeIndex === 4 ? "tab-pane fade active show" : "tab-pane fade"}>
-                                        <Accordion title="Technology FAQs" />
+                                        <JiraFaq title="Technology FAQs" />
                                     </div>
                                     <div className={activeIndex === 5 ? "tab-pane fade active show" : "tab-pane fade"}>
-                                        <Accordion title="Your Account FAQs" />
+                                        <JiraFaq title="Your Account FAQs" />
                                     </div>
                                 </div>
                             </div>
