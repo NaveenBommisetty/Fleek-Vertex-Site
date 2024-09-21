@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Head from 'next/head';
 import { React } from 'react';
-import Accordion from '../components/elements/Accordion';
+import BrandingFaq from '../components/elements/BrandingFaq';
 import Layout from '../components/layout/Layout';
 import { useState } from 'react';
 
@@ -15,7 +15,7 @@ const BrandingServices = () => {
     return (
         <>
             <Head>
-                <title>Web Development Company</title>
+                <title>Branding service Company</title>
             </Head>
 
             <Layout>
@@ -24,10 +24,10 @@ const BrandingServices = () => {
                         <div className="banner-1">
                             <div className="row align-items-center">
                                 <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
-                                    <h1 className="color-brand-5 mb-20 mt-10">Web Development Company</h1>
+                                    <h1 className="color-brand-5 mb-20 mt-10">Branding Services Company</h1>
                                     <div className="row">
                                         <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">Request a demo, ask a question, or get in touch here. If you’re interested in working at Iori Coporation, check out our.</p>
+                                            <p className="font-md color-gray-900">It is more than just having a logo or colors that define your brand. It's about building a unique identity for your business that embodies its values, mission, and personality. It can benefit your business to have a strong logo that stands out from others in the same industry, builds customer trust, and ultimately increases sales and customer loyalty. A company's brand should stand out in today's highly competitive market. Your branding often makes or breaks your potential customer's decision to choose you over the competition. We are here to help you create a memorable and impactful brand identity. Contact Us today.</p>
                                             <div className="box-button text-start mt-40">
                                                 <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Contact Us</Link>
                                             </div>
@@ -43,38 +43,20 @@ const BrandingServices = () => {
                 </section> 
                 <section className="section mt-20">
                     <div className="container">
-                        <div className="row mt-50">
+                        <div className="row mt-50 mb-50">
                             <div className="col-xl-6 col-lg-5">
                                 <div className="box-images-project">
-                                    <div className="title-line mb-10">Why choose us?</div>
-                                    <h2 className="color-brand-1 mb-25">See why we are top trusted company in the world</h2>
-                                    <p className="color-grey-500 mb-15">Necessary to deliver white glove, fully managed campaigns that surpass industry benchmarks.Take your career to next level. Apply to our team and see what we can do together. You’re good enough.</p>
-                                    <p className="color-grey-500">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature Id pro doctus mediocrem erroribus, diam nostro sed cu. Ea pri graeco tritani partiendo. Omittantur No tale choro fastidii his, pri cu epicuri perpetua. Enim dictas omittantur et duo, vocent lucilius quaestio mea ex. Ex illum officiis id.</p>
-                                    <div className="box-button text-start mt-40"> <Link className="btn btn-brand-1 hover-up" href="#">Learn More</Link></div>
+                                    <span class="btn btn-tag-green">Get in touch</span>
+                                    <h2 className="color-brand-1 mb-15">Build a Brand that Stands Out</h2>
+                                    <p className="color-gray-900 mb-15 font-md">Fleek Vertex understands the importance of branding and how it can impact your business's success. We offer various branding services to help companies elevate their brand identity. We help you identify the unique attributes that make your brand stand out and create an identity that resonates with your customers. Our cohesive brand guidelines ensure consistency across all your communication channels. </p>
+                                    <p className="color-gray-900 mb-15 mt-10 font-md">We provide everything from logo design and messaging to a brand style guide that ensures consistency across all marketing materials. By working closely with our team, you will be able to create a brand that truly reflects your company's strengths and unique selling points. We also specialize in rebranding established businesses that need a fresh look or want to update their existing branding to reflect their current goals and values better.</p>
+                                    <p className="color-gray-900 mb-15 mt-10 font-md">A solid and cohesive brand identity is essential for a company's success in today's competitive marketplace. We at Fleek Vertex specialize in helping our clients create unique brand identities that capture their distinctive personalities and values. We can help you elevate your brand to new heights and make it stand out. Our experienced team will guide you through rebranding, ensuring a smooth transition and a successful result.</p>
+                                    <p className="color-gray-900 mb-15 mt-10 font-md">Let's build an effective, memorable, and strong brand together. Your customers will appreciate it! Do not hesitate to contact Fleek Vertex today to experience the power of a well-crafted brand identity. Let's work together to take your company to new heights. Don't hesitate to contact us if you have any questions!</p>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">
-                                <div className="row pt-40">
-                                    <div className="col-lg-6 col-md-6">
-                                        <div className="cardNumber hasBorder mt-50">
-                                            <div className="card-head">465k</div>
-                                            <div className="card-description">Social followers</div>
-                                        </div>
-                                        <div className="cardNumber bg-brand-2">
-                                            <div className="card-head">756+</div>
-                                            <div className="card-description">Project Done</div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6 col-md-6">
-                                        <div className="cardNumber bg-2">
-                                            <div className="card-head">5000+</div>
-                                            <div className="card-description">Happy Clients</div>
-                                        </div>
-                                        <div className="cardNumber bg-4">
-                                            <div className="card-head">100%</div>
-                                            <div className="card-description">Client Satisfaction</div>
-                                        </div>
-                                    </div>
+                                <div className="row pt-200">
+                                    <div className="box-image"><img src="assets/imgs/page/homepage2/img-marketing.png" alt="iori" /></div>
                                 </div>
                             </div>
                         </div>
@@ -86,47 +68,73 @@ const BrandingServices = () => {
                         <div className="row">
                             <div className="col-lg-12 text-center">
                                 <h3 className="color-brand-1 mb-20">Why You Should Consider Applying</h3>
-                                <p className="font-lg color-gray-500">We're lively, not corporate. We have the energy and boldness of a startup and <br className="d-none d-lg-block" />the expertise and pragmatism of a scale-up. All in one place.</p>
+                                <p className="font-lg color-gray-500">We offer our clients a comprehensive range of custom-made business software solutions designed to meet their needs.</p>
                             </div>
                         </div>
-                        <div className="row mt-65">
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image"><Link href="#">
-                                        <div className="box-image"><img src="assets/imgs/page/homepage1/free.svg" alt="iori" /></div></Link></div>
-                                    <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 mb-10">Connected</h6></Link>
-                                        <p className="font-xs color-grey-500">We come together wherever we are – across time zones, regions, offices and screens. You will receive support from your teammates anytime and anywhere.</p>
+                        <div class="row mt-50">
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">Bespoke Software Development</h4>
+                                        <p class="font-md color-grey-500 mb-15">Customized solutions that deal with the problems and possibilities your business meets. We get to know your business well so that we can make unique software that improves your processes, makes them more efficient, and helps your business grow.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image"><Link href="#">
-                                        <div className="box-image"><img src="assets/imgs/page/homepage1/cross.png" alt="iori" /></div></Link></div>
-                                    <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 mb-10">Inclusive</h6></Link>
-                                        <p className="font-xs color-grey-500">Our teams reflect the rich diversity of our world, with equitable access to opportunity for everyone. No matter where you come from</p>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">Application Migration and Re-Engineering</h4>
+                                        <p class="font-md color-grey-500 mb-15">You can improve performance and scalability by updating your old platforms. Our team will look at the tools you already have, find ways to make it better, and make a plan for moving your business forward.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image"><Link href="#">
-                                        <div className="box-image"><img src="assets/imgs/page/homepage2/identity.png" alt="iori" /></div></Link></div>
-                                    <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 mb-10">Flexible</h6></Link>
-                                        <p className="font-xs color-grey-500">We believe in your freedom to work when and how you work best, to help us all thrive. Only freedom and independent work can bring out the best in you.</p>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">Software Application Maintenance</h4>
+                                        <p class="font-md color-grey-500 mb-15">Regular support and maintenance will help your program run smoothly. Not to worry, our team will take care of updates, bug fixes, and any other tech problems, leaving you to run your business.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6">
-                                <div className="card-small card-small-2">
-                                    <div className="card-image"><Link href="#">
-                                        <div className="box-image"><img src="assets/imgs/pages/homepage2/persuasion.png" alt="iori" /></div></Link></div>
-                                    <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 mb-10">Persuasion</h6></Link>
-                                        <p className="font-xs color-grey-500">Knowing that there is real value to be gained from helping people to simplify whatever it is that they do and bring.</p>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">SaaS Applications</h4>
+                                        <p class="font-md color-grey-500 mb-15">Make sure your business's SaaS options are reliable and scalable. Our team knows how to make applications that are safe, work well, and can be viewed from anywhere at any time.                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">Application Integration</h4>
+                                        <p class="font-md color-grey-500 mb-15">Integrate different apps without any problems to make your business processes run more smoothly. To connect your software systems and make them work better, our team can either make unique integrations or use existing APIs</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6">
+                                <div class="card-offer hover-up">
+                                    <div class="card-image">
+                                        <img src="assets/imgs/page/job-detail/ui.png" alt="iori" />
+                                    </div>
+                                    <div class="card-info">
+                                        <h4 class="color-brand-1 mb-15">Maintenance and Support</h4>
+                                        <p class="font-md color-grey-500 mb-15">24/7 support to keep your devices running smoothly. Our team is available 24 hours a day, seven days a week to help with any technical problems and to make sure that your software is always up to date through regular maintenance.</p>
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +145,7 @@ const BrandingServices = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 text-center">
-                                <h2 className="color-brand-1 mb-20">Services We Offer</h2>
+                                <h2 className="color-brand-1 mb-20">What We Offer</h2>
                                 <p className="font-lg color-gray-500">What makes us different from others? We give holistic solutions<br className="d-none d-lg-block" />with strategy, design &amp; technology.</p>
                             </div>
                         </div>
@@ -146,8 +154,8 @@ const BrandingServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer1.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">Manage budgets and resources</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">Brand Identity Development</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">Brand identity is one of the most essential elements of your business's success. It is carefully designed to capture your business's essence. Our integrated design package includes logo design, typography, color palettes, and more.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -159,8 +167,8 @@ const BrandingServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer2.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Employee Assessments</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Brand Guidelines</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">Fleek Vertex's brand guide service ensures that your brand's visual and verbal messaging remains consistent across all platforms. Our brand guide contains expert tips on how to maximize the potential of your logo, color scheme, typography, and images.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -172,8 +180,8 @@ const BrandingServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer3.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="No lag time, no lost effort when priorities change, no email black hole. As team collaboration improves">Smart Installation Tools</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="No lag time, no lost effort when priorities change, no email black hole. As team collaboration improves">Naming & Brand Identity Creation</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">Fleek Vertex understands how important your brand name and identity are to how people recognize your work. Brand Identity Creation enables your organization to establish a name that reflects its values and mission and resonates with your target audience.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -185,8 +193,8 @@ const BrandingServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer4.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Share updates instantly within our project management software, and get the entire team collaborating">Collaborative to the core.</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Share updates instantly within our project management software, and get the entire team collaborating">Brand Collateral Design</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">Fleek Vertex offers comprehensive collateral design solutions that extend the brand identity at every touchpoint. We ensure that everything, from business cards and brochures to digital assets and promotional materials, reflects your brand's unique style and message.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -198,8 +206,8 @@ const BrandingServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer5.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">Manage budgets and resources</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">Digital Branding</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">Our digital branding enhances your brand's impact across all digital platforms. Our first step is to assess your digital footprint. Our experts then develop a strategy for your brand that includes web design, social media profiles, online advertising, and other digital touchpoints.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -211,8 +219,8 @@ const BrandingServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Unlimited ways to work</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Print & Traditional Advertising</Link></h4>
+                                        <p className="font-md color-grey-500 mb-5">Our Print and Traditional Advertising leverages these media's creative potential. Our advertisements are designed to capture attention and convey your brand's message clearly and effectively. We create eye-catching posters, billboards, magazine ads, and flyers that adhere to your brand's standards.</p>
                                         <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -239,7 +247,7 @@ const BrandingServices = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/certification.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="icon-up-black">Certification</h6></Link></div>
+                                        <h6 className="icon-up-black">Education</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -247,7 +255,7 @@ const BrandingServices = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/conference.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Conference</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Construction</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -255,7 +263,7 @@ const BrandingServices = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/research.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Research</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Retail & Ecommerce</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -263,7 +271,7 @@ const BrandingServices = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/dispersal.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Dispersal</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Health Care</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -271,7 +279,7 @@ const BrandingServices = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/enterprise.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Enterprise</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Travel & Hospitality</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -279,7 +287,55 @@ const BrandingServices = () => {
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Team Building</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Oil & Gas</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-8">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Energy</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-10">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Entertainment</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-11">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">E-commerce</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-1">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Mining</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-2">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Public Sector</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-3">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Logistics</h6></Link></div>
                                 </div>
                             </div>
                         </div>
@@ -297,26 +353,27 @@ const BrandingServices = () => {
                             </div>
                             <div className="col-lg-6">
                                 <div className="box-cover-pd-2">
-                                    <h2 className="color-brand-1 mb-30">How to grow your <br className="d-none d-lg-block" />business fast</h2>
+                                    <h2 className="color-brand-1 mb-30">Boost your business with our<br className="d-none d-lg-block" />3-step strategy</h2>
+                                    <p className="font-md color-grey-500">Business growth can be challenging in today's competitive environment. However, our flexible system makes achieving sustainable, stress-free growth easy.</p>
                                     <div className="item-number hover-up">
                                         <div className="num-ele">1</div>
                                         <div className="info-num">
-                                            <h5 className="color-brand-1 mb-15">Create an account</h5>
-                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                            <h5 className="color-brand-1 mb-15">Make sure you're in the correct position</h5>
+                                            <p className="font-md color-grey-500">We analyze your business to identify strengths, weaknesses, opportunities, and threats. This foundational step ensures we have a clear understanding of your startup.</p>
                                         </div>
                                     </div>
                                     <div className="item-number hover-up">
                                         <div className="num-ele">2</div>
                                         <div className="info-num">
-                                            <h5 className="color-brand-1 mb-15">Build your founding team</h5>
-                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                            <h5 className="color-brand-1 mb-15">Make a development plan.</h5>
+                                            <p className="font-md color-grey-500">Our team develops a customized strategy based on your business objectives. This strategy includes actionable steps to improve efficiency, enhance marketing efforts, and generate revenue.</p>
                                         </div>
                                     </div>
                                     <div className="item-number hover-up">
                                         <div className="num-ele">3</div>
                                         <div className="info-num">
-                                            <h5 className="color-brand-1 mb-15">Launch and Scale</h5>
-                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                            <h5 className="color-brand-1 mb-15">Implementation and maintenance</h5>
+                                            <p className="font-md color-grey-500">We provide the tools and guidance you need to succeed during the implementation phase. Our data-driven approach keeps your business running smoothly by constantly monitoring progress.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -533,19 +590,19 @@ const BrandingServices = () => {
                             <div className="col-xl-12 col-lg-12">
                                 <div className="tab-content tab-content-slider">
                                     <div className={activeIndex === 1 ? "tab-pane fade active show" : "tab-pane fade"}>
-                                        <Accordion title="General Support FAQs" />
+                                        <BrandingFaq title="General Support FAQs" />
                                     </div>
                                     <div className={activeIndex === 2 ? "tab-pane fade active show" : "tab-pane fade"}>
-                                        <Accordion title="Order / Purchase FAQs" />
+                                        <BrandingFaq title="Order / Purchase FAQs" />
                                     </div>
                                     <div className={activeIndex === 3 ? "tab-pane fade active show" : "tab-pane fade"}>
-                                        <Accordion title="Download / Install FAQs" />
+                                        <BrandingFaq title="Download / Install FAQs" />
                                     </div>
                                     <div className={activeIndex === 4 ? "tab-pane fade active show" : "tab-pane fade"}>
-                                        <Accordion title="Technology FAQs" />
+                                        <BrandingFaq title="Technology FAQs" />
                                     </div>
                                     <div className={activeIndex === 5 ? "tab-pane fade active show" : "tab-pane fade"}>
-                                        <Accordion title="Your Account FAQs" />
+                                        <BrandingFaq title="Your Account FAQs" />
                                     </div>
                                 </div>
                             </div>

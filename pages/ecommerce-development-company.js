@@ -396,26 +396,27 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                             </div>
                             <div className="col-lg-6">
                                 <div className="box-cover-pd-2">
-                                    <h2 className="color-brand-1 mb-30">How to grow your <br className="d-none d-lg-block" />business fast</h2>
+                                    <h2 className="color-brand-1 mb-30">Boost your business with our<br className="d-none d-lg-block" />3-step strategy</h2>
+                                    <p className="font-md color-grey-500">Business growth can be challenging in today's competitive environment. However, our flexible system makes achieving sustainable, stress-free growth easy.</p>
                                     <div className="item-number hover-up">
                                         <div className="num-ele">1</div>
                                         <div className="info-num">
-                                            <h5 className="color-brand-1 mb-15">Create an account</h5>
-                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                            <h5 className="color-brand-1 mb-15">Make sure you're in the correct position</h5>
+                                            <p className="font-md color-grey-500">We analyze your business to identify strengths, weaknesses, opportunities, and threats. This foundational step ensures we have a clear understanding of your startup.</p>
                                         </div>
                                     </div>
                                     <div className="item-number hover-up">
                                         <div className="num-ele">2</div>
                                         <div className="info-num">
-                                            <h5 className="color-brand-1 mb-15">Build your founding team</h5>
-                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                            <h5 className="color-brand-1 mb-15">Make a development plan.</h5>
+                                            <p className="font-md color-grey-500">Our team develops a customized strategy based on your business objectives. This strategy includes actionable steps to improve efficiency, enhance marketing efforts, and generate revenue.</p>
                                         </div>
                                     </div>
                                     <div className="item-number hover-up">
                                         <div className="num-ele">3</div>
                                         <div className="info-num">
-                                            <h5 className="color-brand-1 mb-15">Launch and Scale</h5>
-                                            <p className="font-md color-grey-500">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
+                                            <h5 className="color-brand-1 mb-15">Implementation and maintenance</h5>
+                                            <p className="font-md color-grey-500">We provide the tools and guidance you need to succeed during the implementation phase. Our data-driven approach keeps your business running smoothly by constantly monitoring progress.</p>
                                         </div>
                                     </div>
                                 </div>
