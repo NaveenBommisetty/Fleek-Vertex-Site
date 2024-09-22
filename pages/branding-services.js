@@ -19,28 +19,29 @@ const BrandingServices = () => {
             </Head>
 
             <Layout>
-            <section className="section banner-contact">
-                    <div className="container">
-                        <div className="banner-1">
-                            <div className="row align-items-center">
-                                <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
-                                    <h1 className="color-brand-5 mb-20 mt-10">Branding Services Company</h1>
-                                    <div className="row">
-                                        <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">It is more than just having a logo or colors that define your brand. It's about building a unique identity for your business that embodies its values, mission, and personality. It can benefit your business to have a strong logo that stands out from others in the same industry, builds customer trust, and ultimately increases sales and customer loyalty. A company's brand should stand out in today's highly competitive market. Your branding often makes or breaks your potential customer's decision to choose you over the competition. We are here to help you create a memorable and impactful brand identity. Contact Us today.</p>
-                                            <div className="box-button text-start mt-40">
-                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Contact Us</Link>
+            <section className="section banner-service bg-grey-60 position-relative">             
+                  <div className="row m-0">
+                      <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12" >
+                      <div className="pl-60 pt-10 align-items-center">
+                                  <div className="box-banner-service">
+                                      <h1 className="color-brand-5 mb-20">Branding Services Company</h1>
+                                      <div className="row">
+                                          <div className="col-lg-12">
+                                              <p className="font-md color-grey-900">It is more than just having a logo or colors that define your brand. It's about building a unique identity for your business that embodies its values, mission, and personality.It can benefit your business to have a strong logo that stands out from others in the same industry, builds customer trust, and ultimately increases sales and customer loyalty.A company's brand should stand out in today's highly competitive market.Your branding often makes or breaks your potential customer's decision to choose you over the competition.We are here to help you create a memorable and impactful brand identity.Contact Us today.</p>
+                                              <div className="box-button text-start mt-20">
+                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Get in Touch</Link>
                                             </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                                <div className="col-lg-5 d-none d-lg-block">
-                                    <div className="box-banner-contact"><img src="assets/imgs/page/contact/banner.png" alt="iori" /></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> 
+                                          </div>
+                                      </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div className="col-xxl-6 col-lg-6 col-md-6 pr-0">
+                          <div className="d-none d-lg-block pl-10"><img className="w-100 d-block" src="assets/imgs/page/blog/banner.png" alt="iori" /></div>
+                      </div>
+                  </div>
+              </section>
+             
                 <section className="section mt-20">
                     <div className="container">
                         <div className="row mt-50 mb-50">
@@ -55,7 +56,7 @@ const BrandingServices = () => {
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">
-                                <div className="row pt-200">
+                                <div className="row pt-150">
                                     <div className="box-image"><img src="assets/imgs/page/homepage2/img-marketing.png" alt="iori" /></div>
                                 </div>
                             </div>

@@ -18,30 +18,30 @@ const ecommerceDevelopmentCompany = () => {
                 <title>Ecommerce Development Company</title>
             </Head>
             <Layout>
-                <section className="section banner-contact">
-                    <div className="container">
-                        <div className="banner-1">
-                            <div className="row align-items-center">
-                                <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
-                                    <h1 className="color-brand-5 mb-20 mt-10">Ecommerce Development Company</h1>
-                                    <div className="row">
-                                        <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">We understand your business, goals, and target audience and have started to develop the solutions you need. Our team of experts will design user-friendly and visually appealing eCommerce websites optimized for conversion. Our experts specialize in customized eCommerce solutions to suit your needs.</p>
-                                            <p className="font-md color-gray-900 mt-20">               If you’re ready to elevate your business with a bespoke eCommerce solution, we’re here to help. Contact us today to discuss your project and see how we can bring your vision to life.</p>
-
-                                            <div className="box-button text-start mt-40">
-                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Contact Us</Link>
+            <section className="section banner-service bg-grey-60 position-relative">             
+                  <div className="row m-0">
+                      <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12" >
+                      <div className="pl-60 pt-10 align-items-center">
+                                  <div className="box-banner-service">
+                                      <h1 className="color-brand-5 mb-20">Ecommerce Development Company</h1>
+                                      <div className="row">
+                                          <div className="col-lg-12">
+                                              <p className="font-md color-grey-900">We understand your business, goals, and target audience and have started to develop the solutions you need. Our team of experts will design user-friendly and visually appealing eCommerce websites optimized for conversion. Our experts specialize in customized eCommerce solutions to suit your needs.</p>
+                                              <p className="font-md color-grey-900 mt-10">If you’re ready to elevate your business with a bespoke eCommerce solution, we’re here to help. Contact us today to discuss your project and see how we can bring your vision to life.</p>
+                                              <div className="box-button text-start mt-20">
+                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Get in Touch</Link>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-5 d-none d-lg-block">
-                                    <div className="box-banner-contact"><img src="assets/imgs/page/contact/banner.png" alt="iori" /></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                                          </div>
+                                      </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div className="col-xxl-6 col-lg-6 col-md-6 pr-0">
+                          <div className="d-none d-lg-block pl-10"><img className="w-100 d-block" src="assets/imgs/page/blog/banner.png" alt="iori" /></div>
+                      </div>
+                  </div>
+              </section>
+                
                 <section className="section mt-20">
                     <div className="container">
                         <div className="row mt-50 mb-50">
@@ -57,7 +57,7 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">
-                                <div className="row pt-80">
+                                <div className="row pt-140">
                                     <div className="box-image"><img src="assets/imgs/e-commerce-development-company.webp" alt="iori" /></div>
                                 </div>
                             </div>

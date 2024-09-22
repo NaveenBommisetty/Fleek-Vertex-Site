@@ -18,30 +18,31 @@ const JiraAdministrationServices = () => {
                 <title>Jira Administration Service Company</title>
             </Head>
             <Layout>
-            <section className="section banner-contact">
-                    <div className="container">
-                        <div className="banner-1">
-                            <div className="row align-items-center">
-                                <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
-                                    <h1 className="color-brand-5 mb-20 mt-10">Jira Administration Service</h1>
-                                    <div className="row">
-                                        <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">You can take your projects to the next level with JIRA Administration. The JIRA Administration tool provides you with the ability to customize workflows based on your team's specific needs. Therefore, you can automate project management tasks. Your team can focus on what really matters - delivering amazing results.</p>
-                                            <p className="font-md color-gray-900 mt-20">We are here to help you every step of the way. Get in touch with us today to learn how JIRA collaboration can help your team become more productive.</p>
-                                            <div className="box-button text-start mt-40">
-                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Contact Us</Link>
+            <section className="section banner-service bg-grey-60 position-relative">             
+                  <div className="row m-0">
+                      <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12" >
+                      <div className="pl-60 pt-10 align-items-center">
+                                  <div className="box-banner-service">
+                                      <h1 className="color-brand-5 mb-20">Jira Administration Service</h1>
+                                      <div className="row">
+                                          <div className="col-lg-12">
+                                              <p className="font-md color-grey-900">You can take your projects to the next level with JIRA Administration. The JIRA Administration tool provides you with the ability to customize workflows based on your team's specific needs. Therefore, you can automate project management tasks. Your team can focus on what really matters - delivering amazing results.</p>
+                                              <p className="font-md color-grey-900 mt-10">We are here to help you every step of the way. Get in touch with us today to learn how JIRA collaboration can help your team become more productive.</p>
+                                              <div className="box-button text-start mt-20">
+                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Get in Touch</Link>
                                             </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                                <div className="col-lg-5 d-none d-lg-block">
-                                    <div className="box-banner-contact"><img src="assets/imgs/page/contact/banner.png" alt="iori" /></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> 
-                <section className="section mt-20">
+                                          </div>
+                                      </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div className="col-xxl-6 col-lg-6 col-md-6 pr-0">
+                          <div className="d-none d-lg-block pl-10"><img className="w-100 d-block" src="assets/imgs/page/blog/banner.png" alt="iori" /></div>
+                      </div>
+                  </div>
+              </section>
+           
+                <section className="section">
                     <div className="container">
                         <div className="row mt-50 mb-50">
                             <div className="col-xl-6 col-lg-5">

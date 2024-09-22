@@ -17,31 +17,30 @@ const WebDevelopmentCompany = () => {
         <>
             <PageHead headTitle="Web Development Company - Fleek Vertex" />
             <Layout>
-            <section className="section banner-contact">
-                    <div className="container">
-                        <div className="banner-1">
-                            <div className="row align-items-center">
-                                <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
-                                    <h1 className="color-brand-5 mb-20 mt-10">Web Development</h1>
-                                    <div className="row">
-                                        <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">
-We build stunning websites, exciting eCommerce platforms, and dynamic web applications that meet your business needs. Our custom web solutions enhance the user experience and productivity.
-</p>
-<p className="font-md color-gray-900 mt-10">Are you looking to transform your online visibility? Contact us through our contact form or give us a call to see how we can help you achieve your web development goals. Our dedicated staff is ready to help you create a compelling and engaging online presence. Contact us today to get started!</p>
-                                            <div className="box-button text-start mt-40">
-                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Contact Us</Link>
+            <section className="section banner-service bg-grey-60 position-relative">             
+                  <div className="row m-0">
+                      <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12" >
+                      <div className="pl-60 pt-10 align-items-center">
+                                  <div className="box-banner-service">
+                                      <h1 className="color-brand-5 mb-20">Web Development Services</h1>
+                                      <div className="row">
+                                          <div className="col-lg-12">
+                                              <p className="font-md color-grey-900">We build stunning websites, exciting eCommerce platforms, and dynamic web applications that meet your business needs. Our custom web solutions enhance the user experience and productivity.</p>
+                                              <p className="font-md color-grey-900 mt-10">Are you looking to transform your online visibility? Contact us through our contact form or give us a call to see how we can help you achieve your web development goals. Our dedicated staff is ready to help you create a compelling and engaging online presence. Contact us today to get started!</p>
+                                              <div className="box-button text-start mt-20">
+                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Get in Touch</Link>
                                             </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                                <div className="col-lg-5 d-none d-lg-block">
-                                    <div className="box-banner-contact"><img src="assets/imgs/page/contact/banner.png" alt="iori" /></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> 
+                                          </div>
+                                      </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div className="col-xxl-6 col-lg-6 col-md-6 pr-0">
+                          <div className="d-none d-lg-block pl-10"><img className="w-100 d-block" src="assets/imgs/page/blog/banner.png" alt="iori" /></div>
+                      </div>
+                  </div>
+              </section>
+            
                 <section className="section mt-20">
                     <div className="container">
                         <div className="row mt-50">
@@ -59,7 +58,7 @@ If you are looking for a back-end and front-end web development company in Banga
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">
-                                <div className="row pt-200">
+                                <div className="row pt-100">
                                     <div className="box-image"><img src="assets/imgs/page/homepage2/img-marketing.png" alt="iori" /></div>
                                 </div>
                             </div>

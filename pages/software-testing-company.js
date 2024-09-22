@@ -17,28 +17,28 @@ const SoftwareTesting = () => {
         <>
             <PageHead headTitle="Software Testing Company - Fleek Vertex" />
             <Layout>
-            <section className="section banner-contact">
-                    <div className="container">
-                        <div className="banner-1">
-                            <div className="row align-items-center">
-                                <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
-                                    <h1 className="color-brand-5 mb-20 mt-10">Software Testing Company</h1>
-                                    <div className="row">
-                                        <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">Fleek Vertex provides comprehensive software testing solutions. Our software testing services identify and fix bugs, errors, and other issues. We use the latest testing tools and methods to ensure your software meets its requirements. Our team understands the importance of delivering high-quality software. Our testing services are designed to meet the unique needs of our clients. A solid understanding of test methods and equipment is part of our team. If you're ready to improve the quality of your software through Fleek Vertex's expert testing, we'd love to hear from you. Get in touch with our team today to discuss your project requirements.</p>
-                                            <div className="box-button text-start mt-40">
-                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Contact Us</Link>
+            <section className="section banner-service bg-grey-60 position-relative">             
+                  <div className="row m-0">
+                      <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12" >
+                      <div className="pl-60 pt-10 align-items-center">
+                                  <div className="box-banner-service">
+                                      <h1 className="color-brand-5 mb-20">Software Testing Company</h1>
+                                      <div className="row">
+                                          <div className="col-lg-12">
+                                              <p className="font-md color-grey-900">Fleek Vertex provides comprehensive software testing solutions.Our software testing services identify and fix bugs, errors, and other issues.We use the latest testing tools and methods to ensure your software meets its requirements.Our team understands the importance of delivering high-quality software.Our testing services are designed to meet the unique needs of our clients.A solid understanding of test methods and equipment is part of our team.If you're ready to improve the quality of your software through Fleek Vertex's expert testing,we'd love to hear from you.Get in touch with our team today to discuss your project requirements.</p>
+                                              <div className="box-button text-start mt-20">
+                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Get in Touch</Link>
                                             </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                                <div className="col-lg-5 d-none d-lg-block">
-                                    <div className="box-banner-contact"><img src="assets/imgs/page/contact/banner.png" alt="iori" /></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> 
+                                          </div>
+                                      </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div className="col-xxl-6 col-lg-6 col-md-6 pr-0">
+                          <div className="d-none d-lg-block pl-10"><img className="w-100 d-block" src="assets/imgs/page/blog/banner.png" alt="iori" /></div>
+                      </div>
+                  </div>
+              </section>
                 <section className="section mt-20">
                     <div className="container">
                         <div className="row mt-50 mb-50">
@@ -52,7 +52,7 @@ const SoftwareTesting = () => {
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">
-                                <div className="row pt-100">
+                                <div className="row pt-170">
                                     <div className="box-image"><img src="assets/imgs/software-testing-company.webp" alt="software testing company" /></div>
                                 </div>
                             </div>

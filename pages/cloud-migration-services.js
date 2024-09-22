@@ -17,29 +17,30 @@ const CloudMigrationCompany = () => {
         <>
             <PageHead headTitle="Cloud Migration Services - Fleek Vertex" />
             <Layout>
-            <section className="section banner-contact">
-                    <div className="container">
-                        <div className="banner-1">
-                            <div className="row align-items-center">
-                                <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
-                                    <h1 className="color-brand-5 mb-20 mt-10">Cloud Migration Services</h1>
-                                    <div className="row">
-                                        <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">We'll work with you to develop solutions to meet your business goals so you can make the most of your cloud technology. We ensure your cloud infrastructure is optimized for performance, scalability, and cost savings. You can seamlessly migrate your existing systems to the cloud. Our experts handle every aspect of the migration process. We provide CI/CD automation and DevOps services to speed up your development cycle. Our robust cloud security solutions help protect your data and applications. Our expert team is here to help you every step of the way. Get in touch if you have questions, need advice, or are ready to get started.</p>
-                                            <div className="box-button text-start mt-40">
-                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Contact Us</Link>
+            <section className="section banner-service bg-grey-60 position-relative">             
+                  <div className="row m-0">
+                      <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12" >
+                      <div className="pl-60 pt-10 align-items-center">
+                                  <div className="box-banner-service">
+                                      <h1 className="color-brand-5 mb-20">Cloud Migration Services</h1>
+                                      <div className="row">
+                                          <div className="col-lg-12">
+                                              <p className="font-md color-grey-900">We'll work with you to develop solutions to meet your business goals so you can make the most of your cloud technology. We ensure your cloud infrastructure is optimized for performance, scalability, and cost savings. You can seamlessly migrate your existing systems to the cloud. Our experts handle every aspect of the migration process. We provide CI/CD automation and DevOps services to speed up your development cycle. Our robust cloud security solutions help protect your data and applications. Our expert team is here to help you every step of the way. Get in touch if you have questions, need advice, or are ready to get started.</p>
+                                              <div className="box-button text-start mt-20">
+                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Get in Touch</Link>
                                             </div>
-                                        </div>
-                                    </div> 
-                                </div>
-                                <div className="col-lg-5 d-none d-lg-block">
-                                    <div className="box-banner-contact"><img src="assets/imgs/page/contact/banner.png" alt="iori" /></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> 
-                <section className="section mt-20">
+                                          </div>
+                                      </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div className="col-xxl-6 col-lg-6 col-md-6 pr-0">
+                          <div className="d-none d-lg-block pl-10"><img className="w-100 d-block" src="assets/imgs/page/blog/banner.png" alt="iori" /></div>
+                      </div>
+                  </div>
+              </section>
+             
+                <section className="section">
                     <div className="container">
                         <div className="row mt-50 mb-50">
                             <div className="col-xl-6 col-lg-5">

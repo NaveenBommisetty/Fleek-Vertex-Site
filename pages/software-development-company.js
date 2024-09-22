@@ -19,30 +19,30 @@ const SoftwareDevelopmentCompany = () => {
             </Head>
 
             <Layout>
-                <section className="section banner-contact">
-                    <div className="container">
-                        <div className="banner-1">
-                            <div className="row align-items-center">
-                                <div className="col-lg-7"><span className="title-line line-48">Get in Touch</span>
-                                    <h1 className="color-brand-5 mb-10 mt-10">Software Development Services</h1>
-                                    <div className="row">
-                                        <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">In today's digital world, you can take your business to the next level with software designed just for you. Online presence is crucial for companies in an ever-changing and highly competitive world. When developing your software, you can stand out from the crowd and offer unique solutions to your users.
-                                            </p><p className='mt-20'></p>
-                                            <p className="font-md color-gray-900">Contact our team via our contact form or call to discuss how we can help you achieve your digital goals. Our experts are ready to bring your ideas to life, whether you need a complete software solution, a mobile application, or a web platform.</p>
-                                            <div className="box-button text-start mt-20">
+            <section className="section banner-service bg-grey-60 position-relative">             
+                  <div className="row m-0">
+                      <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12" >
+                      <div className="pl-60 pt-10 align-items-center">
+                                  <div className="box-banner-service">
+                                      <h1 className="color-brand-5 mb-20">Software Development Services</h1>
+                                      <div className="row">
+                                          <div className="col-lg-12">
+                                              <p className="font-md color-grey-900">In today's digital world, you can take your business to the next level with software designed just for you. Online presence is crucial for companies in an ever-changing and highly competitive world. When developing your software, you can stand out from the crowd and offer unique solutions to your users.</p>
+                                              <p className="font-md color-grey-900 mt-10">Contact our team via our contact form or call to discuss how we can help you achieve your digital goals. Our experts are ready to bring your ideas to life, whether you need a complete software solution, a mobile application, or a web platform.</p>
+                                              <div className="box-button text-start mt-20">
                                                 <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Get in Touch</Link>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-5 d-none d-lg-block">
-                                    <div className="box-banner-contact"><img src="assets/imgs/page/contact/banner.png" alt="iori" /></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                                          </div>
+                                      </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div className="col-xxl-6 col-lg-6 col-md-6 pr-0">
+                          <div className="d-none d-lg-block pl-10"><img className="w-100 d-block" src="assets/imgs/page/blog/banner.png" alt="iori" /></div>
+                      </div>
+                  </div>
+              </section>
+               
                 <section className="section mt-20">
                     <div className="container">
                         <div className="row mt-50 mb-50">
@@ -52,14 +52,12 @@ const SoftwareDevelopmentCompany = () => {
                                     <h2 className="color-brand-1 mb-15">Best Custom Software Development Company in Bangalore, India</h2>
                                     <p className="color-gray-900 mb-15 font-md">Custom software development is essential to staying competitive in today's constantly evolving digital world. Businesses increasingly use custom software solutions to streamline processes, boost efficiency and productivity, and provide a better customer and employee experience.
 Businesses need to find a reputable, high-quality custom software development company to understand their unique needs and deliver customized solutions tailored to them in a highly competitive market. FleekVertex in Bangalore, India, is the perfect example of this.</p>
-                                    <p className="color-gray-900 mb-15 mt-10 font-md">Bangalore has become a top destination for custom software development due to its skilled workforce, cost-effective services, technological advancements, and favorable business environment. It has some of India's best software development companies, from digital transformation and enterprise solutions to web and mobile app development.</p>
-                                    <p className="color-gray-900 mb-15 mt-10 font-md">This type of software development involves collaboration between the client and the development team, considering their goals, objectives, and specific business plans. It also involves thorough testing and quality control to ensure the software works properly before deployment.</p>
                                     <p className="color-gray-900 mb-15 mt-10 font-md">One of the best things about custom software development is that it can give businesses an edge over their competitors. Companies may differentiate themselves from their rivals and give their customers a more personalized experience if they have a response that fits their needs.</p>
                                     <p className="color-gray-900 mb-15 mt-10 font-md">With the world becoming more digital, having the right tools can make or break a business. Custom software development that fits your business goals is what we do best at Fleek Vertex. Our expert team is here to help tech companies of all sizes transition from analog to digital without problems.</p>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">
-                                <div className="row pt-200">
+                                <div className="row pt-100">
                                     <div className="box-image"><img src="assets/imgs/page/homepage2/img-marketing.png" alt="iori" /></div>
                                 </div>
                             </div>

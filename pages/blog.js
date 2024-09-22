@@ -29,7 +29,7 @@ const Blog = () => {
                         </div>
                     </div> */}
                     <div className="row m-0">
-                        <div className="col-xxl-6 col-xl-12 col-lg-6 col-md-12" >
+                        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12" >
                         <div className="pl-100 pt-30 align-items-center">
                                     <div className="box-banner-service">
                                         <h2 className="color-brand-5 mb-20">All the insights and news you need to know.</h2>
