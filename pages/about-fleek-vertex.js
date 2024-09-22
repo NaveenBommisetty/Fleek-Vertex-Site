@@ -11,7 +11,7 @@ const pageAbout = () => {
             </Head>
             <Layout>
             <section className="section banner-contact">
-                    <div className="container">
+                    <div className="container pt-100">
                         <div className="banner-1">
                             <div className="row align-items-center">
                                 <div className="col-lg-7"><span className="title-line line-48">Who we are</span>

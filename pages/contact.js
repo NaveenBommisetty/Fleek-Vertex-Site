@@ -49,7 +49,7 @@ const ContactUs = () => {
             </Head>
 
             <Layout>
-                <section className="section banner-contact">
+                <section className="section banner-contact pt-100">
                     <div className="container">
                         <div className="banner-1">
                             <div className="row align-items-center">
