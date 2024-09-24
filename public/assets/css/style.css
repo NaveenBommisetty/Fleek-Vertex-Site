@@ -7870,7 +7870,7 @@ textarea.textarea-control {
 }
 
 .sidebar-author {
-  margin-top: 160px;
+  margin-top: 100px;
   padding-left: 20px;
 }
 
@@ -9649,4 +9649,10 @@ footer.footer-4 {
 
 .breadcrumbs-path{
   background-color: #F1F1F1;
+}
+.sticky-sidebar {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 100px; /* Distance from the top when sticky starts */
+  z-index: 10; /* Ensure it stays above other content */
 }

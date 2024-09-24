@@ -30,56 +30,64 @@ const HowJiraEnhancesWebSoftwareDevelopmentProjects = () => {
                         <div className="row">
                             <div className="col-xl-9 col-lg-8">
                                 <div className="content-single">
-                                    <h2 className="color-brand-5 mb-50">How JIRA Enhances Web and Software Development Projects</h2>
+                                    <h1 className="color-brand-336699 mb-30">How JIRA Enhances Web and Software Development Projects</h1>
+                                    <div class="mb-15"><a class="btn btn-border mr-10 mb-10" href="#">JIRA Development</a> <a class="btn btn-border mr-10 mb-10" href="#">Software Development</a></div>
                                     <div className="mb-40"> <img className="bd-rd8" src="../assets/imgs/page/blog-detail/img.png" alt="iori" /></div>
-                                    <p className="color-grey-900 font-lg-bold mb-25">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare pellentesque sollicitudin. Suspendisse potenti. Fusce ex risus, iaculis sit amet sapien nec, finibus malesuada mi. Proin at turpis eget sapien pulvinar luctus. Vestibulum bibendum pharetra lorem eu aliquam. In feugiat placerat risus, sed rutrum neque mattis sit amet. Nullam vestibulum ante ac quam tempor, id venenatis velit eleifend. Duis id iaculis risus, quis ullamcorper augue. Nunc tristique venenatis ipsum at euismod. Pellentesque id arcu est. </p>
-                                    <p className="font-md color-grey-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare pellentesque sollicitudin. Suspendisse potenti. Fusce ex risus, iaculis sit amet sapien nec, finibus malesuada mi. Proin at turpis eget sapien pulvinar luctus. Vestibulum bibendum pharetra lorem eu aliquam. In feugiat placerat risus, sed rutrum neque mattis sit amet. Nullam vestibulum ante ac quam tempor, id venenatis velit eleifend. Duis id iaculis risus, quis ullamcorper augue. Nunc tristique venenatis ipsum at euismod. Pellentesque id arcu est. </p>
-                                    <h4 className="color-brand-5">Freelance invoices: your legal requirements</h4>
-                                    <ul>
-                                        <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
-                                        <li>5+ years of industry experience in interactive design and / or visual design</li>
-                                        <li>Excellent interpersonal skills </li>
-                                        <li>Aware of trends in mobile, communications, and collaboration</li>
-                                        <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts</li>
-                                        <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals independently</li>
-                                        <li>History of impacting shipping products with your work</li>
-                                        <li>A Bachelor’s Degree in Design (or related field) or equivalent professional experience</li>
-                                        <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
-                                    </ul>
-                                    <p>Phasellus enim magna, varius et commodo ut, ultricies vitae velit. Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo. In libero urna, venenatis sit amet ornare non, suscipit nec risus. Sed consequat justo non mauris pretium at tempor justo sodales. Quisque tincidunt laoreet malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer vitae ante enim. Fusce sed elit est. Suspendisse sit amet mauris in quam pretium faucibus et aliquam odio. </p>
-                                    <h4>Different ways to issue your invoices as a freelancer</h4>
-                                    <div className="row align-items-start">
-                                        <div className="col-xl-4 col-lg-12 col-md-5">
-                                            <p><img src="../assets/imgs/page/blog-detail/img2.png" alt="iori" /></p>
-                                        </div>
-                                        <div className="col-xl-8 col-lg-12 col-md-7">
-                                            <p>Qui laboriosam ipsa non similique omnis id officia assumenda. Aut perspiciatis accusamus et dolores exercitationem ut ipsam velit. Ut nihil dolorem eos nemo temporibus ut sunt aspernatur! Est voluptatem officiis id harum facere aut minus mollitia in commodi sint sed placeat quia cum ipsum quis. Et quia reiciendis in ducimus fugit qui dolores aspernatur aut quis error et aspernatur pariatur? Ut dolor quas cum beatae explicabo ex velit voluptatum ut temporibus illum. Vel voluptate galisum qui cupiditate nobis a perferendis sunt ut deserunt omnis eum dolor aperiam? Et voluptatem velit et voluptatem cumque vel voluptatem nemo ex ipsum voluptatem non distinctio rerum ut neque ipsum non aspernatur corporis. Et perspiciatis laboriosam a sint iste et quis minus aut aspernatur voluptatibus aut velit omnis aut excepturi sunt ut sapiente optio! Non nihil facilis ut molestiae rerum aut aliquam aperiam et atque Quis qui delectus illum cum atque officiis 33 cumque error. Ut vero provident eum minus pariatur ab consequuntur galisum rem internos ipsum. Qui labore libero qui vero ipsum ut voluptas consequatur in nihil similique aut exercitationem adipisci sed totam quia. Est cumque galisum ut nihil eveniet et consequatur quae qui enim earum ad voluptatem modi in explicabo recusandae. Et autem sint est placeat veritatis et animi facilis est beatae assumenda non recusandae fugiat.</p>
-                                        </div>
-                                    </div>
-                                    <h4>Invoicing as a freelancer</h4>
-                                    <p className="column-2">
-                                        Lorem ipsum dolor sit amet. Sit veniam dolorum est minus nisi et adipisci sequi. Non velit quia non nisi esse non rerum voluptate. Et doloribus atque qui corporis aliquam et quia harum. Sit voluptas illo quo tenetur dolore ut ipsum eaque et autem tenetur sit debitis nisi et quae dolorem et quos vero?<br /><br />Et dolorem aliquid non rerum culpa sit quia pariatur quo unde ratione vel quia ipsa et corrupti rerum. Et optio officia aut explicabo odio ea ratione voluptatem eos aliquam tempora qui impedit ipsam. Sit officia eius ut quas adipisci aut laudantium quia.<br /><br />Et temporibus fuga aut perferendis assumenda ex odit vero ad rerum numquam. Qui dolorum delectus aut maiores molestiae aut odio ratione ut itaque illum et Quis facilis aut galisum tenetur est rerum recusandae. Eum sint illum eum cupiditate repellat ea culpa quaerat aut asperiores facere! <br />Qui laboriosam ipsa non similique omnis id officia assumenda. Aut perspiciatis accusamus et dolores exercitationem ut ipsam velit. Ut nihil dolorem eos nemo temporibus ut sunt aspernatur! Est voluptatem officiis id harum facere aut minus mollitia in commodi sint sed placeat quia cum ipsum quis. Et quia reiciendis in ducimus fugit qui dolores aspernatur aut quis error et aspernatur pariatur? Ut dolor quas cum beatae explicabo ex velit voluptatum ut temporibus illum. Vel voluptate galisum qui cupiditate nobis a perferendis sunt ut deserunt omnis eum dolor aperiam? Et voluptatem velit et voluptatem cumque vel voluptatem nemo ex ipsum voluptatem non distinctio rerum ut neque ipsum non aspernatur corporis. Et perspiciatis laboriosam a sint iste et quis minus aut aspernatur voluptatibus aut velit omnis aut excepturi sunt ut sapiente optio! Non nihil facilis ut molestiae rerum aut aliquam aperiam et atque Quis qui delectus illum cum</p>
-                                    <p><img src="../assets/imgs/page/blog-detail/img3.png" alt="iori" /></p>
-                                    <h4>Different ways</h4>
-                                    <p>
-                                        Est amet nostrum non harum sunt eum quos dolorem aut esse odio. Aut similique sint est nihil quod aut provident laborum aut placeat voluptates ea omnis omnis et iure voluptas qui molestiae adipisci. Et quia mollitia vel optio eaque sit impedit facere et libero sapiente.Et neque dicta ea dignissimos voluptatem id fugit laboriosam sed inventore explicabo et voluptatibus assumenda ut accusantium nulla in dolorem magni. Et ratione dolores et adipisci similique sed culpa similique. Et iste corrupti id commodi omnis aut dolor voluptas et laboriosam aspernatur vel odit officia. Est distinctio eaque rem nihil voluptatem est aspernatur rerum aut quisquam obcaecati est voluptas deserunt qui voluptatem facilis.</p>
-                                    <p>At quisquam dolorem et nobis culpa ut laudantium quae id velit inventore! Eos omnis temporibus cum exercitationem iusto eos quia quod! Hic inventore voluptas hic asperiores facere cum necessitatibus aliquam qui omnis officia. Eos voluptatibus iste eum iusto nobis sit aspernatur iusto ab atque animi ut voluptas dolorem.</p>
+                                    <p className="color-grey-900 font-lg mb-25" id="powerofJIRA">Web and software development require efficient project management and teamwork. JIRA is essential for developers and project managers. In this blog, we will discuss what makes JIRA stand out and how it can significantly enhance your development projects. </p>
+                                    <h2 className="color-brand-336699">Power of JIRA in Development</h2>
+                                    <p className="color-grey-600 font-lg mb-25"  id="benefitsofJIRA">People know JIRA as a robust project management tool for software development. It is a choice among tech enthusiasts because it is flexible and has many features. JIRA gives you the tools to keep everything on track, whether in charge of a small team or a big job.</p>
+
+                                    <h2 className="color-brand-336699">Benefits of JIRA for Development Projects</h2>
+                                    <h3 className="color-brand-5">01. Tracking progress and streamlining project management</h3>
+                                    <p className="color-grey-600 font-lg mb-25">One great thing about JIRA is that it can make project management more effortless. With JIRA, you can break down big projects into smaller, simpler tasks, then give those tasks to team members and see their progress in real-time. With this level of transparency, everyone is on the same page, so there is less chance of misunderstandings and missed deadlines.</p>
+                                    <h3 className="color-brand-5">02. Improving communication and teamwork</h3>
+                                    <p className="color-grey-600 font-lg mb-25">Communication that works well is the key to any project's success. JIRA makes this easier by giving team members a central place to collaborate, share changes, and solve problems. Being able to tag team members, leave comments on jobs, and attach files ensures that all the essential information is easy to find, encouraging people to work together.</p>
+                                    <h3 className="color-brand-5">03. Integration with Tools and Platforms</h3>
+                                    <p className="color-grey-600 font-lg mb-25" id="howtouseJIRA">Another reason JIRA is so famous is that it can be integrated with other systems. It works with many tools and systems without problems, like Confluence, Bitbucket, and GitHub. This means that you can control the whole development process from a single platform, which makes things run more smoothly and saves time that would have been spent moving between different tools.</p>
+                                    
+                                    <h2 className="color-brand-336699">How to use JIRA most effectively in web and software development</h2>
+                                    <h3 className="color-brand-5">01. Customized JIRA fits the needs of a specific project.</h3>
+                                    <p className="color-grey-600 font-lg mb-25">You may customize JIRA very differently from other project management tools because it knows that every job is different. You can make JIRA fit the needs of your project by creating your own workflows, problem types, and fields. Because of this level of customization, JIRA will work properly with your development processes. This makes project management easier to understand and more effective.</p>
+                                    <h3 className="color-brand-5">02. Using JIRA for Agile Development and Sprint Planning</h3>
+                                    <p className="color-grey-600 font-lg mb-25">Software creation now usually uses agile methods, and JIRA is made with this in mind. Agile methods are easy to use with its agile boards and sprint planning tools. You can quickly plan sprints, keep track of work, and make changes to ensure your team stays flexible and quick to act.</p>
+                                    <h3 className="color-brand-5">03. Managing Tasks and Workflows Effectively</h3>
+                                    <p className="color-grey-600 font-lg mb-25" id="topcompaniesusingJIRA">Effective task and workflow management is critical for keeping the project moving forward. It's easy to keep track of and organize work when you can see your tasks and workflows clearly on JIRA's Kanban and Scrum boards. These boards can ensure that jobs are done on time and that any problems are found and fixed quickly.</p>
+                                    
+                                    <h2 className="color-brand-336699">Top Companies Using JIRA to Improve Development</h2>
+                                    <h3 className="color-brand-5">01. Atlassian.</h3>
+                                    <p className="color-grey-600 font-lg mb-25">Atlassian, the company that made JIRA, manages its development projects with its tool. JIRA's features have improved Atlassian's development teams' workflow, made it easier for them to work together, and helped them develop products more quickly. The company's success using JIRA demonstrates the tool's potential and efficacy.</p>
+                                    <h3 className="color-brand-5">02. NASA</h3>
+                                    <p className="color-grey-600 font-lg mb-25">JIRA is used by NASA's Jet Propulsion Laboratory (JPL) to manage its difficult and important projects. Missions like the Mars Rover have been made possible by JIRA's ability to handle complex task management and track progress. NASA teams can use JIRA to stay organized, plan their work, and meet their mission goals.</p>
+                                    <h3 className="color-brand-5">03. Spotify</h3>
+                                    <p className="color-grey-600 font-lg mb-25" id="betterAIandmachinelearning">Spotify uses JIRA to run its agile development process. By using JIRA, Spotify's teams can plan sprints, keep track of progress, and work together well. This level of planning and efficiency has helped Spotify keep coming up with new ideas and giving its users new features.</p>
+
+                                    <h2 className="color-brand-336699">Better AI and machine learning skills</h2>
+                                    <h3 className="color-brand-5">01. Better AI and machine learning skills</h3>
+                                    <p className="color-grey-600 font-lg mb-25">JIRA is changing to include new technologies like artificial intelligence (AI) and machine learning as they become available. Future versions of JIRA should also include better predictive analytics, automation, and smart suggestions. This will make it even easier for teams to handle their projects and spot problems before they happen.</p>
+                                    <h3 className="color-brand-5">02. Improved Integration with DevOps Tools</h3>
+                                    <p className="color-grey-600 font-lg mb-25">Operations and development (DevOps) integration is increasingly important for development teams. Popular DevOps tools work with JIRA to streamline tasks, automate processes, and improve collaboration at all development lifecycle stages.</p>
+                                    <h3 className="color-brand-5">03. User Experience Gets More Attention</h3>
+                                    <p className="color-grey-600 font-lg mb-25">The developers of JIRA are dedicated to making the tool easier to use and simpler for all users. In future updates, JIRA should get better navigation, more customizable dashboards, and better reporting tools. This will make it useful for development teams of all kinds.</p>
+                                    <p className="color-grey-600 font-lg mb-25">Jira enables teams to construct and operate agile boards using Scrum or Kanban methodologies. Teams can make plans, which can then be used to create reports and results. </p>
+                                    <p className="color-grey-600 font-lg mb-25">Users can choose between company—or team-managed projects, create their own processes, and use thousands of apps and integrations to improve performance. Jira is beneficial for coders. At a glance, developers can see the state of their code and deployments. They can also connect to their GitHub repositories and check the DevOps side.</p>
+                                    <p className="color-grey-600 font-lg mb-25">In the end, JIRA is a powerful and flexible project management tool that can change the way development teams work on tasks. By streamlining project management, improving team collaboration, and connecting to a wide range of tools and platforms, JIRA helps teams stay organized, productive and focused on providing high-quality work.</p>
+                                    <p className="color-grey-600 font-lg mb-25">Implementing JIRA into your workflow can significantly enhance your productivity and project results, whether you're a developer, project manager, or tech enthusiast. </p>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-lg-4">
-                                <div className="sidebar-author">
+                                <div className="sidebar-author sticky-sidebar">
                                     <div className="box-author"><Link href="#"><img src="../assets/imgs/page/homepage1/author.png" alt="iori" /></Link>
-                                        <div className="author-info"><Link href="#"><span className="font-md-bold color-brand-5 author-name">Bessie Cooper</span></Link><span className="font-xs color-grey-500 department">November 17, 2022</span><span className="font-xs color-grey-500 icon-read">8 min read</span></div>
+                                        <div className="author-info"><Link href="#"><span className="font-md-bold color-brand-5 author-name">Palla</span></Link><span className="font-xs color-grey-500 department">September 05, 2024</span></div>
                                     </div>
                                     <div className="mt-25"><Link className="btn btn-border mr-10 mb-10" href="#">Marketing</Link><Link className="btn btn-border mr-10 mb-10" href="#">Business</Link></div>
                                     <div className="mt-50">
                                         <h6 className="color-brand-5 mb-15">Table of contents</h6>
                                         <ul className="list-number">
-                                            <li> <Link href="#">Is making test questions difficult?</Link></li>
-                                            <li> <Link href="#">How to write good test questions?</Link></li>
-                                            <li> <Link href="#">Start preparing even before you write</Link></li>
-                                            <li> <Link href="#">Creating effective open-ended</Link></li>
-                                            <li> <Link href="#">Making good descriptive</Link></li>
+                                            <li> <Link href="#powerofJIRA">Power of JIRA in Development</Link></li>
+                                            <li> <Link href="#benefitsofJIRA">Benefits of JIRA for Development Projects</Link></li>
+                                            <li> <Link href="#howtouseJIRA">How to use JIRA most effectively in web and software development</Link></li>
+                                            <li> <Link href="#topcompaniesusingJIRA">Top Companies Using JIRA to Improve Development</Link></li>
+                                            <li> <Link href="#betterAIandmachinelearning">Better AI and machine learning skills</Link></li>
                                         </ul>
                                     </div>
                                     <div className="mt-50 d-flex align-item-center"> <strong className="font-xs-bold color-brand-5 mr-20">Share</strong>
@@ -89,9 +97,9 @@ const HowJiraEnhancesWebSoftwareDevelopmentProjects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="border-bottom bd-grey-80 mt-30" />
+                    <div className="border-bottom bd-grey-80 mt-10" />
                 </div>
-                <div className="section mt-50">
+                <div className="section mt-20">
                     <div className="container">
                         <h3 className="color-brand-5">Recommended articles</h3>
                         <div className="row mt-50">

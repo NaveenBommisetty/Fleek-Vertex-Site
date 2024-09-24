@@ -40,7 +40,7 @@
                                                     {/* <li><Link href="/website-hosting-and-maintanance">Hosting & Maintanance</Link></li> */}
                                                 </ul>
                                             </li>
-                                            <li><Link href="blog">Blog</Link></li> 
+                                            <li><Link href="/blog">Blog</Link></li> 
                                             <li><Link href="/contact">Contact</Link></li>
                                         </ul>
                                     </nav>
