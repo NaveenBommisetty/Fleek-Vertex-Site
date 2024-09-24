@@ -34,8 +34,8 @@ const BuildingScalableMobileApps = () => {
                                     <div class="mb-15"><a class="btn btn-border mr-10 mb-10" href="#">Mobile App Development</a> </div>
                                     <div className="mb-40"> <img className="bd-rd8" src="../assets/imgs/page/blog-detail/img.png" alt="iori" /></div>
                                     <p className="color-grey-900 font-lg mb-25" id="verticalscaling">Mobile apps have become an essential part of our daily lives. They can be used for everything from business transactions and interaction to entertainment and productivity. Since mobile apps have become increasingly vital, developers have to ensure that their work is both safe and scalable. A strategic method is needed to make scalable and secure mobile apps that adapt to changing user needs and constant security threats.</p>
-                                    <h2 className="color-brand-336699">Vertical Scaling</h2>
-                                    <p className="color-grey-600 font-lg mb-25"  id="benefitsofJIRA">Vertical scaling means adding more resources to an application server, such as CPU power, memory, network space, etc. It is strong enough to handle many calls at the same time. However, adding resources may be limited based on what the servers already have available. For many reasons, horizontal scaling is the best choice.</p>
+                                    <h2 className="color-brand-336699" id="horizontalscaling">Vertical Scaling</h2>
+                                    <p className="color-grey-600 font-lg mb-25">Vertical scaling means adding more resources to an application server, such as CPU power, memory, network space, etc. It is strong enough to handle many calls at the same time. However, adding resources may be limited based on what the servers already have available. For many reasons, horizontal scaling is the best choice.</p>
 
                                     <h2 className="color-brand-336699">Horizontal scaling</h2>
                                     <p className="color-grey-600 font-lg mb-25" id="UnderstandingHowMobileAppsCanGrow">Adding more machines or computers with the application code is called horizontal scaling or scaling out. It makes the system more capable. The computer instances' resources don't change, but the code of the applications might need to be changed so that they can run simultaneously. A load balancer handles incoming requests and spreads the work among several machines. It is commonly used in distributed systems.</p>
@@ -92,6 +92,7 @@ const BuildingScalableMobileApps = () => {
                                         <h6 className="color-brand-5 mb-15">Table of contents</h6>
                                         <ul className="list-number">
                                             <li> <Link href="#verticalscaling">Vertical Scaling</Link></li>
+                                            <li> <Link href="#horizontalscaling">Horizontal Scaling</Link></li>
                                             <li> <Link href="#UnderstandingHowMobileAppsCanGrow">Understanding How Mobile Apps Can Grow</Link></li>
                                             <li> <Link href="#MobileAppsSecurityBestPractices">Security Best Practices for Mobile Apps</Link></li>
                                             <li> <Link href="#WaystoMakeMobileAppsSecure">Ways to Make Mobile Apps That Are Scalable and Secure</Link></li>
