@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-3 width-20">
-                                <div className="mb-10"><img alt="Fleek Vertex Logo" src="assets/imgs/template/logo.svg" /></div>
+                                <div className="mb-10"><img alt="Fleek Vertex Logo" src="../assets/imgs/template/logo.svg" /></div>
                                 <p className="font-md mb-20 color-branding-dark"><strong className="font-md-bold">Address:</strong> 1207/343, 9th Main Rd, 7th Sector, HSR Layout, Bengaluru, Karnataka 560102, India</p>
                                 <div className="font-md mb-20 color-branding-dark"><strong className="font-md-bold">Hours:</strong> 9:00 - 17:00, Mon - Fri</div>
                             </div>

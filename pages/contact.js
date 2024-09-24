@@ -49,7 +49,64 @@ const ContactUs = () => {
             </Head>
 
             <Layout>
-                <section className="section banner-contact pt-100">
+            <section className="section banner-service bg-grey-60 position-relative">
+                    <div className="row m-0">
+                        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12" >
+                        <div className="pl-100 pt-30 align-items-center">
+                                    <div className="box-banner-service">
+                                        <h2 className="color-brand-5 mb-20">We’d love to hear from you.</h2>
+                                        <div className="row">
+                                            <div className="col-lg-12">
+                                                <p className="font-lg color-grey-900">Keep up-to-date with all our latest company news and business content. The latest news, tips and advice to help you run your business with less fuss</p>
+                                            </div>
+                                        </div>
+                                        <div className="row mt-30">
+                                            {/* Help & Support Card */}
+                                            <div className="col-lg-4 col-md-6 col-sm-6">
+                                                <div className="card-small card-small-2 color-gray-900">
+                                                    <div className="card-image">
+                                                        <div className="box-image"><img src="assets/imgs/page/contact/headphone.png" alt="iori" /></div>
+                                                    </div>
+                                                    <div className="card-info">
+                                                        <h6 className="color-brand-5 mb-10">Help &amp; support</h6>
+                                                        <p className="font-sm color-gray-900">Email <a className="color-success" href="mailto:info@fleekvertex.com">info@fleekvertex.com</a><br />For help with a current product or service or refer to FAQs and developer tools</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {/* Call Us Card */}
+                                            <div className="col-lg-4 col-md-6 col-sm-6">
+                                                <div className="card-small card-small-2">
+                                                    <div className="card-image">
+                                                        <div className="box-image"><img src="assets/imgs/page/contact/phone.png" alt="iori" /></div>
+                                                    </div>
+                                                    <div className="card-info">
+                                                        <h6 className="color-brand-5 mb-10">Call Us</h6>
+                                                        <p className="font-sm color-gray-900">Call us to speak to a member of our team.<br />(+91) 9346 261 550<br />(+91) 9346 261 550</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            {/* Business Department Card */}
+                                            <div className="col-lg-4 col-md-6 col-sm-6">
+                                                <div className="card-small card-small-2">
+                                                    <div className="card-image">
+                                                        <div className="box-image"><img src="assets/imgs/page/contact/chart.png" alt="iori" /></div>
+                                                    </div>
+                                                    <div className="card-info">
+                                                        <h6 className="color-brand-5 mb-10">Business Department</h6>
+                                                        <p className="font-sm color-gray-900">Contact the sales department about cooperation projects<br />(+01) 789 456 23</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xxl-6 col-lg-6 col-md-6 pr-0">
+                            <div className="d-none d-lg-block pl-50"><img className="w-100 d-block" src="assets/imgs/page/blog/banner.png" alt="iori" /></div>
+                        </div>
+                    </div>
+                </section>
+                {/* <section className="section banner-contact pt-100">
                     <div className="container">
                         <div className="banner-1">
                             <div className="row align-items-center">
@@ -68,11 +125,10 @@ const ContactUs = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> 
                 <section className="section mt-50">
                     <div className="container">
                         <div className="row">
-                            {/* Help & Support Card */}
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="card-small card-small-2 color-gray-900">
                                     <div className="card-image">
@@ -84,7 +140,6 @@ const ContactUs = () => {
                                     </div>
                                 </div>
                             </div>
-                            {/* Call Us Card */}
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="card-small card-small-2">
                                     <div className="card-image">
@@ -96,7 +151,6 @@ const ContactUs = () => {
                                     </div>
                                 </div>
                             </div>
-                            {/* Business Department Card */}
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="card-small card-small-2">
                                     <div className="card-image">
@@ -110,7 +164,7 @@ const ContactUs = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section>*/}
                 <section className="section mt-50 mb-50">
                     <div className="container">
                         <div className="row">

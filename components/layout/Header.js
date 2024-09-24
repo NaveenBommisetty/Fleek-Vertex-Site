@@ -21,7 +21,7 @@
                     <div className="container">
                         <div className="main-header">
                             <div className="header-left">
-                                <div className="header-logo"><Link className="d-flex" href="/"><img alt="Fleek Vertex Logo" className='fleek-logo' src="assets/imgs/template/logo.svg" /></Link></div>
+                                <div className="header-logo"><Link className="d-flex" href="/"><img alt="Fleek Vertex Logo" className='fleek-logo' src="../assets/imgs/template/logo.svg" /></Link></div>
                                 <div className="header-nav">
                                     <nav className="nav-main-menu d-none d-xl-block">
                                         <ul className="main-menu">

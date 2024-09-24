@@ -12,22 +12,6 @@ const Blog = () => {
 
             <Layout>
                 <section className="section banner-service bg-grey-60 position-relative">
-                    {/* <div className="box-banner-abs">
-                        <div className="container">
-                            <div className="row align-items-center">
-                                <div className="col-xxl-6 col-xl-6 col-lg-12">
-                                    <div className="box-banner-service">
-                                        <h2 className="color-brand-5 mb-20">All the important insights, guidance and news you need to know.</h2>
-                                        <div className="row">
-                                            <div className="col-lg-9">
-                                                <p className="font-lg color-grey-900">Keep up-to-date with all our latest company news and business content. The latest news, tips and advice to help you run your business with less fuss</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
                     <div className="row m-0">
                         <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12" >
                         <div className="pl-100 pt-30 align-items-center">
@@ -53,17 +37,6 @@ const Blog = () => {
                                 <h2 className="color-brand-5 mb-0">Lastest Articles</h2>
                             </div>
                         </div>
-                        {/* <div className="mt-30 mb-60">
-                            <ul className="list-buttons">
-                                <li> <Link className="button-click active" href="#" data-type="all">All articles</Link></li>
-                                <li> <Link className="button-click" href="#" data-type="featured">Featured</Link></li>
-                                <li> <Link className="button-click" href="#" data-type="company">Company</Link></li>
-                                <li> <Link className="button-click" href="#" data-type="product-news">Product News</Link></li>
-                                <li> <Link className="button-click" href="#" data-type="customer-stories">Customer Stories</Link></li>
-                                <li> <Link className="button-click" href="#" data-type="guides">Guides</Link></li>
-                                <li> <Link className="button-click" href="#" data-type="other">Other</Link></li>
-                            </ul>
-                        </div> */}
                         <div className="box-list-blogs">
                             <div className="row mt-55">
                                 <div className="col-lg-12 mb-60 item-article featured">
@@ -73,11 +46,11 @@ const Blog = () => {
                                                 <div className="col-lg-6"><img className="d-block" src="assets/imgs/page/homepage2/img-marketing.png" alt="iori" /></div>
                                                 <div className="col-lg-6">
                                                     <div className="box-info-video">
-                                                        <a class="btn btn-border-brand-1 mr-15" href="#">Featured</a><Link href="blog-detail">
-                                                        <h3 className="color-brand-5 mt-15 mb-20">7 Things To Keep In Mind When Starting A Business</h3></Link>
-                                                        <div className="mb-25 mt-10"><span className="font-xs-color-gray-900">November 17, 2022</span></div>
-                                                        <p className="font-md color-gray-900">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
-                                                        <div className="box-button text-start mt-45"> <Link className="btn btn-default font-sm-bold pl-0 hover-up" href="blog-detail">
+                                                        <a class="btn btn-border-brand-1 mr-15">Featured</a><Link href="blogs/how-jira-enhances-web-and-software-development-projects">
+                                                        <h3 className="color-brand-5 mt-15 mb-20">How JIRA Enhances Web and Software Development Projects</h3></Link>
+                                                        <div className="mb-25 mt-10"><span className="font-xs-color-gray-900">September 05, 2024</span></div>
+                                                        <p className="font-md color-gray-900">Web and software development require efficient project management and teamwork. JIRA is essential for developers and project managers. In this blog, we will discuss what makes JIRA stand out and how it can significantly enhance your development projects. </p>
+                                                        <div className="box-button text-start mt-45"> <Link className="btn btn-default font-sm-bold pl-0 hover-up" href="blogs/how-jira-enhances-web-and-software-development-projects">
                                                             Read more
                                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
