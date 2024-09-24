@@ -80,17 +80,17 @@ const Blog = () => {
                                 </div>
                                 <div className="col-lg-4 col-md-6 mb-30 item-article product-news">
                                     <div className="card-blog-grid card-blog-grid-3 hover-up">
-                                        <div className="card-image"><Link href="/blog-detail"><img src="assets/imgs/page/blog/img4.png" alt="iori" /></Link>
+                                        <div className="card-image"><Link href="/blogs/e-commerce-development-for-modern-businesses"><img src="assets/imgs/page/blog/img4.png" alt="iori" /></Link>
                                             <Link href="blog"><label className="lbl-border">Tutorial</label></Link>
                                         </div>
-                                        <div className="card-info"><Link href="/blog-detail">
-                                            <h4 className="color-brand-5">Everything a Beginner Blogger Needs to Know for 2023</h4></Link>
-                                            <div className="mb-25 mt-10"><span className="font-xs color-gray-900">November 17, 2022</span><span className="font-xs color-gray-900 icon-read">2 min read</span></div>
-                                            <p className="font-sm color-gray-900 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
+                                        <div className="card-info"><Link href="/blogs/e-commerce-development-for-modern-businesses">
+                                            <h4 className="color-brand-5">E-Commerce Development for Modern Businesses</h4></Link>
+                                            <div className="mb-10 mt-10"><span className="font-xs color-gray-900">September 12, 2022</span><span className="font-xs color-gray-900 icon-read">E-Commerce Development</span></div>
+                                            <p className="font-sm color-gray-900 mt-20">In 2024, retail e-commerce sales amounted to more than 19% of total retail sales globally. Statista estimates that in 2027, e-commerce will account for over a quarter of global retail sales. Online shopping is growing.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 mb-30 item-article company">
+                                {/* <div className="col-lg-4 col-md-6 mb-30 item-article company">
                                     <div className="card-blog-grid card-blog-grid-3 hover-up">
                                         <div className="card-image"><Link href="/blog-detail"><img src="assets/imgs/page/blog/img5.png" alt="iori" /></Link>
                                             <Link href="blog"><label className="lbl-border">Team work</label></Link>
@@ -101,7 +101,7 @@ const Blog = () => {
                                             <p className="font-sm color-gray-900 mt-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla. Interactively transform magnetic growth strategies whereas prospective "outside the box" thinking.</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="col-lg-12">
                                     <div className="box-ads-1 mb-70">
                                         <h3 className="color-brand-5 font-shippori title-ads mb-5">Get our free marketing books</h3>
