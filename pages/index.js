@@ -25,7 +25,7 @@ const HomePage = () => {
                                     <h1 className="color-gray-900 mb-20">We Provide Comprehensive Solutions to <span className=''>Push Your Business</span> Onwards</h1>
                                     <div className="row">
                                         <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">We offer cutting-edge technology services that are customised to meet the evolving requirements of companies today.We focus on innovation with new ideas and developing specific tech strategies that put your business at the leading edge of its industry.</p>
+                                            <p className="font-md color-gray-900">Fleek Vertex is a software development and IT consulting company that provides commercial and consumer applications based on our significant understanding of technologies and the industries in which they operate. Our expert approach lets us see past technology to provide practical solutions for your specific company situation.</p>
                                         </div>
                                     </div>  
                                     <div className="box-button mt-20">
@@ -46,39 +46,39 @@ const HomePage = () => {
                     <div className="container">
                         <div className="row mt-10">
                             <div className="col-xl-5 col-lg-12 mb-40">
-                                <h2 className="color-brand-336699 mt-10 mb-15">Business can also be simple</h2>
-                                <p className="font-md color-gray-900">Access advanced order types including limit, market, stop limit and dollar cost averaging. Track your total asset holdings, values and equity over time. Monitor markets, manage your portfolio, and trade crypto on the go.</p>
+                                <h2 className="color-brand-336699 mt-10 mb-15">Why are we different from others?</h2>
+                                <p className="font-md color-gray-900">Our experienced developers offer strong, scalable, creative ideas catered to your needs by bringing years of expertise to every project. We are not just experts but are at the forefront of the latest technologies and best practices. We offer cutting-edge technology services that are customized to meet the evolving requirements of companies today. We use our in-depth knowledge and insights in critical areas to give you resolutions specifically designed to meet your needs and take advantage of your unique possibilities.</p>
                                 <div className="mt-20">
                                     <ul className="list-ticks">
                                         <li>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>Task tracking
+                                            </svg>Proven Expertise
                                         </li>
                                         <li>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>Create task dependencies
+                                            </svg>Tailored Solutions
                                         </li>
                                         <li>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>Task visualization
+                                            </svg>Quality Assurance and Testing
                                         </li>
                                         <li>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>hare files, discuss
+                                            </svg>Transparent Communication 
                                         </li>
                                         <li>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>Meet deadlines faster
+                                            </svg>Post-Launch Support
                                         </li>
                                         <li>
                                             <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                            </svg>Track time spent on each project
+                                            </svg>On-Time Delivery
                                         </li>
                                     </ul>
                                 </div>
@@ -102,7 +102,7 @@ const HomePage = () => {
                         <div className="row align-items-end">
                             <div className="col-lg-8 col-md-8">
                                 <h3 className="color-brand-336699 mb-20">What We Offer</h3>
-                                <p className="font-lg color-gray-500">What makes us different from others? We give holistic solutions<br className="d-none d-lg-block" />with strategy, design &amp; technology.</p>
+                                <p className="font-lg color-gray-500">We offer our clients comprehensive software solutions to meet their needs.</p>
                             </div>
                             <div className="col-lg-4 col-md-4 text-md-end text-start"><a className="btn btn-default font-sm-bold pl-0">Learn More
                                 <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -119,7 +119,7 @@ const HomePage = () => {
                                     </div>
                                     <div className="card-info">
                                         <h4 className="color-brand-336699 mb-15">Web Development</h4>
-                                        <p className="font-md color-grey-500 mb-15">We create optimized websites for your business that meet all its specific requirements.</p>
+                                        <p className="font-md color-grey-500 mb-15">Our web development services create optimized websites for your business that meet all its specific requirements.</p>
                                         <div className="box-button-offer"><Link href="/web-development-company" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -134,7 +134,7 @@ const HomePage = () => {
                                     </div>
                                     <div className="card-info">
                                         <h4 className="color-brand-336699 mb-15">Cloud Services</h4>
-                                        <p className="font-md color-grey-500 mb-15">We offer flexible and scalable solutions developed to meet your business requirements.</p>
+                                        <p className="font-md color-grey-500 mb-15">Fleek Vertex cloud services offer flexible and scalable solutions developed to meet your business requirements.</p>
                                         <div className="box-button-offer"><Link href="/cloud-migration-services" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -154,7 +154,7 @@ const HomePage = () => {
                                     </div>
                                     <div className="card-info">
                                         <h4 className="color-brand-336699 mb-15">JIRA Administration</h4>
-                                        <p className="font-md color-grey-500 mb-15">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <p className="font-md color-grey-500 mb-15">Our Jira administrators are responsible for delivering the best expertise and skills for our client's implementation or ongoing management needs.</p>
                                         <div className="box-button-offer"><Link href="/jira-administration-services" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -171,7 +171,7 @@ const HomePage = () => {
                                     </div>
                                     <div className="card-info">
                                         <h4 className="color-brand-336699 mb-15">Branding Services</h4>
-                                        <p className="font-md color-grey-500 mb-15">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <p className="font-md color-grey-500 mb-15">In branding, we provide everything from logo design and messaging to a brand style guide that ensures consistency across all marketing materials.</p>
                                         <div className="box-button-offer"><Link href="/branding-services" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -189,7 +189,7 @@ const HomePage = () => {
                                     </div>
                                     <div className="card-info">
                                         <h4 className="color-brand-336699 mb-15">Testing & Automation</h4>
-                                        <p className="font-md color-grey-500 mb-15">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <p className="font-md color-grey-500 mb-15">Our testing and automation services ensure that your software works correctly, can be developed, and is steady.</p>
                                         <div className="box-button-offer"><Link href="/software-testing-company" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -207,7 +207,7 @@ const HomePage = () => {
                                     </div>
                                     <div className="card-info">
                                         <h4 className="color-brand-336699 mb-15">Mobile App Development</h4>
-                                        <p className="font-md color-grey-500 mb-15">Fleek Vertex specialises in creating unique, user-friendly mobile apps that are easy for anyone.</p>
+                                        <p className="font-md color-grey-500 mb-15">Our team of skilled developers and designers collaborates with you to turn your ideas into pleasure and useful apps that help your business grow.</p>
                                         <div className="box-button-offer"><Link href="/mobile-app-development-company" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -223,7 +223,7 @@ const HomePage = () => {
                                     </div>
                                     <div className="card-info">
                                         <h4 className="color-brand-336699 mb-15">Software Development</h4>
-                                        <p className="font-md color-grey-500 mb-15">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <p className="font-md color-grey-500 mb-15">We offer our clients a comprehensive range of custom software development services to meet their needs.</p>
                                         <div className="box-button-offer"><Link href="/software-development-company" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -239,7 +239,7 @@ const HomePage = () => {
                                     </div>
                                     <div className="card-info">
                                         <h4 className="color-brand-336699 mb-15">E-commerce Development</h4>
-                                        <p className="font-md color-grey-500 mb-15">Your site is not complete with only landings. Get essential inner pages using our ready demos.</p>
+                                        <p className="font-md color-grey-500 mb-15">Our team of experts will design user-friendly and visually appealing eCommerce websites optimized for conversion.</p>
                                         <div className="box-button-offer"><Link href="/ecommerce-development-company" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -258,7 +258,7 @@ const HomePage = () => {
                                 <div className="col-xl-6 col-lg-6">
                                     <div className="box-info-video"> {/* <span className="btn btn-tag">Business</span> */}
                                         <h3 className="color-brand-2 mt-10 mb-15">We Develop the Future-Ready World</h3>
-                                        <p className="font-md color-white">Fleek Vertex is a development company and an inclusive community of top engineers who want to improve the world through digital innovation. We use our skills, knowledge, and experience to help our clients get ahead and improve the world. Our company’s goal is easy to explain but hard to execute. We develop IT options. With the help of our clients, we make the world a better and more comfortable place for everyone.</p>
+                                        <p className="font-md color-white">Fleek Vertex is a development company and an inclusive community of top engineers who want to improve the world through digital innovation. We use our skills, knowledge, and experience to help our clients get ahead and improve the world. Our company's goal is easy to explain but hard to execute. We develop IT options. With the help of our clients, we make the world a better and more comfortable place for everyone. We believe as a company that technology has the power to make the world a better place for everyone and to remain. We help clients in many fields, like healthcare, education, business, and more, build custom solutions that meet their unique needs and solve their problems.</p>
                                         <div className="box-button-video"><a className="text-white font-sm-bold">Learn More</a></div>
                                     </div>
                                 </div>
@@ -363,10 +363,7 @@ const HomePage = () => {
                                     <div className="row">
                                         <div className="col-lg-10">
                                             <p className="font-md color-gray-900">
-                                                Collaborate, plan projects and manage resources with
-                                                powerful features that your whole team can use. The latest
-                                                news, tips and advice to help you run your business with
-                                                less fuss.
+                                            Don't hesitate to contact us to learn how Fleek Vertex can help you use digital innovation to change your business. We're excited to work with you to make your idea come true with cutting-edge solutions. You can email us at  info@fleekvertex.com or (+91) 9346 261 550. Join us in developing a future-ready world that benefits everyone.
                                             </p>
                                         </div>
                                     </div> 
