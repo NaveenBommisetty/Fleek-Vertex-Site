@@ -11,27 +11,30 @@ const pageTerm = () => {
             </Head>
 
             <Layout>
-                <div className="section pt-40 content-term">
-                    <div className="box-bg-term" />
+            <div className="section breadcrumbs-path pt-20 pb-20">
                     <div className="container">
-                        <div className="breadcrumbs">
+                        <div className="breadcrumbs ">
                             <ul>
-                                <li> <Link href="#">
+                                <li> <Link href="/">
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                                     </svg>Home</Link></li>
-                                <li> <Link href="term-conditions">Terms and condition</Link></li>
+                                <li> <Link href="#">Terms and conditions</Link></li>
                             </ul>
                         </div>
-                        <div className="content-main mt-50">
+                    </div>
+                </div>
+                <div className="section pt-40 content-term">
+                    <div className="" />
+                    <div className="container">
+                        <div className="content-main mt-10">
                             <div className="text-center">
                                 <h2 className="color-brand-1 mb-10">Terms and Condition</h2>
                                 <p className="font-lg color-grey-500">Amet nulla facilisi morbi tempus iaculis urna</p>
-                                <div className="box-image-head mt-50 mb-50"> <img className="bd-rd8" src="assets/imgs/page/term/img.png" alt="iori" /></div>
                             </div>
                             <div className="row mt-70">
-                                <div className="col-lg-1 col-md-1" />
-                                <div className="col-lg-2 col-md-3">
+                                <div className="col-lg-2 col-md-5">
+                                    <div className='sticky-sidebar sidebar-author'>
                                     <h6 className="color-brand-1 mb-15">Table of contents</h6>
                                     <ul className="list-terms">
                                         <li> <Link href="#limitation">Limitation of Liability</Link></li>
@@ -48,8 +51,9 @@ const pageTerm = () => {
                                         <li> <Link href="#agreement">License Agreement</Link></li>
                                         <li> <Link href="#severability">Severability</Link></li>
                                     </ul>
+                                    </div>
                                 </div>
-                                <div className="col-lg-8 col-md-7">
+                                <div className="col-lg-9 col-md-8">
                                     <h4 className="color-brand-1 mb-20" id="limitation">Limitation of Liability</h4>
                                     <p className="font-md color-grey-500 mb-30">Under no circumstances shall AliThemes be liable for any direct, indirect, special, incidental or consequential damages, including, but not limited to, loss of data or profit, arising out of the use, or the inability to use, the materials on this site, even if AliThemes or an authorized representative has been advised of the possibility of such damages. If your use of materials from this site results in the need for servicing, repair or correction of equipment or data, you assume any costs thereof.</p>
                                     <h4 className="color-brand-1 mb-20" id="licensing">Licensing Policy</h4>
@@ -80,29 +84,7 @@ const pageTerm = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <section className="section mt-50">
-                    <div className="container">
-                        <div className="box-newsletter box-newsletter-2">
-                            <div className="row align-items-center">
-                                <div className="col-lg-6 col-md-7 m-auto text-center"><span className="font-lg color-brand-1">Newsletter</span>
-                                    <h2 className="color-brand-1 mb-15 mt-5">Subcribe our newsletter</h2>
-                                    <p className="font-md color-grey-500">Do not miss the latest information from us about the trending in the market. By clicking the button, you are agreeing with our Term &amp; Conditions</p>
-                                    <div className="form-newsletter mt-30">
-                                        <form action="#">
-                                            <input type="text" placeholder="Enter you mail .." />
-                                            <button className="btn btn-submit-newsletter" type="submit">
-                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                                </svg>
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                </div> 
             </Layout>
 
         </>

@@ -10,17 +10,17 @@ const pageAbout = () => {
                 <title>Fleek - About Us</title>
             </Head>
             <Layout>
-            <section className="section banner-contact">
+                <section className="section banner-contact">
                     <div className="container pt-100">
                         <div className="banner-1">
                             <div className="row align-items-center">
                                 <div className="col-lg-7"><span className="title-line line-48">Who we are</span>
-                                <h1 className="color-brand-5 mb-20 mt-10">About Fleek Vertex</h1>
+                                    <h1 className="color-brand-5 mb-20 mt-10">About Fleek Vertex</h1>
                                     <div className="row">
                                         <div className="col-lg-9">
                                             <p className="font-md color-gray-900">We’re not just a tech company—innovators passionate about creating industry-changing solutions. Our journey began with a simple idea: harnessing the power of technology to solve real-world challenges. Today, we pride ourselves on our commitment to excellence, working with forward-thinking businesses to achieve success through innovative digital solutions.</p>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="box-banner-contact"><img src="assets/imgs/page/contact/banner.png" alt="iori" /></div>
@@ -67,7 +67,7 @@ const pageAbout = () => {
                 </section>
                 <section className='section mt-90 pb-50 bg-core-value'>
                     <div className='container'>
-                    <div className="row">
+                        <div className="row">
                             <div className="col-lg-6">
                                 <div className="item-core mb-30">
                                     <div className="item-image"><img src="assets/imgs/page/about/img1.png" alt="iori" /></div>
@@ -91,7 +91,7 @@ const pageAbout = () => {
                 </section>
                 <section className="section mt-90 pb-50 bg-core-value">
                     <div className="container">
-                        
+
                         <div className="row box-list-core-value">
                             <div className="col-lg-4 mb-70">
                                 <div className="box-core-value">
@@ -113,7 +113,7 @@ const pageAbout = () => {
                                         <div className="box-border-dashed">
                                             <p className="font-md color-grey-500 mb-20">We’re honest, transparent and committed to doing what’s best for our customers and our company. We openly collaborate in pursuit of the truth. We have no tolerance for politics, hidden agendas or passive-aggressive behavior.</p>
                                         </div>
-                                    </li> 
+                                    </li>
                                     <li> <span className="ticked" />
                                         <h5 className="color-brand-1 mb-5">Integrity is essential.</h5>
                                         <div className="box-border-dashed">
@@ -167,8 +167,8 @@ const pageAbout = () => {
                                 <div className="col-xl-6 col-lg-6 col-md-6">
                                     <div className="box-info-video mt-30 mb-30"><span className="btn btn-tag">OUR MISSION</span>
                                         {/* <h3 className="color-brand-5 mt-10 mb-15">We have a mission to help businesses grow the best with existing conditions</h3> */}
-                                        <p className='font-md color-grey-400'>Our mission is to drive innovation by providing innovative technology solutions that empower businesses to excel in the digital world. We are dedicated to pushing the boundaries of what is possible, ensuring our clients achieve their goals accurately and efficiently. 
-We are a global force, connecting with customers and partners across the mainland to inspire innovation and deliver excellence. Our reach extends beyond borders, bringing diverse perspectives and solutions to every corner of the globe.</p>
+                                        <p className='font-md color-grey-400'>Our mission is to drive innovation by providing innovative technology solutions that empower businesses to excel in the digital world. We are dedicated to pushing the boundaries of what is possible, ensuring our clients achieve their goals accurately and efficiently.
+                                            We are a global force, connecting with customers and partners across the mainland to inspire innovation and deliver excellence. Our reach extends beyond borders, bringing diverse perspectives and solutions to every corner of the globe.</p>
                                         <p className="font-md color-grey-400">As a nominated company, We've partnered with a committed group to push the limits and obtain excellent results. We have experience in various industries, so we can make the correct responses for you. We make a real difference by combining cutting-edge technology with a deep knowledge of your problems. We are known as reliable partners because we have a history of success and are dedicated to new ideas.</p>
                                     </div>
                                 </div>
@@ -240,9 +240,8 @@ We are a global force, connecting with customers and partners across the mainlan
                             </div>
                         </div>
                     </div>
-                </section>                
+                </section>
             </Layout>
-
         </>
     );
 };
