@@ -81,7 +81,7 @@ const Blog = () => {
                                 <div className="col-lg-4 col-md-6 mb-30 item-article product-news">
                                     <div className="card-blog-grid card-blog-grid-3 hover-up">
                                         <div className="card-image"><Link href="/blogs/e-commerce-development-for-modern-businesses"><img src="assets/imgs/page/blog/img4.png" alt="iori" /></Link>
-                                            <Link href="blog"><label className="lbl-border">Tutorial</label></Link>
+                                            <Link href="#"><label className="lbl-border">E-Commerce Development</label></Link>
                                         </div>
                                         <div className="card-info"><Link href="/blogs/e-commerce-development-for-modern-businesses">
                                             <h4 className="color-brand-5">E-Commerce Development for Modern Businesses</h4></Link>
