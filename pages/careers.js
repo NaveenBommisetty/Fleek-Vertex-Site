@@ -2,8 +2,11 @@ import Link from 'next/link';
 import Head from 'next/head';
 import React from 'react';
 import Layout from '../components/layout/Layout';
+import jobsData from '../pages/api/jobs.json'
 
 const Careers = () => {
+    const { jobs } = jobsData;
+
     return (
         <>
             <Head>
@@ -11,7 +14,7 @@ const Careers = () => {
             </Head>
 
             <Layout>
-            <div className="section breadcrumbs-path pt-20 pb-20">
+                <div className="section breadcrumbs-path pt-20 pb-20">
                     <div className="container">
                         <div className="breadcrumbs ">
                             <ul>
@@ -35,7 +38,7 @@ const Careers = () => {
                         </div>
                     </div>
                 </section>
-                <section className="section mt-100">
+                {/* <section className="section mt-100">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 text-center">
@@ -86,7 +89,7 @@ const Careers = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section className="section mt-100">
                     <div className="container">
                         <div className="row">
@@ -96,107 +99,56 @@ const Careers = () => {
                             </div>
                         </div>
                         <div className="row mt-50">
-                            <div className="col-lg-6">
-                                <div className="card-offer card-we-do hover-up">
-                                    <div className="card-image"><img src="assets/imgs/page/homepage4/offer1.png" alt="iori" /></div>
-                                    <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/job-detail">Manage budgets and resources</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Seamless importing and round-tripping of Microsoft Project plans, Excel files &amp; CSV files.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                            {jobs.map(job => (
+                                <div className="col-lg-6" key={job.id}>
+                                    <div className="card-offer card-we-do hover-up">
+                                        <div className="card-image">
+                                            <img src={job.image} alt={job.title} />
+                                        </div>
+                                        <div className="card-info">
+                                            <h4 className="color-brand-1 mb-10">
+                                                <Link className="color-brand-1" href={`/job-detail?id=${job.id}`}>{job.title}</Link>
+                                            </h4>
+                                            <p className="font-md color-grey-500 mb-5">{job.description}</p>
+                                            <div className="box-button-offer">
+                                                <Link className="btn btn-default font-sm-bold pl-0 color-brand-1" href={`/job-detail?id=${job.id}`}>Learn More
+                                                    <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                                    </svg>
+                                                </Link>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <div className="card-offer card-we-do hover-up">
-                                    <div className="card-image"><img src="assets/imgs/page/homepage4/offer2.png" alt="iori" /></div>
-                                    <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/job-detail">Employee Assessments</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <div className="card-offer card-we-do hover-up">
-                                    <div className="card-image"><img src="assets/imgs/page/homepage4/offer3.png" alt="iori" /></div>
-                                    <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/job-detail">Smart Installation Tools</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">No lag time, no lost effort when priorities change, no email black hole. As team collaboration improves</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <div className="card-offer card-we-do hover-up">
-                                    <div className="card-image"><img src="assets/imgs/page/homepage4/offer4.png" alt="iori" /></div>
-                                    <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/job-detail">Collaborative to the core.</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Share updates instantly within our project management software, and get the entire team collaborating</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <div className="card-offer card-we-do hover-up">
-                                    <div className="card-image"><img src="assets/imgs/page/homepage4/offer5.png" alt="iori" /></div>
-                                    <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/job-detail">Manage budgets and resources</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">Seamless importing and round-tripping of Microsoft Project plans, Excel files &amp; CSV files.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <div className="card-offer card-we-do hover-up">
-                                    <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
-                                    <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/job-detail">Unlimited ways to work</Link></h4>
-                                        <p className="font-md color-grey-500 mb-5">What makes us different from others? We give holistic solutions with strategy, design &amp; technology.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
-                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
-                                    </div>
-                                </div>
-                            </div>
+                            ))}
                         </div>
-                        <div className="mt-40 mb-50 text-center"><Link className="btn btn-brand-1 hover-up" href="contact">Contact Us</Link><a className="btn btn-default font-sm-bold hover-up" href="#">Learn More
-                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg></a></div>
+                        {/* <div className="mt-40 mb-50 text-center">
+                            <Link className="btn btn-brand-1 hover-up" href="/contact">Contact Us</Link>
+                            <Link className="btn btn-default font-sm-bold hover-up" href="#">Learn More
+                                <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                </svg>
+                            </Link>
+                        </div> */}
                     </div>
                 </section>
-                <section className="section pt-0 pb-50 bg-core-value bg-grey-60 mb-40">
+                <section className="section mt-10 pb-50 bg-core-value">
                     <div className="container">
+
                         <div className="row box-list-core-value">
                             <div className="col-lg-4 mb-70">
                                 <div className="box-core-value">
                                     <div className="shape-left shape-1" />
                                     <h3 className="color-brand-1 mb-15">Core values</h3>
-                                    <p className="font-md color-grey-400">We break down barriers so teams can focus on what matters – working together to create products their customers love.</p>
+                                    <p className="font-md color-grey-400">Our culture succeeds in 6 key characteristics that set us apart, giving us a unique approach and results.</p>
                                 </div>
                             </div>
                             <div className="col-lg-4">
                                 <ul className="list-core-value">
                                     <li> <span className="ticked" />
-                                        <h5 className="color-brand-1 mb-5">Customers First</h5>
+                                        <h5 className="color-brand-1 mb-5">Our Passion</h5>
                                         <div className="box-border-dashed">
-                                            <p className="font-md color-grey-500 mb-20">Our company exists to help merchants sell more. We make every decision and measure every outcome based on how well it serves our customers.</p>
+                                            <p className="font-md color-grey-500 mb-20">Our passion makes everything we do better and drives us to go above and beyond and take on tasks with spirit. We work on every job with unwavering dedication and a genuine love for what we do. Our team is driven by this desire to develop new ideas, push the limits, and provide solutions that make a difference.</p>
                                         </div>
                                     </li>
                                     <li> <span className="ticked" />
@@ -206,9 +158,9 @@ const Careers = () => {
                                         </div>
                                     </li>
                                     <li> <span className="ticked" />
-                                        <h5 className="color-brand-1 mb-5">Make a Difference Every Day</h5>
+                                        <h5 className="color-brand-1 mb-5">Integrity is essential.</h5>
                                         <div className="box-border-dashed">
-                                            <p className="font-md color-grey-500 mb-20">Our company exists to help merchants sell more. We make every decision and measure every outcome based on how well it serves our customers.</p>
+                                            <p className="font-md color-grey-500 mb-20">We promise to always be honest and open with our clients, team members, and business partners. We think honesty is important for making friends and keeping connections going for a long time. This way of doing things ensures that we keep our promises and are responsible for what we do.</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -216,21 +168,21 @@ const Careers = () => {
                             <div className="col-lg-4">
                                 <ul className="list-core-value">
                                     <li> <span className="ticked" />
-                                        <h5 className="color-brand-1 mb-5">Think Big</h5>
+                                        <h5 className="color-brand-1 mb-5">Respectful</h5>
                                         <div className="box-border-dashed">
-                                            <p className="font-md color-grey-500 mb-20">Being the world's leading commerce platform requires unrivaled vision, innovation and execution. We never settle. We challenge our ideas of what’s possible in order to better meet the needs of our customers.</p>
+                                            <p className="font-md color-grey-500 mb-20">Communication and making decisions are based on showing respect. We value what each person brings to the table and listen with understanding to see things from different points of view. This respect makes a place where everyone feels respected and free to do their best, where people can work together and help each other. Maintaining a mindset of mutual respect helps us get along better with each other and achieve our goals as a team.</p>
                                         </div>
                                     </li>
                                     <li> <span className="ticked" />
-                                        <h5 className="color-brand-1 mb-5">Do the right thing</h5>
+                                        <h5 className="color-brand-1 mb-5">Ownership</h5>
                                         <div className="box-border-dashed">
-                                            <p className="font-md color-grey-500 mb-20">Integrity is the foundation for everything we do. We are admired and respected for our commitment to honesty, trust, and transparency. </p>
+                                            <p className="font-md color-grey-500 mb-20">Ownership is at the center of our culture. We offer everyone on the team the tools to be active and responsible, ensuring that projects are handled with care and dedication. This feeling of ownership makes the workplace lively, where everyone cares about our goals and works together to get great results. We encourage new ideas, keep improving our method, and set new standards of excellence by taking responsibility.</p>
                                         </div>
                                     </li>
                                     <li> <span className="ticked" />
-                                        <h5 className="color-brand-1 mb-5">Stronger united</h5>
+                                        <h5 className="color-brand-1 mb-5">Unified</h5>
                                         <div className="box-border-dashed">
-                                            <p className="font-md color-grey-500 mb-20">We’ve created a positive and inclusive culture that fosters open, honest, and meaningful relationships.</p>
+                                            <p className="font-md color-grey-500 mb-20">The essence of our culture is unity. Working together leads to new ideas and better results as a cohesive team. We can face challenges and celebrate successes together because we all have the same goal and work together. This makes sure that everyone moves forward at the same time.</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -238,7 +190,7 @@ const Careers = () => {
                         </div>
                     </div>
                 </section>
-                <section className="section mt-80 mb-30">
+                {/* <section className="section mt-80 mb-30">
                     <div className="container">
                         <div className="text-start">
                             <h3 className="color-brand-1 mb-20">Loved By Developers <br className="d-none d-lg-block" />Trusted By Enterprises</h3>
@@ -262,7 +214,7 @@ const Careers = () => {
                             </ul>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section className="section mt-50 pt-50 pb-40">
                     <div className="container">
                         <div className="box-cover-border">
@@ -363,7 +315,7 @@ const Careers = () => {
                         </div>
                     </div>
                 </section>
-                <section className="section mt-50">
+                {/* <section className="section mt-50">
                     <div className="container">
                         <div className="box-newsletter box-newsletter-2">
                             <div className="row align-items-center">
@@ -384,7 +336,7 @@ const Careers = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
             </Layout>
 
         </>
