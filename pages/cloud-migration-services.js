@@ -17,7 +17,20 @@ const CloudMigrationCompany = () => {
         <>
             <PageHead headTitle="Cloud Migration Services - Fleek Vertex" />
             <Layout>
-            <section className="section banner-service bg-grey-60 position-relative">             
+            <div className="section breadcrumbs-path pt-20 pb-20">
+                    <div className="container">
+                        <div className="breadcrumbs ">
+                            <ul>
+                                <li> <Link href="/">
+                                    <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                                    </svg>Home</Link></li>
+                                <li> <Link href="#">Cloud Migration</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            <section className="section banner-service bg-grey-60 position-relative mt-20">             
                   <div className="row m-0">
                       <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12" >
                       <div className="pl-60 pt-10 align-items-center">
