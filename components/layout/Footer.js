@@ -17,8 +17,9 @@ const Footer = () => {
                                 <h5 className="mb-10 color-brand-5">Company</h5>
                                 <ul className="menu-footer">
                                     <li><Link href="#">Faq</Link></li>
+                                    <li><Link href="/term-conditions">T&C's</Link></li>
                                     <li><Link href="#">Privacy policy</Link></li>
-                                    <li><Link href="#">Careers</Link></li>
+                                    <li><Link href="/careers">Careers</Link></li>
                                     <li><Link href="/blog">Blog</Link></li>
                                 </ul>
                             </div>
