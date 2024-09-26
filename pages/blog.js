@@ -115,7 +115,7 @@ const Blog = () => {
                                         </div>
                                     </div>
                                 </div> */}
-                                <div className="col-lg-12">
+                                {/* <div className="col-lg-12">
                                     <div className="box-ads-1 mb-70">
                                         <h3 className="color-brand-5 font-shippori title-ads mb-5">Get our free marketing books</h3>
                                         <p className="font-xs color-gray-900 mb-10">We synthesize all the tips and trends about online marketing in valuable books</p><Link className="btn btn-default font-sm-bold color-grey-900 pl-0" href="#">Register now
@@ -123,7 +123,7 @@ const Blog = () => {
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></Link>
                                     </div>
-                                </div> 
+                                </div>  */}
                             </div>
                             {/* <div className="mt-20 mb-30 text-center"> <Link className="btn btn-brand-1 font-sm-bold" href="#">Load More...</Link></div> */}
                         </div>

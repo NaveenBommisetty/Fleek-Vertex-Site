@@ -98,7 +98,7 @@ There are many ways to buy and sell things online, such as business-to-consumer 
                                     <div className="box-author"><Link href="#"><img src="../assets/imgs/page/homepage1/author.png" alt="iori" /></Link>
                                         <div className="author-info"><Link href="#"><span className="font-md-bold color-brand-5 author-name">Om</span></Link><span className="font-xs color-grey-500 department">September 07, 2024</span></div>
                                     </div>
-                                    <div className="mt-25"><Link className="btn btn-border mr-10 mb-10" href="#">Marketing</Link><Link className="btn btn-border mr-10 mb-10" href="#">Business</Link></div>
+                                    <div className="mt-25"><Link className="btn btn-border mr-10 mb-10" href="#">OnlineStore</Link><Link className="btn btn-border mr-10 mb-10" href="#">BigCommerce</Link></div>
                                     <div className="mt-50">
                                         <h6 className="color-brand-5 mb-15">Table of contents</h6>
                                         <ul className="list-number">
