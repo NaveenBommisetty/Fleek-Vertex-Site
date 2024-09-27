@@ -30,56 +30,74 @@ const pageTerm = () => {
                         <div className="content-main mt-10">
                             <div className="text-center">
                                 <h2 className="color-brand-1 mb-10">Terms and Condition</h2>
-                                <p className="font-lg color-grey-500">Amet nulla facilisi morbi tempus iaculis urna</p>
+                                <p className="font-lg color-grey-500 pb-20">Welcome to Fleek Vertex. You agree to follow and be bound by these terms and conditions when you use our website and services. Before you use our services, please read them carefully. You should not use our services if you don't agree with any of these fundamental principles.</p>
+                                <ul>
+                                <li>"Fleek Vertex," "we," "us," and "our" refer to the business entity offering the services through this site</li>
+                                <li>"User," "you," or "your" refers to any individual, company, or organization accessing or using our services.</li>
+                                <li>"Services" refers to all products, services, and content Fleek Vertex provides.</li>
+                                </ul>
                             </div>
                             <div className="row mt-70">
                                 <div className="col-lg-2 col-md-5">
                                     <div className='sticky-sidebar sidebar-author'>
                                     <h6 className="color-brand-1 mb-15">Table of contents</h6>
                                     <ul className="list-terms">
-                                        <li> <Link href="#limitation">Limitation of Liability</Link></li>
-                                        <li> <Link href="#licensing">Licensing Policy</Link></li>
-                                        <li> <Link href="#product">Product Compatibility</Link></li>
-                                        <li> <Link href="#delivery">Delivery</Link></li>
-                                        <li> <Link href="#ownership">Ownership</Link></li>
-                                        <li> <Link href="#browser">Browser Compatibility</Link></li>
-                                        <li> <Link href="#updates">Updates</Link></li>
-                                        <li> <Link href="#support">Theme Support</Link></li>
-                                        <li> <Link href="#price">Price Changes</Link></li>
-                                        <li> <Link href="#refund">Refund Policy</Link></li>
+                                        <li> <Link href="#limitation">Use of Services</Link></li>
+                                        <li> <Link href="#ServiceAvailability">Service Availability</Link></li>
+                                        <li> <Link href="#DisclaimerofWarranties">Disclaimer of Warranties</Link></li>
+                                        <li> <Link href="#IntellectualProperty">Intellectual Property</Link></li>
+                                        <li> <Link href="#PaymentandFees">Payment and Fees</Link></li>
+                                        <li> <Link href="#LimitationofLiability">Limitation of Liability</Link></li>
+                                        <li> <Link href="#Termination">Termination</Link></li>
+                                        <li> <Link href="#GoverningLaw">Governing Law</Link></li>
+                                        <li> <Link href="#ImportantNotes">Important Notes</Link></li>
+                                        {/* <li> <Link href="#refund">Refund Policy</Link></li>
                                         <li> <Link href="#email">Email &amp; Newsletter</Link></li>
                                         <li> <Link href="#agreement">License Agreement</Link></li>
-                                        <li> <Link href="#severability">Severability</Link></li>
+                                        <li> <Link href="#severability">Severability</Link></li> */}
                                     </ul>
                                     </div>
                                 </div>
                                 <div className="col-lg-9 col-md-8">
-                                    <h4 className="color-brand-1 mb-20" id="limitation">Limitation of Liability</h4>
-                                    <p className="font-md color-grey-500 mb-30">Under no circumstances shall AliThemes be liable for any direct, indirect, special, incidental or consequential damages, including, but not limited to, loss of data or profit, arising out of the use, or the inability to use, the materials on this site, even if AliThemes or an authorized representative has been advised of the possibility of such damages. If your use of materials from this site results in the need for servicing, repair or correction of equipment or data, you assume any costs thereof.</p>
-                                    <h4 className="color-brand-1 mb-20" id="licensing">Licensing Policy</h4>
-                                    <p className="font-md color-grey-500 mb-30">AliThemes WordPress plugins and themes are released under the GNU General Public License v2 or later. Please refer to licensing policy page for licensing details.</p>
-                                    <h4 className="color-brand-1 mb-20" id="product">Product Compatibility</h4>
-                                    <p className="font-md color-grey-500 mb-30">The products are developed to be compatible with the latest version of WordPress because we always strive to stay up-to-date with the latest version of WordPress. You might experience certain performance or functionality glitches with the products if you use any version prior to that.</p>
-                                    <h4 className="color-brand-1 mb-20" id="delivery">Delivery</h4>
-                                    <p className="font-md color-grey-500 mb-30">Your purchased product(s) information will be emailed to the email address (that you will provide) once we receive your payment. Even though this usually takes a few minutes, it may also take up to 24 hours. You can contact us through our contact page if you do not receive your email after waiting for this time period. You will also have access to your purchased products from your account in AliThemes after logging in.</p>
-                                    <h4 className="color-brand-1 mb-20" id="ownership">Ownership</h4>
-                                    <p className="font-md color-grey-500 mb-30">All the products are the property of AliThemes. So you may not claim ownership (intellectual or exclusive) over any of our products, modified or unmodified. Our products come ‘as is’, without any kind of warranty, either expressed or implied. Under no circumstances can our juridical person be accountable for any damages including, but not limited to, direct, indirect, special, incidental or consequential damages or other losses originating from the employment of or incapacity to use our products.</p>
-                                    <h4 className="color-brand-1 mb-20" id="browser">Browser Compatibility</h4>
-                                    <p className="font-md color-grey-500 mb-30">We consider it our duty to offer a great experience across most major browsers, which is why our products support the latest modern web browsers including (but not limited to) Firefox, Safari, Chrome &amp; Internet Explorer 9+. However, the performance may vary between different browsers, versions, and operating systems.</p>
-                                    <h4 className="color-brand-1 mb-20" id="updates">Updates</h4>
-                                    <p className="font-md color-grey-500 mb-30">Our themes are constantly updated to be compatible with the latest stable version of WordPress. Please ensure that you always use the most current version of our themes.</p>
-                                    <h4 className="color-brand-1 mb-20" id="support">Theme Support</h4>
-                                    <p className="font-md color-grey-500 mb-30">Please refer to Help and Support Policy page for details.</p>
-                                    <h4 className="color-brand-1 mb-20" id="price">Price Changes</h4>
-                                    <p className="font-md color-grey-500 mb-30">AliThemes reserves the right to modify or suspend (temporarily or permanently) a subscription at any point of time and from time to time with or without any notice.</p>
-                                    <h4 className="color-brand-1 mb-20" id="refund">Refund Policy</h4>
-                                    <p className="font-md color-grey-500 mb-30">Please refer to Refund Policy page for details.</p>
-                                    <h4 className="color-brand-1 mb-20" id="email">Email &amp; Newsletter</h4>
-                                    <p className="font-md color-grey-500 mb-30">AliThemes may occasionally send you emails related to the purchase of product(s) from our company. We may also send you occasional email newsletters relating to AliThemes updates and promotions. We will never sell or release your email to any third party vendors. You may opt out of these emails at any time without penalty.</p>
-                                    <h4 className="color-brand-1 mb-20" id="agreement">License Agreement</h4>
-                                    <p className="font-md color-grey-500 mb-30">By purchasing our product(s), you indicate and consent that you have read and agree to the Terms &amp; Conditions listed and detailed on this page. We reserve the right to change or modify the current Terms and Conditions without prior notice or consent.</p>
-                                    <h4 className="color-brand-1 mb-20" id="severability">Severability</h4>
-                                    <p className="font-md color-grey-500 mb-30">If any part of this agreement is declared unenforceable or invalid, all remaining clauses in this agreement shall remain binding on the customer.</p>
+                                    <h3 className="color-brand-1 mb-20" id="limitation">Use of Services</h3>
+                                    <h4 className="color-brand-5 pl-20">1.Eligibility</h4>
+                                    <p className="font-md color-grey-500 mb-10 pl-20">By utilizing our services, you acknowledge that you are at least 18 years old or the age of legal majority in your jurisdiction, if it is different.</p>
+                                    <h4 className="color-brand-5 pl-20">2.Account Registration</h4>
+                                    <p className="font-md color-grey-500 mb-10 pl-20">Account registration is mandatory for certain services. You acknowledge that you are responsible for providing accurate and comprehensive information during registration and will update your information as required. You are accountable for the confidentiality of your account information and all activities under your account.</p>
+                                    <h4 className="color-brand-5 pl-20">3.Acceptable Use</h4>
+                                    <p className="font-md color-grey-500 mb-10 pl-20">You consent to refrain from abusing our services. Activities that are prohibited include, but are not restricted to, using the services for illegal purposes, transmitting harmful code, and violating others' rights</p>
+                                    <h4 className="color-brand-1 mb-10" id="ServiceAvailability">Service Availability</h4>
+                                    <p className="font-md color-grey-500 mb-10">Fleek Vertex is dedicated to ensuring that our services are always accessible. Still, we do not guarantee continuous or error-free service and retain the right to modify, suspend, or discontinue any aspect of the services without warning. We are not responsible for any consequences arising from service interruptions or modifications.</p>
+                                    <h4 className="color-brand-1 mb-10" id="DisclaimerofWarranties">Disclaimer of Warranties</h4>
+                                    <p className="font-md color-grey-500 mb-10">Fleek Vertex does not provide any warranties or representations regarding our services' timeliness, accuracy, availability, applicability, or reliability. The services are provided "as is" without any warranty. We do not guarantee that our services will be free of errors or interruptions.</p>
+                                    <h4 className="color-brand-1 mb-10" id="IntellectualProperty">Intellectual Property</h4>
+                                    <h4 className="color-brand-5 pl-20">1.Ownership</h4>
+                                    <p className="font-md color-grey-500 mb-10 pl-20"> Fleek Vertex or our licensors' intellectual property extends to all content and materials on our website, including, but not limited to, text, graphics, logos, icons, images, and software.</p>
+                                    <h4 className="color-brand-5 pl-20">2.License</h4>
+                                    <p className="font-md color-grey-500 mb-10 pl-20">You are granted a non-exclusive, limited, and non-transferable license to access and use the services for personal or internal business purposes. The redistribution, reselling, or reproduction of our content is strictly prohibited without our written consent.</p>
+                                    <h4 className="color-brand-1 mb-10" id="PaymentandFees">Payment and Fees</h4>
+                                    <h4 className="color-brand-5 pl-20">1.Pricing</h4>
+                                    <p className="font-md color-grey-500 mb-10 pl-20">Information regarding service fees is available on our website or upon request. Prices are subject to change without notice.</p>
+                                    <h4 className="color-brand-5 pl-20">2.Billing</h4>
+                                    <p className="font-md color-grey-500 mb-10 pl-20">You agree to pay all fees and applicable taxes for services you or your authorized users use. Payments must be made according to the payment terms specified at the time of sign-up or purchase.</p>
+                                    <h4 className="color-brand-1 mb-10" id="LimitationofLiability">Limitation of Liability</h4>
+                                    <p className="font-md color-grey-500 mb-10">Fleek Vertex shall not be held accountable for any indirect, incidental, special, consequential, or exemplary damages, including but not limited to damages for loss of profits, goodwill, use, or data, to the utmost extent permitted by applicable law. Our aggregate liability shall not surpass the sum you paid for the services.</p>
+                                    <h4 className="color-brand-1 mb-10" id="support">Indemnification</h4>
+                                    <p className="font-md color-grey-500 mb-10">You consent to the defense, indemnification, and holding harmless of Fleek Vertex, its affiliates, employees, and agents from any claims, liabilities, damages, losses, or expenses, including reasonable attorney's fees, that arise from or in connection with your use of the services or violation of these terms.</p>
+                                    <h4 className="color-brand-1 mb-10" id="Termination">Termination</h4>
+                                    <p className="font-md color-grey-500 mb-10">Fleek Vertex retains the right to suspend or terminate your access to the services with or without cause and without notice. Your license to utilize the services will terminate immediately upon termination. All provisions of these terms intended to survive termination, such as the disclaimer of warranties, ownership, and liability limitation, shall survive.</p>
+                                    <h4 className="color-brand-1 mb-10" id="GoverningLaw">Governing Law</h4>
+                                    <p className="font-md color-grey-500 mb-10">These terms and conditions shall be governed by and construed by the laws of the jurisdiction where Fleek Vertex is established, without regard to its conflict of law principles. The courts in the subject jurisdiction shall have exclusive jurisdiction over any dispute arising from or in connection with these terms.</p>
+                                    <h4 className="color-brand-1 mb-10" id="email">Update Terms and Conditions</h4>
+                                    <p className="font-md color-grey-500 mb-10">Fleek Vertex reserves the right to modify or replace these terms and conditions without notice. Your continued use of our services after such changes constitutes your acceptance of the revised terms. If you disagree with the new terms, stop using our services.</p>
+                                    <h4 className="color-brand-1 mb-20" id="ImportantNotes">Important Notes</h4>
+                                    <p className="font-md color-grey-500 mb-20 pl-20">1. These terms and conditions constitute the entire agreement between Fleek Vertex and you regarding your use of our services.<br></br>
+2. If any provision of these terms is invalid or unenforceable, the remaining provisions shall remain in full force and effect.<br></br>
+3. Our failure to enforce any right or provision of these terms will not be considered a waiver of those rights.<br></br>
+4. Any notices or communications required by these terms may be emailed or posted on our website.<br></br>
+5. Headings are for reference purposes only and do not limit or affect these terms.
+</p>
+<p className="font-md color-grey-500 mb-30">We appreciate your attention to our Terms and Conditions. We are committed to delivering secure and dependable services. However, if you have any queries or concerns regarding these terms, please do not hesitate to reach out to us at info@fleekvertex.com for further clarification. We are grateful for the chance to serve you and appreciate your business. So, please feel free to peruse our services and inform us if there is anything we can do to enhance your experience with Fleek Vertex.</p>
                                 </div>
                             </div>
                         </div>
