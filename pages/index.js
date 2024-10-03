@@ -20,12 +20,12 @@ const HomePage = () => {
             <section className="section banner-2">
                     <div className="container">
                         <div className="banner-1">
-                            <div className="row align-items-center">
-                                <div className="col-lg-7">
-                                    <h1 className="color-gray-900 mb-20">We Provide Comprehensive Solutions to <span className=''>Push Your Business</span> Onwards</h1>
+                            <div className="row align-items-center pt-120">
+                                <div className="col-xl-6 col-lg-8">
+                                    <h1 className="color-white mb-20">We Provide Comprehensive Solutions to <span className=''>Push Your Business</span> Onwards</h1>
                                     <div className="row">
-                                        <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">Fleek Vertex is a software development and IT consulting company that provides commercial and consumer applications based on our significant understanding of technologies and the industries in which they operate. Our expert approach lets us see past technology to provide practical solutions for your specific company situation.</p>
+                                        <div className="col-lg-12">
+                                            <p className="font-md color-white">Fleek Vertex is a software development and IT consulting company that provides commercial and consumer applications based on our significant understanding of technologies and the industries in which they operate. Our expert approach lets us see past technology to provide practical solutions for your specific company situation.</p>
                                         </div>
                                     </div>  
                                     <div className="box-button mt-20">
@@ -37,7 +37,7 @@ const HomePage = () => {
                                         </svg></Link>
                                         </div>
                                 </div>
-                                <div className="col-lg-5 d-none d-lg-block"><img src="assets/imgs/page/homepage2/banner.png" alt="iori" /></div>
+                                {/* <div className="col-lg-5 d-none d-lg-block"><img src="assets/imgs/page/homepage2/banner.png" alt="iori" /></div> */}
                             </div>
                         </div>
                     </div>
