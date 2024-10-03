@@ -2690,7 +2690,8 @@ body {
 }
 
 .banner-2 {
-  background: url(../imgs/page/homepage2/bg-banner.png) no-repeat right center;
+  background: url(../imgs/innovative-it-solutions.webp) no-repeat right center;
+  min-height: 580px;
 }
 
 .banner-3 {
