@@ -60,7 +60,6 @@ const Footer = () => {
                                 <div className="col-lg-6 col-md-12 text-center text-lg-start">
                                     <ul className="menu-bottom">
                                         <li><Link className="font-sm color-gray-900" href="/Privacy-Policy">Privacy policy</Link></li>
-                                        <li><Link className="font-sm color-gray-900" href="/term-conditions">Cookies</Link></li>
                                         <li><Link className="font-sm color-gray-900" href="/term-conditions">Terms of service</Link></li>
                                     </ul>
                                 </div>

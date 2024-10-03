@@ -62,7 +62,7 @@ const ContactUs = () => {
                         </div>
                     </div>
                 </div>
-            <section className="section banner-service bg-grey-60 position-relative mt-20">
+            <section className="section banner-service bg-grey-60 position-relative">
                     <div className="row m-0">
                         <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12" >
                         <div className="pl-100 pt-30 align-items-center">

@@ -292,7 +292,7 @@ const HomePage = () => {
                         <div className="row align-items-end">
                             <div className="col-lg-8 col-md-8">
                                 <h3 className="color-brand-5 mb-20">From our blog </h3>
-                                <p className="font-lg color-gray-500">Aenean velit nisl, aliquam eget diam eu, rhoncus tristique dolor.<br className="d-none d-lg-block" />Aenean vulputate sodales urna ut vestibulum</p>
+                                <p className="font-lg color-gray-500">Keep up-to-date with all our latest company news and business content. The latest news, tips and advice to help you run your business with less fuss</p>
                             </div>
                             <div className="col-lg-4 col-md-4 text-md-end text-start"><a className="btn btn-default font-sm-bold pl-0">View All
                                 <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -300,56 +300,45 @@ const HomePage = () => {
                                 </svg></a></div>
                         </div>
                         <div className="row mt-55">
-                            <div className="col-xl-4 col-lg-6 col-md-6">
-                                <div className="card-blog-grid card-blog-grid-2 hover-up">
-                                    <div className="card-image"><Link href="blog-detail"><img src="assets/imgs/page/homepage2/news1.png" alt="iori" /></Link></div>
-                                    <div className="card-info"><Link href="blog-detail">
-                                        <h6 className="color-brand-336699">Easy Ways to Make Money While You Sleep</h6></Link>
-                                        <p className="font-sm color-gray-900 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
-                                        <div className="mt-20 d-flex align-items-center border-top pt-20"><Link className="btn btn-border-brand-1 mr-15" href="blog">Technology</Link><span className="date-post font-xs color-grey-300 mr-15">
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                                            </svg>29 May 2022</span><span className="time-read font-xs color-grey-300">
-                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                                </svg>3 mins read</span></div>
+                        <div className="col-lg-4 col-md-6 mb-30 item-article customer-stories">
+                                    <div className="card-blog-grid card-blog-grid-3 hover-up">
+                                        <div className="card-image"><Link href="blogs/building-scalable-mobile-apps-key-trends-and-best-practices"><img src="assets/imgs/page/blog/img3.png" alt="iori" /></Link>
+                                            <Link href="#"><label className="lbl-border">Mobile App Development</label></Link>
+                                        </div>
+                                        <div className="card-info"><Link href="blogs/building-scalable-mobile-apps-key-trends-and-best-practices">
+                                            <h4 className="color-brand-5">Building Scalable Mobile Apps: Key Trends and Best Practices</h4></Link>
+                                            <div className="mb-15 mt-10"><span className="font-xs color-gray-900">September 07, 2024</span><span className="font-xs color-gray-900 icon-read">Mobile App Development</span></div>
+                                            <p className="font-sm color-gray-900">Mobile apps have become an essential part of our daily lives. They can be used for everything from business transactions and interaction to entertainment and productivity. Since mobile apps have become increasingly vital, developers have to ensure that their work is both safe and scalable.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-xl-4 col-lg-6 col-md-6">
-                                <div className="card-blog-grid card-blog-grid-2 hover-up">
-                                    <div className="card-image"><Link href="blog-detail"><img src="assets/imgs/page/homepage1/news2.png" alt="iori" /></Link></div>
-                                    <div className="card-info"><Link href="blog-detail">
-                                        <h6 className="color-brand-5">How to convert video to MP4 for free online</h6></Link>
-                                        <p className="font-sm color-gray-900 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
-                                        <div className="mt-20 d-flex align-items-center border-top pt-20"><Link className="btn btn-border-brand-1 mr-15" href="blog">Media</Link><span className="date-post font-xs color-gray-900 mr-15">
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                                            </svg>29 May 2022</span><span className="time-read font-xs color-gray-900">
-                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                                </svg>3 mins read</span></div>
+                                <div className="col-lg-4 col-md-6 mb-30 item-article product-news">
+                                <div className="card-blog-grid card-blog-grid-3 hover-up">
+                                        <div className="card-image"><Link href="/blogs/e-commerce-development-for-modern-businesses"><img src="assets/imgs/page/blog/img4.png" alt="iori" /></Link>
+                                            <Link href="#"><label className="lbl-border">E-Commerce Development</label></Link>
+                                        </div>
+                                        <div className="card-info"><Link href="/blogs/e-commerce-development-for-modern-businesses">
+                                            <h4 className="color-brand-5">E-Commerce Development for Modern Businesses</h4></Link>
+                                            <div className="mb-10 mt-10"><span className="font-xs color-gray-900">September 12, 2022</span><span className="font-xs color-gray-900 icon-read">E-Commerce Development</span></div>
+                                            <p className="font-sm color-gray-900 mt-20">In 2024, retail e-commerce sales amounted to more than 19% of total retail sales globally. Statista estimates that in 2027, e-commerce will account for over a quarter of global retail sales. Online shopping is growing.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
                             <div className="col-xl-4 col-lg-6 col-md-6">
-                                <div className="card-blog-grid card-blog-grid-2 hover-up">
-                                    <div className="card-image"><Link href="blog-detail"><img src="assets/imgs/page/homepage2/news3.png" alt="iori" /></Link></div>
-                                    <div className="card-info"><Link href="blog-detail">
-                                        <h6 className="color-brand-336699">5 fastest ways to increase SEO rankings</h6></Link>
-                                        <p className="font-sm color-gray-900 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
-                                        <div className="mt-20 d-flex align-items-center border-top pt-20"><Link className="btn btn-border-brand-1 mr-15" href="blog">SEO</Link><span className="date-post font-xs color-gray-900 mr-15">
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                                            </svg>29 May 2022</span><span className="time-read font-xs color-gray-900">
-                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                                </svg>3 mins read</span></div>
+                            <div className="card-blog-grid card-blog-grid-3 hover-up">
+                                        <div className="card-image"><Link href="/blogs/how-jira-enhances-web-and-software-development-projects"><img src="assets/imgs/page/blog/img4.png" alt="iori" /></Link>
+                                            <Link href="#"><label className="lbl-border">JIRA Administration</label></Link>
+                                        </div>
+                                        <div className="card-info"><Link href="/blogs/how-jira-enhances-web-and-software-development-projects">
+                                            <h4 className="color-brand-5">How JIRA Enhances Web and Software Development Projects</h4></Link>
+                                            <div className="mb-10 mt-10"><span className="font-xs color-gray-900">September 12, 2022</span><span className="font-xs color-gray-900 icon-read">JIRA Administration</span></div>
+                                            <p className="font-sm color-gray-900 mt-20">Web and software development require efficient project management and teamwork. JIRA is essential for developers and project managers. In this blog, we will discuss what makes JIRA stand out and how it can significantly enhance your development projects.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+
                 </section>
                 <section className="section mt-60 mb-60">
                     <div className="container">

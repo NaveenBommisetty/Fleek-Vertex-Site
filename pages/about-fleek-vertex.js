@@ -243,11 +243,7 @@ const pageAbout = () => {
                                     <div className="box-info-video"><span className="btn btn-tag">Get in touch</span>
                                         <h2 className="color-brand-5 mt-15 mb-20"></h2>
                                         <p className="font-md color-grey-500">If you're looking to discover how digital innovation can amplify your marketing efforts, the professionals are ready to assist. Technology is our specialty for increasing brand awareness, audience engagement, and meaningful transactions. Our digital strategy, analytics, and cutting-edge marketing technologies expertise may help you succeed. Contact our marketing experts today to discuss marketing optimization. Contact info@fleekvertex.com or (+91) 9346 261 550 to start your success story.</p>
-                                        <div className="box-button text-start mt-65"> <Link className="btn btn-brand-1 hover-up" href="#">Contact Us</Link><Link className="btn btn-default font-sm-bold hover-up" href="#">
-                                            Support Center
-                                            <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></Link></div>
+                                        <div className="box-button text-start mt-65"> <Link className="btn btn-brand-1 hover-up" href="/contact">Contact Us</Link></div>
                                     </div>
                                 </div>
                             </div>

@@ -119,7 +119,7 @@ There are many ways to buy and sell things online, such as business-to-consumer 
                     </div>
                     <div className="border-bottom bd-grey-80 mt-10" />
                 </div>
-                <div className="section mt-20">
+                {/* <div className="section mt-20">
                     <div className="container">
                         <h3 className="color-brand-5">Recommended articles</h3>
                         <div className="row mt-50">
@@ -161,7 +161,7 @@ There are many ways to buy and sell things online, such as business-to-consumer 
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* <section className="section mt-50">
                     <div className="container">
                         <div className="box-newsletter box-newsletter-2">
