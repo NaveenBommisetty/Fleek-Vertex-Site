@@ -8,12 +8,15 @@ export default async function handler(req, res) {
     console.log(req.body);
 
     let transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: process.env.SMTP_PORT,
-      secure: true, // Use SSL
+      host: 'smtp.mailersend.net', // SMTP server
+      port: 587, // TLS uses port 587
+      secure: false, // TLS is not the same as SSL (use false for port 587)
       auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
+        user: 'ms_xfkzhf@fleekvertex.com', // Username
+        pass: 'KgwUpx8wEBKEk9wf', // Password
+      },
+      tls: {
+        rejectUnauthorized: false, // Allow self-signed certificates if needed
       },
     });
 
@@ -22,7 +25,7 @@ export default async function handler(req, res) {
 
       await transporter.sendMail({
         from: `"${name}" <${email}>`,
-        to: process.env.SMTP_USER, // Send to your email
+        to: 'ms_xfkzhf@fleekvertex.com', // Send to your email
         subject: subject,
         text: message,
       });

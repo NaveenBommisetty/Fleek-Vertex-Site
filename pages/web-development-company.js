@@ -314,7 +314,7 @@ If you are looking for a back-end and front-end web development company in Banga
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="box-cover-pd">
-                                    <div className="box-image-rd-30"> <img className="w-100" src="/assets/imgs/common/boost-your-business.webp" alt="iori" />
+                                <div className="box-image-rd-30 mt-60" > <img className="w-100" src="/assets/imgs/ioribgimg.jpg" alt="iori" />
                                         {/* <h4 className="color-brand-1 lbl-on-top">IORI Business Platform</h4> */}
                                     </div>
                                 </div>

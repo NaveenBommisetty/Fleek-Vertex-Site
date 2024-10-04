@@ -356,7 +356,7 @@ const CloudMigrationCompany = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="box-cover-pd">
-                                    <div className="box-image-rd-30"> <img className="w-100" src="/assets/imgs/common/boost-your-business.webp" alt="iori" />
+                                <div className="box-image-rd-30 mt-60" > <img className="w-100" src="/assets/imgs/ioribgimg.jpg" alt="iori" />
                                         {/* <h4 className="color-brand-1 lbl-on-top">IORI Business Platform</h4> */}
                                     </div>
                                 </div>
@@ -436,7 +436,7 @@ const CloudMigrationCompany = () => {
                                         <div className="card-image-plan">
                                             <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
                                             <div className="info-plan">
-                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                                <h5 className="color-brand-1">Cloud Application Development</h5>
                                             </div>
                                         </div>
 
@@ -446,22 +446,22 @@ const CloudMigrationCompany = () => {
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>React.Js
+                                                </svg>Python
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Java Script
+                                                </svg>Node.js
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Html5
+                                                </svg>Django
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>CSS3
+                                                </svg>AWS Lambda
                                             </li>
                                         </ul>
                                     </div>
@@ -473,7 +473,7 @@ const CloudMigrationCompany = () => {
                                         <div className="card-image-plan">
                                             <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
                                             <div className="info-plan">
-                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                                <h5 className="color-brand-1">Cloud Security Services</h5>
                                             </div>
                                         </div>
 
@@ -483,22 +483,22 @@ const CloudMigrationCompany = () => {
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>React.Js
+                                                </svg>Data Protection
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Java Script
+                                                </svg>IAM
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Html5
+                                                </svg>Network Security
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>CSS3
+                                                </svg>CSPM
                                             </li>
                                         </ul>
                                     </div>
@@ -510,7 +510,7 @@ const CloudMigrationCompany = () => {
                                         <div className="card-image-plan">
                                             <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
                                             <div className="info-plan">
-                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                                <h5 className="color-brand-1">DevOps & CI/CD Automation</h5>
                                             </div>
                                         </div>
 
@@ -520,22 +520,22 @@ const CloudMigrationCompany = () => {
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>React.Js
+                                                </svg>CI/CD
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Java Script
+                                                </svg>Ansible
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Html5
+                                                </svg>Docker
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>CSS3
+                                                </svg>Grafana
                                             </li>
                                         </ul>
                                     </div>
@@ -547,7 +547,7 @@ const CloudMigrationCompany = () => {
                                         <div className="card-image-plan">
                                             <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
                                             <div className="info-plan">
-                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                                <h5 className="color-brand-1">Cloud Migration Services</h5>
                                             </div>
                                         </div>
 
@@ -557,22 +557,22 @@ const CloudMigrationCompany = () => {
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>React.Js
+                                                </svg>AWS,GCP,Azure
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Java Script
+                                                </svg>CloudData Bases
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Html5
+                                                </svg>migration Tools
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>CSS3
+                                                </svg>Migration Hubs
                                             </li>
                                         </ul>
                                     </div>

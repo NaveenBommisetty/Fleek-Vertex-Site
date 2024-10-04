@@ -36,11 +36,11 @@ const Footer = () => {
                             <div className="col-lg-3 width-16 mb-30">
                                 <h5 className="mb-10 color-brand-5">Industries We Cover</h5>
                                 <ul className="menu-footer">
-                                    <li><Link href="#">Education</Link></li>
-                                    <li><Link href="#">Retail & Ecommerce</Link></li>
-                                    <li><Link href="#">Entertainment</Link></li>
-                                    <li><Link href="#">Health Care</Link></li>
-                                    <li><Link href="#">Public Sector</Link></li>
+                                    <li><Link href="">Education</Link></li>
+                                    <li><Link href="">Retail & Ecommerce</Link></li>
+                                    <li><Link href="">Entertainment</Link></li>
+                                    <li><Link href="">Health Care</Link></li>
+                                    <li><Link href="">Public Sector</Link></li>
                                 </ul>
                             </div>
                             <div className="col-lg-3 width-23">

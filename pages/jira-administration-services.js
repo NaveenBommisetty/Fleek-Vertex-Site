@@ -400,9 +400,10 @@ const JiraAdministrationServices = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="box-cover-pd">
-                                    <div className="box-image-rd-30"> <img className="w-100" src="/assets/imgs/common/boost-your-business.webp" alt="iori" />
+                                <div className="box-image-rd-30 mt-60" > <img className="w-100" src="/assets/imgs/ioribgimg.jpg" alt="iori" />
                                         {/* <h4 className="color-brand-1 lbl-on-top">IORI Business Platform</h4> */}
                                     </div>
+                                
                                 </div>
                             </div>
                             <div className="col-lg-6">
@@ -480,7 +481,7 @@ const JiraAdministrationServices = () => {
                                         <div className="card-image-plan">
                                             <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
                                             <div className="info-plan">
-                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                                <h5 className="color-brand-1">JIRA Reporting & Dashboards</h5>
                                             </div>
                                         </div>
 
@@ -490,22 +491,22 @@ const JiraAdministrationServices = () => {
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>React.Js
+                                                </svg>JIRA REST API
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Java Script
+                                                </svg>JQL
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Html5
+                                                </svg>Plugins
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>CSS3
+                                                </svg>Add-ons
                                             </li>
                                         </ul>
                                     </div>
@@ -517,7 +518,7 @@ const JiraAdministrationServices = () => {
                                         <div className="card-image-plan">
                                             <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
                                             <div className="info-plan">
-                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                                <h5 className="color-brand-1">JIRA Automation Rules</h5>
                                             </div>
                                         </div>
 
@@ -527,22 +528,22 @@ const JiraAdministrationServices = () => {
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>React.Js
+                                                </svg>JIRA Automation Engine
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Java Script
+                                                </svg>Zapier
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Html5
+                                                </svg>REST API
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>CSS3
+                                                </svg>Webhooks
                                             </li>
                                         </ul>
                                     </div>
@@ -554,7 +555,7 @@ const JiraAdministrationServices = () => {
                                         <div className="card-image-plan">
                                             <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
                                             <div className="info-plan">
-                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                                <h5 className="color-brand-1">JIRA Service Management</h5>
                                             </div>
                                         </div>
 
@@ -564,22 +565,22 @@ const JiraAdministrationServices = () => {
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>React.Js
+                                                </svg>JIRA Platform
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Java Script
+                                                </svg>SLAs and Reporting
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Html5
+                                                </svg>Request Management
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>CSS3
+                                                </svg>Automation Engine
                                             </li>
                                         </ul>
                                     </div>
@@ -591,7 +592,8 @@ const JiraAdministrationServices = () => {
                                         <div className="card-image-plan">
                                             <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
                                             <div className="info-plan">
-                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                                <h5 className="color-brand-1">
+                                                Project Management & Configuration</h5>
                                             </div>
                                         </div>
 
@@ -601,22 +603,22 @@ const JiraAdministrationServices = () => {
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>React.Js
+                                                </svg>Agile Boards
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Java Script
+                                                </svg>Roadmaps
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Html5
+                                                </svg>Custom Workflows
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>CSS3
+                                                </svg>Permissions and Roles
                                             </li>
                                         </ul>
                                     </div>

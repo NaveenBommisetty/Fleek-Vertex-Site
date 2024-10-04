@@ -402,7 +402,7 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="box-cover-pd">
-                                    <div className="box-image-rd-30"> <img className="w-100" src="/assets/imgs/common/boost-your-business.webp" alt="iori" />
+                                <div className="box-image-rd-30 mt-60" > <img className="w-100" src="/assets/imgs/ioribgimg.jpg" alt="iori" />
                                         {/* <h4 className="color-brand-1 lbl-on-top">IORI Business Platform</h4> */}
                                     </div>
                                 </div>
@@ -482,7 +482,7 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                         <div className="card-image-plan">
                                             <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
                                             <div className="info-plan">
-                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                                <h5 className="color-brand-1">WooCommerce Development</h5>
                                             </div>
                                         </div>
 
@@ -492,22 +492,22 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>React.Js
+                                                </svg>PHP
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Java Script
+                                                </svg>Wordpress
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Html5
+                                                </svg>MySQL
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>CSS3
+                                                </svg>HTML, CSS, JavaScript,React
                                             </li>
                                         </ul>
                                     </div>
@@ -519,7 +519,7 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                         <div className="card-image-plan">
                                             <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
                                             <div className="info-plan">
-                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                                <h5 className="color-brand-1">Shopify Devlopment</h5>
                                             </div>
                                         </div>
 
@@ -529,22 +529,22 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>React.Js
+                                                </svg>Liquid
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Java Script
+                                                </svg>MySQL
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Html5
+                                                </svg>RestAPI
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>CSS3
+                                                </svg>Plugins
                                             </li>
                                         </ul>
                                     </div>
@@ -556,7 +556,7 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                         <div className="card-image-plan">
                                             <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
                                             <div className="info-plan">
-                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                                <h5 className="color-brand-1">Magento Devlopment</h5>
                                             </div>
                                         </div>
 
@@ -566,22 +566,22 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>React.Js
+                                                </svg>PHP
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Java Script
+                                                </svg>MySQL
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Html5
+                                                </svg>Html5,CSS3
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>CSS3
+                                                </svg>REST
                                             </li>
                                         </ul>
                                     </div>
@@ -593,7 +593,7 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                         <div className="card-image-plan">
                                             <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
                                             <div className="info-plan">
-                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                                <h5 className="color-brand-1">eCommerce Devlopment</h5>
                                             </div>
                                         </div>
 
@@ -608,17 +608,17 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Java Script
+                                                </svg>Python
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Html5
+                                                </svg>Html5,CSS3,JS
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>CSS3
+                                                </svg>MySql
                                             </li>
                                         </ul>
                                     </div>

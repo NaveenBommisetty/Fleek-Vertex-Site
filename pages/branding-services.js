@@ -360,7 +360,7 @@ const BrandingServices = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="box-cover-pd">
-                                    <div className="box-image-rd-30"> <img className="w-100" src="/assets/imgs/common/boost-your-business.webp" alt="iori" />
+                                <div className="box-image-rd-30 mt-60" > <img className="w-100" src="/assets/imgs/ioribgimg.jpg" alt="iori" />
                                         {/* <h4 className="color-brand-1 lbl-on-top">IORI Business Platform</h4> */}
                                     </div>
                                 </div>
@@ -440,7 +440,7 @@ const BrandingServices = () => {
                                         <div className="card-image-plan">
                                             <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
                                             <div className="info-plan">
-                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                                <h5 className="color-brand-1">Digital Branding</h5>
                                             </div>
                                         </div>
 
@@ -450,22 +450,22 @@ const BrandingServices = () => {
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>React.Js
+                                                </svg>Google Analytics
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Java Script
+                                                </svg>WordPress
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Html5
+                                                </svg>Figma
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>CSS3
+                                                </svg>Hootsuite
                                             </li>
                                         </ul>
                                     </div>
@@ -477,7 +477,7 @@ const BrandingServices = () => {
                                         <div className="card-image-plan">
                                             <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
                                             <div className="info-plan">
-                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                                <h5 className="color-brand-1">Brand Collateral Design</h5>
                                             </div>
                                         </div>
 
@@ -487,22 +487,22 @@ const BrandingServices = () => {
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>React.Js
+                                                </svg>Canva
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Java Script
+                                                </svg>Adobe InDesign
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Html5
+                                                </svg>Blender
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>CSS3
+                                                </svg>Frontify
                                             </li>
                                         </ul>
                                     </div>
@@ -514,7 +514,7 @@ const BrandingServices = () => {
                                         <div className="card-image-plan">
                                             <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
                                             <div className="info-plan">
-                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                                <h5 className="color-brand-1">Brand Identity Development</h5>
                                             </div>
                                         </div>
 
@@ -524,22 +524,22 @@ const BrandingServices = () => {
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>React.Js
+                                                </svg>Adobe Creative Suite
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Java Script
+                                                </svg>Coolors
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Html5
+                                                </svg>Google Fonts
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>CSS3
+                                                </svg>Miro
                                             </li>
                                         </ul>
                                     </div>
@@ -551,7 +551,7 @@ const BrandingServices = () => {
                                         <div className="card-image-plan">
                                             <div className="icon-plan"> <img src="/assets/imgs/page/homepage1/free.svg" alt="iori" /></div>
                                             <div className="info-plan">
-                                                <h4 className="color-brand-1">Web Devlopment</h4>
+                                                <h5 className="color-brand-1">Print & Traditional Advertising</h5>
                                             </div>
                                         </div>
 
@@ -561,22 +561,22 @@ const BrandingServices = () => {
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>React.Js
+                                                </svg>Adobe Illustrato
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Java Script
+                                                </svg>PMS
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>Html5
+                                                </svg>FontLab Studio
                                             </li>
                                             <li>
                                                 <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                </svg>CSS3
+                                                </svg>Blender
                                             </li>
                                         </ul>
                                     </div>
