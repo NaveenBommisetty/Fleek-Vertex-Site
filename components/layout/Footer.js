@@ -63,7 +63,7 @@ const Footer = () => {
                                         <li><Link className="font-sm color-gray-900" href="/term-conditions">Terms of service</Link></li>
                                     </ul>
                                 </div>
-                                <div className="col-lg-6 col-md-12 text-center text-lg-end"><span className="color-gray-900 font-md">©Fleek Vertex Pvt Ltd 2024. All right reversed.</span></div>
+                                <div className="col-lg-6 col-md-12 text-center text-lg-end"><span className="color-gray-900 font-md">© Fleek Vertex Pvt Ltd 2024. All right reversed.</span></div>
                             </div>
                         </div>
                     </div>

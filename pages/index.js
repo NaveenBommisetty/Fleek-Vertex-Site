@@ -29,8 +29,8 @@ const HomePage = () => {
                                         </div>
                                     </div>  
                                     <div className="box-button mt-20">
-                                        <Link className="btn btn-brand-1 hover-up" href="/service">Our Solutions</Link>
-                                        <Link className="btn btn-brand-336699 font-sm-bold hover-up" href="/about">
+                                        <Link className="btn btn-brand-1 hover-up" href="">Our Solutions</Link>
+                                        <Link className="btn btn-brand-336699 font-sm-bold hover-up" href="/about-fleek-vertex">
                                         Learn More
                                         <svg className="w-6 h-6 icon-17 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -82,7 +82,7 @@ const HomePage = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="mt-30 text-start"><Link className="btn btn-brand-336699 font-sm-bold hover-up" href="/about">Learn More
+                                <div className="mt-30 text-start"><Link className="btn btn-brand-336699 font-sm-bold hover-up" href="/about-fleek-vertex">Learn More
                                     <svg className="w-6 h-6 icon-17 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg></Link></div>
@@ -294,10 +294,11 @@ const HomePage = () => {
                                 <h3 className="color-brand-5 mb-20">From our blog </h3>
                                 <p className="font-lg color-gray-500">Keep up-to-date with all our latest company news and business content. The latest news, tips and advice to help you run your business with less fuss</p>
                             </div>
-                            <div className="col-lg-4 col-md-4 text-md-end text-start"><a className="btn btn-default font-sm-bold pl-0">View All
+                            <div className="col-lg-4 col-md-4 text-md-end text-start">
+                            <Link href="/blog" className="btn btn-default font-sm-bold pl-0">View all
                                 <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                </svg></a></div>
+                                </svg></Link></div>
                         </div>
                         <div className="row mt-55">
                         <div className="col-lg-4 col-md-6 mb-30 item-article customer-stories">
