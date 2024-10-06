@@ -4,12 +4,19 @@ import React, { useState } from 'react';
 import Layout from '../../components/layout/Layout';
 import jobsData from './jobs.json'; // Assuming jobs.json has the "jobs" array
 import { useRouter } from 'next/router';
+import { toast, ToastContainer } from 'react-toastify'; // Make sure you have this import for toasts
+import 'react-toastify/dist/ReactToastify.css';
 
 const UiUxdev = () => {
   const [isFormVisible, setIsFormVisible] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
-  const [formData, setFormData] = useState({ name: '', email: '', resume: null });
-  const [submitMessage, setSubmitMessage] = useState('');
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    subject: '',
+    message: '',
+    resume: '' 
+  });
 
   const toggleForm = () => {
     setIsFormVisible(!isFormVisible);
@@ -21,21 +28,40 @@ const UiUxdev = () => {
   };
 
   const handleFileChange = (e) => {
-    setFormData({ ...formData, resume: e.target.files[0] });
+    const { name, files } = e.target;
+    setFormData({ ...formData, [name]: files[0] }); // Store the file object
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsLoading(true);
-    setSubmitMessage('');
+    const loadingToastId = toast.loading('Sending your message...');
 
-    // Simulate form submission (replace with actual API call)
+    // Dismiss loading toast after 3 seconds automatically
     setTimeout(() => {
-      setIsLoading(false);
-      setSubmitMessage('Application submitted successfully!');
-      setFormData({ name: '', email: '', resume: null });
-      setIsFormVisible(false); // Optionally hide the form after submission
-    }, 2000);
+      toast.dismiss(loadingToastId);
+    }, 1000);
+    
+    const formDataToSend = new FormData(); // Create a new FormData object
+    for (const key in formData) {
+      formDataToSend.append(key, formData[key]); // Append each key-value pair
+    }
+
+    try {
+      const response = await fetch('/api/uiux-email', {
+        method: 'POST',
+        body: formDataToSend, // Send FormData instead of JSON
+      });
+  
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+  
+      toast.dismiss(loadingToastId);
+      toast.success('Your message has been sent successfully!');  // Success toast
+    } catch (error) {
+      toast.dismiss(loadingToastId);
+      toast.error('There was an error sending your message. Please try again.');  // Error toast
+    }
   };
 
   return (
@@ -133,58 +159,61 @@ const UiUxdev = () => {
                     </button>
 
                     {isFormVisible && (
-                      <div className="mt-4">
-                        <h4 className="color-brand-1">Application Form</h4>
-                        <form onSubmit={handleSubmit}>
-                          <div className="mb-3">
-                            <label htmlFor="name" className="form-label">Name</label>
-                            <input
-                              type="text"
-                              className="form-control"
-                              id="name"
-                              name="name"
-                              value={formData.name}
-                              onChange={handleChange}
-                              required
-                            />
-                          </div>
-                          <div className="mb-3">
-                            <label htmlFor="email" className="form-label">Email</label>
-                            <input
-                              type="email"
-                              className="form-control"
-                              id="email"
-                              name="email"
-                              value={formData.email}
-                              onChange={handleChange}
-                              required
-                            />
-                          </div>
-                          <div className="mb-3">
-                            <label htmlFor="resume" className="form-label">Resume</label>
-                            <input
-                              type="file"
-                              className="form-control"
-                              id="resume"
-                              name="resume"
-                              onChange={handleFileChange}
-                              required
-                            />
-                          </div>
-                          <button
-                            type="submit"
-                            className={`btn btn-primary ${isLoading ? 'loading' : ''}`}
-                            disabled={isLoading} // Disable the button when loading
-                          >
-                            {isLoading ? 'Submitting...' : 'Submit'}
-                          </button>
-                        </form>
-
-                        {submitMessage && (
-                          <div className="alert alert-success mt-3">
-                            {submitMessage}
-                          </div>
-                        )}
+                      <div className="col-lg-12 mt-20">
+                        <div className="box-form-contact">
+                          <form onSubmit={handleSubmit}>
+                            <div className="row">
+                              <div className="col-lg-6 col-sm-6">
+                                <div className="form-group mb-25">
+                                  <input name="name" className="form-control icon-user" type="text" placeholder="Your name" value={formData.name} onChange={handleChange} required />
+                                </div>
+                              </div>
+                              <div className="col-lg-6 col-sm-6">
+                                <div className="form-group mb-25">
+                                  <input name="email" className="form-control icon-email" type="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
+                                </div>
+                              </div>
+                              <div className="col-lg-6 col-sm-6">
+                                <div className="form-group mb-25">
+                                  <input name="phone" className="form-control icon-phone" type="text" placeholder="Phone" value={formData.phone} onChange={handleChange} required />
+                                </div>
+                              </div>
+                              <div className="col-lg-6 col-sm-6">
+                                <div className="form-group mb-25">
+                                  <input name="subject" className="form-control" type="text" placeholder="subject" value={formData.subject} onChange={handleChange} required />
+                                </div>
+                              </div>
+                              <div className="col-lg-12">
+                                <div className="form-group mb-25">
+                                <label htmlFor="resume" className="form-label">Upload Resume</label>
+                                  <input
+                                    type="file"
+                                    className="form-control"
+                                    id="resume"
+                                    name="resume"
+                                    placeholder="resume"
+                                    onChange={handleFileChange} // Use the file change handler
+                                    required
+                                  />
+                                </div>
+                              </div>
+                              <div className="col-lg-12">
+                                <div className="form-group mb-25">
+                                  <textarea name="message" className="form-control textarea-control" placeholder="Write something" value={formData.message} onChange={handleChange} required></textarea>
+                                </div>
+                              </div>
+                              <div className="col-xl-4 col-lg-5 col-md-5 col-sm-6 col-9">
+                                <div className="form-group">
+                                  <button className="btn btn-brand-1-full font-sm" type="submit">Send message
+                                    <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                    </svg>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
                       </div>
                     )}
                   </div>
@@ -192,8 +221,11 @@ const UiUxdev = () => {
               </div>
             </div>
           </div>
+          <ToastContainer/>
         </section>
+        
       </Layout>
+      
     </>
   );
 };

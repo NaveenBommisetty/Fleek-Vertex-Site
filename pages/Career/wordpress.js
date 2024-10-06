@@ -2,8 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import React, { useState } from 'react';
 import Layout from '../../components/layout/Layout';
-import jobsData from './jobs.json'; // Assuming jobs.json has the "jobs" array
-import { useRouter } from 'next/router';
+
 
 const Wordpress = () => {
   const [isFormVisible, setIsFormVisible] = useState(false);

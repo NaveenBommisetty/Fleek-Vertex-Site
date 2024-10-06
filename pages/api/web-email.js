@@ -1,10 +1,10 @@
 import nodemailer from 'nodemailer';
 
-export default async function handler(req, res) {
+export default async function webdevpage(req, res) {
   if (req.method === 'POST') {
-    const { name, email, phone, company, subject, message } = req.body;
+    const { name, email, phone,company,  subject, message } = req.body;
 
-     const pageIdentifier = 'Contact Page';
+    const pageIdentifier = 'Webdev Page';
 
     let transporter = nodemailer.createTransport({
       host: 'fleekvertex.com', // SMTP server
@@ -38,8 +38,8 @@ export default async function handler(req, res) {
           html: `
           <p>Name: ${name} </p>
           <p>Email: ${email} </p>
+          <p>Company:${company}</p>
           <p>Phone: ${phone} </p>
-         <p>Company:${company}</p>
           <p>Message: ${message} </p>
           `,         
           

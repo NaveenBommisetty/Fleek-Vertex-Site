@@ -1,12 +1,60 @@
 import Link from 'next/link';
-import Head from 'next/head';
 import React, { useState } from 'react';
 import Layout from '../components/layout/Layout';
 import PageHead from '../components/layout/PageHead';
 import Testimonial from '../components/slider/Testimonial';
 import ModalVideo from 'react-modal-video';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const HomePage = () => {
+
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        phone: '',
+        subject: '',
+        message: ''
+    });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({ ...formData, [name]: value });
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        const loadingToastId = toast.loading('Sending your message...');
+
+        // Dismiss loading toast after 3 seconds automatically
+        setTimeout(() => {
+            toast.dismiss(loadingToastId);
+        }, 1000);
+        
+        try {
+          const response = await fetch('/api/homepage-email', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+          });
+      
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+      
+        //   const result = await response.json();
+        toast.dismiss(loadingToastId);
+        
+        toast.success('Your message has been sent successfully!');  // Success toast
+    } catch (error) {
+            toast.dismiss(loadingToastId);
+            toast.error('There was an error sending your message. Please try again.');  // Error toast
+        }
+      };
+
+
     const [isOpen, setOpen] = useState(false)
     const [activeIndex, setActiveIndex] = useState(1);
 
@@ -369,19 +417,23 @@ const HomePage = () => {
                                 </div>
                                 <div className="col-lg-5 text-start position-relative">
                                     <span className="arrow-down-banner shape-1" /><span className="arrow-right-banner shape-2" />
+                                    <form  onSubmit={handleSubmit}>
                                     <div className="box-signup">
                                         <h4 className="color-brand-5 mb-30">Get In Touch</h4>
                                         <div className="form-group mb-25">
-                                            <input className="form-control" type="text" placeholder="Full Name" />
+                                            <input className="form-control" type="text" placeholder="Full Name"  name='name' value={formData.name} onChange={handleChange} required />
                                         </div>
                                         <div className="form-group mb-25">
-                                            <input className="form-control" type="text" placeholder="stevenjob@gmail.com" />
+                                            <input className="form-control" type="text" placeholder="stevenjob@gmail.com" name='email' value={formData.email} onChange={handleChange} required/>
                                         </div>
                                         <div className="form-group mb-25">
-                                            <input className="form-control" type="tel" placeholder="+91 9346261550" />
+                                            <input className="form-control" type="tel" placeholder="+91 9346261550" name="phone" value={formData.phone} onChange={handleChange} required/>
                                         </div>
                                         <div className="form-group mb-25">
-                                            <textarea className="form-control" type="text" rows="4" placeholder="Hi Fleek Vertex" />
+                                            <input className="form-control" type="text" rows="4" placeholder="Subject" name="subject" value={formData.subject} onChange={handleChange} required />
+                                        </div>
+                                        <div className="form-group mb-25">
+                                            <textarea className="form-control" type="text" rows="4" placeholder="Hi Fleek Vertex"  name="message" value={formData.message} onChange={handleChange} required/>
                                         </div>
                                         <div className="form-group mb-15">
                                             <button className="btn btn-brand-1-full" type="submit">
@@ -389,11 +441,13 @@ const HomePage = () => {
                                             </button>
                                         </div>
                                     </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+                <ToastContainer/>
             </Layout>
         </>
     );

@@ -5,8 +5,56 @@ import CloudFaq from '../components/elements/CloudFaq';
 import Layout from '../components/layout/Layout';
 import PageHead from '../components/layout/PageHead'
 import { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const CloudMigrationCompany = () => {
+
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        phone: '',
+        company:'',
+        subject: '',
+        message: ''
+    });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({ ...formData, [name]: value });
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        const loadingToastId = toast.loading('Sending your message...');
+
+        // Dismiss loading toast after 3 seconds automatically
+        setTimeout(() => {
+            toast.dismiss(loadingToastId);
+        }, 1000);
+        
+        try {
+          const response = await fetch('/api/cloud-email', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+          });
+      
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+      
+        //   const result = await response.json();
+        toast.dismiss(loadingToastId);
+        
+        toast.success('Your message has been sent successfully!');  // Success toast
+    } catch (error) {
+            toast.dismiss(loadingToastId);
+            toast.error('There was an error sending your message. Please try again.');  // Error toast
+        }
+      };
 
     const [activeIndex, setActiveIndex] = useState(1);
     const handleOnClick = (index) => {
@@ -651,52 +699,55 @@ const CloudMigrationCompany = () => {
                             </div>
                             <div className="col-lg-7">
                                 <div className="box-form-contact">
-                                    <div className="row">
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group mb-25">
-                                                <input className="form-control icon-user" type="text" placeholder="Your name" />
+                                    <form onSubmit={handleSubmit}>
+                                        <div className="row">
+                                            <div className="col-lg-6 col-sm-6">
+                                                <div className="form-group mb-25">
+                                                    <input name="name" className="form-control icon-user" type="text" placeholder="Your name" value={formData.name} onChange={handleChange} required />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6 col-sm-6">
+                                                <div className="form-group mb-25">
+                                                    <input name="email" className="form-control icon-email" type="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6 col-sm-6">
+                                                <div className="form-group mb-25">
+                                                    <input name="phone" className="form-control icon-phone" type="text" placeholder="Phone" value={formData.phone} onChange={handleChange} required />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6 col-sm-6">
+                                                <div className="form-group mb-25">
+                                                    <input name="company" className="form-control icon-company" type="text" placeholder="Company" value={formData.company} onChange={handleChange} required />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-12">
+                                                <div className="form-group mb-25">
+                                                    <input name="subject" className="form-control" type="text" placeholder="Subject" value={formData.subject} onChange={handleChange} required />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-12">
+                                                <div className="form-group mb-25">
+                                                    <textarea name="message" className="form-control textarea-control" placeholder="Write something" value={formData.message} onChange={handleChange} required></textarea>
+                                                </div>
+                                            </div>
+                                            <div className="col-xl-4 col-lg-5 col-md-5 col-sm-6 col-9">
+                                                <div className="form-group">
+                                                    <button className="btn btn-brand-1-full font-sm" type="submit">Send message
+                                                        <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                                        </svg>
+                                                    </button>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group mb-25">
-                                                <input className="form-control icon-email" type="text" placeholder="Email" />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group mb-25">
-                                                <input className="form-control icon-phone" type="text" placeholder="Phone" />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <div className="form-group mb-25">
-                                                <input className="form-control icon-company" type="text" placeholder="Company" />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-12">
-                                            <div className="form-group mb-25">
-                                                <input className="form-control" type="text" placeholder="Subject" />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-12">
-                                            <div className="form-group mb-25">
-                                                <textarea className="form-control textarea-control" placeholder="Write something" defaultValue={""} />
-                                            </div>
-                                        </div>
-                                        <div className="col-xl-4 col-lg-5 col-md-5 col-sm-6 col-9">
-                                            <div className="form-group">
-                                                <button className="btn btn-brand-1-full font-sm" type="submit">Send message
-                                                    <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                                    </svg>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+                <ToastContainer/>
             </Layout>
 
         </>

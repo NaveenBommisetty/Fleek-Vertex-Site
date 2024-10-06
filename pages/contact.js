@@ -2,13 +2,16 @@ import Link from 'next/link';
 import Head from 'next/head';
 import React, { useState } from 'react';
 import Layout from '../components/layout/Layout';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const ContactUs = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
         phone: '',
-        company: '',
+        company:'',
         subject: '',
         message: ''
     });
@@ -20,6 +23,12 @@ const ContactUs = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        const loadingToastId = toast.loading('Sending your message...');
+
+        // Dismiss loading toast after 3 seconds automatically
+        setTimeout(() => {
+            toast.dismiss(loadingToastId);
+        }, 1000);
         
         try {
           const response = await fetch('/api/send-email', {
@@ -34,13 +43,16 @@ const ContactUs = () => {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
       
-          const result = await response.json();
-          alert('Your message has been sent successfully!');
-        } catch (error) {
-          console.error('Error sending email:', error);
-          alert('There was an error sending your message. Please try again.');
+        //   const result = await response.json();
+        toast.dismiss(loadingToastId);
+        
+        toast.success('Your message has been sent successfully!');  // Success toast
+    } catch (error) {
+            toast.dismiss(loadingToastId);
+            toast.error('There was an error sending your message. Please try again.');  // Error toast
         }
       };
+
 
     return (
         <>
@@ -62,6 +74,7 @@ const ContactUs = () => {
                         </div>
                     </div>
                 </div>
+                <ToastContainer />
             <section className="section banner-service bg-grey-60 position-relative">
                     <div className="row m-0">
                         <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12" >
