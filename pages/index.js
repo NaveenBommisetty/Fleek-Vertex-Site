@@ -90,10 +90,10 @@ const HomePage = () => {
                         </div>
                     </div>
                 </section> 
-                    <section className="section mt-0 mb-50">
+                    <section className="section mt-0 mb-20">
                     <div className="container">
-                        <div className="row mt-10">
-                            <div className="col-xl-5 col-lg-12 mb-40">
+                        <div className="row mt-40">
+                            <div className="col-xl-5 col-lg-12 mb-20">
                                 <h2 className="color-brand-336699 mt-10 mb-15">Why are we different from others?</h2>
                                 <p className="font-md color-gray-900">Our experienced developers offer strong, scalable, creative ideas catered to your needs by bringing years of expertise to every project. We are not just experts but are at the forefront of the latest technologies and best practices. We offer cutting-edge technology services that are customized to meet the evolving requirements of companies today. We use our in-depth knowledge and insights in critical areas to give you resolutions specifically designed to meet your needs and take advantage of your unique possibilities.</p>
                                 <div className="mt-20">
