@@ -2692,6 +2692,7 @@ body {
 .banner-2 {
   background: url(../imgs/innovative-it-solutions.webp) no-repeat right center;
   min-height: 580px;
+  background-size:cover;
 }
 
 .banner-3 {
