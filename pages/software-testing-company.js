@@ -211,12 +211,12 @@ const SoftwareTesting = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer1.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/mobile-app-development-company">Manual Testing</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Manual Testing</h4>
                                         <p className="font-md color-grey-500 mb-5">Fleek Vertex provides hands-on testing services that ensure your software meets the highest standards. Our team ensures your application works smoothly across devices and platforms. Our manual testing solutions offer comprehensive insights into user experience, helping you achieve superior product quality.</p>
-                                        <div className="box-button-offer"><Link href="/mobile-app-development-company" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><Link href="/mobile-app-development-company" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></Link></div>
+                                            </svg></Link></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -224,12 +224,12 @@ const SoftwareTesting = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer2.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/software-development-company">Automated Testing</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Automated Testing</h4>
                                         <p className="font-md color-grey-500 mb-5">Our Testing extends the development life of your software with speed and accuracy unmatched by manual Testing. We enable rapid Testing with robust automation and state-of-the-art tools. Automation reduces human error, saves time, and reduces operational costs, helping high-quality software be deployed faster.</p>
-                                        <div className="box-button-offer"><Link href="/software-development-company" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><Link href="/software-development-company" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></Link></div>
+                                            </svg></Link></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -237,12 +237,12 @@ const SoftwareTesting = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer3.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/digital-marketing-services">Functional Testing</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Functional Testing</h4>
                                         <p className="font-md color-grey-500 mb-5">Functional Testing ensures that your software's features align with your business goals. We rigorously test all features, from user interfaces to APIs, to ensure they function as intended in real-world scenarios. By detecting anomalies and inconsistencies, we ensure a robust and reliable product before release.</p>
-                                        <div className="box-button-offer"><Link href="/digital-marketing-services" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><Link href="/digital-marketing-services" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></Link></div>
+                                            </svg></Link></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -250,12 +250,12 @@ const SoftwareTesting = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer4.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/cloud-migration-services">Mobile App Testing</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Mobile App Testing</h4>
                                         <p className="font-md color-grey-500 mb-5">We offer top-notch Mobile App Testing Services for all platforms and devices. Our experts use manual and automated testing strategies to assess usability, functionality, and security. Our simulations identify potential issues, ensuring precision performance, rapid response time, and seamless user experience.</p>
-                                        <div className="box-button-offer"><Link href="/cloud-migration-services" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><Link href="/cloud-migration-services" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></Link></div>
+                                            </svg></Link></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -263,12 +263,12 @@ const SoftwareTesting = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer5.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">API Testing</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">API Testing</h4>
                                         <p className="font-md color-grey-500 mb-5">API testing ensures your software integration is highly reliable and functional. Automated manual Testing ensures API functionality under various conditions. Our responsibility is to test for issues such as incorrect data structures, security vulnerabilities, and performance challenges.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -276,12 +276,12 @@ const SoftwareTesting = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Security Testing</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Security Testing</h4>
                                         <p className="font-md color-grey-500 mb-5">Software security testing is critical to protecting it from potential vulnerabilities and threats. Our security tester scans your application, runs penetrating tests, and reviews the security code. We simulate real-world cyber attacks to assess your software's resilience and recommend improving its security.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>

@@ -88,7 +88,7 @@ const CloudMigrationCompany = () => {
                                           <div className="col-lg-12">
                                               <p className="font-md color-grey-900">We'll work with you to develop solutions to meet your business goals so you can make the most of your cloud technology. We ensure your cloud infrastructure is optimized for performance, scalability, and cost savings. You can seamlessly migrate your existing systems to the cloud. Our experts handle every aspect of the migration process. We provide CI/CD automation and DevOps services to speed up your development cycle. Our robust cloud security solutions help protect your data and applications. Our expert team is here to help you every step of the way. Get in touch if you have questions, need advice, or are ready to get started.</p>
                                               <div className="box-button text-start mt-20">
-                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Get in Touch</Link>
+                                                <Link className="btn btn-brand-1 hover-up" href="/contact">Get in Touch</Link>
                                             </div>
                                           </div>
                                       </div>
@@ -212,12 +212,12 @@ const CloudMigrationCompany = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer1.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">Cloud Consulting & Strategy</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Cloud Consulting & Strategy</h4>
                                         <p className="font-md color-grey-500 mb-5">Our expert team collaborates with you to develop a strategic cloud roadmap that meets your business goals. First, we evaluate your current system,identifying opportunities to improve and reduce costs.We provide cloud readiness analysis,strategic planning,solution design,cost optimization,change management,training and workshops.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -225,12 +225,12 @@ const CloudMigrationCompany = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer2.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Cloud Infrastructure Setup & Management</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Cloud Infrastructure Setup & Management</h4>
                                         <p className="font-md color-grey-500 mb-5">Fleek Vertex’s experts create robust cloud environments tailored to your specific business needs. We ensure that every part of your infrastructure is optimized for performance, reliability, and scalability. Our services include Initial Setup, Migration Support, Resource Optimization, Performance Tuning, Ongoing Maintenance, Security Management, and Scalability Planning.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -238,12 +238,12 @@ const CloudMigrationCompany = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer3.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="No lag time, no lost effort when priorities change, no email black hole. As team collaboration improves">Cloud Application Development</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Cloud Application Development</h4>
                                         <p className="font-md color-grey-500 mb-5">We deliver robust, scalable, and high-performance cloud applications tailored to your unique requirements. Whatever your needs, we offer end-to-end development services to ensure your success. We specialize in Cloud Application Development, Microservices Architecture, API Integration, Serverless Computing, Agile Development, Quality Assurance and Testing.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -251,12 +251,12 @@ const CloudMigrationCompany = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer4.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Share updates instantly within our project management software, and get the entire team collaborating">Cloud Security Services</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Cloud Security Services</h4>
                                         <p className="font-md color-grey-500 mb-5">Our cloud security services protect your data, applications, and infrastructure. We implement strict security measures to ensure safety and compliance. We provide Threat Detection and Prevention, Identity and Access Management (IAM), Data Encryption, Compliance Management, Incident Response and Management, and Security Audits and Assessments.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -264,12 +264,12 @@ const CloudMigrationCompany = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer5.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">Cloud Migration Services</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Cloud Migration Services</h4>
                                         <p className="font-md color-grey-500 mb-5">Our cloud migration services ensure minimal disruption and efficiency loss as your business moves to the cloud. Fleek Vertex is ready to handle every aspect of cloud migration. We provide assessment and planning, application migration, testing and validation, post-migration support, and training and documentation.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -277,12 +277,12 @@ const CloudMigrationCompany = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">DevOps & CI/CD Automation</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">DevOps & CI/CD Automation</h4>
                                         <p className="font-md color-grey-500 mb-5">We deliver DevOps and CI/CD automation services to streamline your development and deployment processes. Our experts integrate development and deployment to enhance productivity, reduce downtime, and accelerate time-to-market. In DevOps, we offer Continuous Integration (CI), Continuous Deployment (CD), Infrastructure as Code (IaC), and Monitoring and Logging tools.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>

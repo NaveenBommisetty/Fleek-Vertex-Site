@@ -90,7 +90,7 @@ const ecommerceDevelopmentCompany = () => {
                                               <p className="font-md color-grey-900">We understand your business, goals, and target audience and have started to develop the solutions you need. Our team of experts will design user-friendly and visually appealing eCommerce websites optimized for conversion. Our experts specialize in customized eCommerce solutions to suit your needs.</p>
                                               <p className="font-md color-grey-900 mt-10">If you’re ready to elevate your business with a bespoke eCommerce solution, we’re here to help. Contact us today to discuss your project and see how we can bring your vision to life.</p>
                                               <div className="box-button text-start mt-20">
-                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Get in Touch</Link>
+                                                <Link className="btn btn-brand-1 hover-up" href="/contact">Get in Touch</Link>
                                             </div>
                                           </div>
                                       </div>
@@ -219,12 +219,12 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer1.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">Platform Setup & Development</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Platform Setup & Development</h4>
                                         <p className="font-md color-grey-500 mb-5">Our experienced team of professionals eliminates the hassle of setting up your eCommerce platform. Our services include custom solutions and platforms like Shopify, Magento, and WooCommerce. We also ensure that your online store is optimized for user experience and search engines.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -232,12 +232,12 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer2.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Payment Gateway Integration</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Payment Gateway Integration</h4>
                                         <p className="font-md color-grey-500 mb-5">Our e-commerce development services include robust integrated payment gateways that support credit cards, PayPal, Apple Pay, and more. We have extensive experience partnering with leading payment processors such as Stripe, Authorize.net, and Square to ensure smooth transactions.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -245,12 +245,12 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer3.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="No lag time, no lost effort when priorities change, no email black hole. As team collaboration improves">Shipping & Logistics Integration</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Shipping & Logistics Integration</h4>
                                         <p className="font-md color-grey-500 mb-5">Our development services include shipping and logistics solutions. We partner with FedEx, UPS, and DHL to ensure accurate shipping pricing, real-time tracking, and fast delivery. We also support automatic shipping accounts, easy label printing, and easy return and exchange processes.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -258,12 +258,12 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer4.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Share updates instantly within our project management software, and get the entire team collaborating">Magento Development</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Magento Development</h4>
                                         <p className="font-md color-grey-500 mb-5">The Magento platform is one of the most influential and flexible eCommerce platforms available, and our developers are experts at leveraging it. Our solutions can handle extensive inventories, high traffic volumes, and customers. We provide customized themes, module integration, and optimization services.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -271,12 +271,12 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer5.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">WooCommerce Development</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">WooCommerce Development</h4>
                                         <p className="font-md color-grey-500 mb-5">Our WooCommerce development service is designed to meet your specific business needs. Our team ensures that your WooCommerce store is optimized for speed, security, and search engine performance, providing your customers with a smooth and enjoyable shopping experience.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -284,12 +284,12 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Shopify Development</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Shopify Development</h4>
                                         <p className="font-md color-grey-500 mb-5">Our Shopify development service caters to every business size. We provide an end-to-end solution, starting with your Shopify store's initial design and then a customized theme to reflect your unique brand identity. We then optimize your Shopify store for speed, mobile responsiveness, and SEO.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -297,12 +297,12 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Performance Optimization</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Performance Optimization</h4>
                                         <p className="font-md color-grey-500 mb-5">Our optimization services are designed to ensure that your website runs smoothly and efficiently, providing your customers with a fast and efficient shopping experience. We reduce load times using code shortening, image optimization, and caching strategies.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -310,12 +310,12 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">eCommerce Maintenance</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">eCommerce Maintenance</h4>
                                         <p className="font-md color-grey-500 mb-5">Our e-commerce maintenance services give you peace of mind by handling all aspects of your store. Regular software updates keep your store up-to-date and secure. We also monitor 24/7 to find and resolve any potential issues, reduce downtime, and ensure your customers are satisfied.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -323,12 +323,12 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">SEO Integration</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">SEO Integration</h4>
                                         <p className="font-md color-grey-500 mb-5">We provide SEO integration services to increase your store's visibility on search engines. Our SEO analysis identifies areas for improvement and tailors a plan to meet your needs. We offer keyword analysis, optimization, and high-quality content creation to match your target audience.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>

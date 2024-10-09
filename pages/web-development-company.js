@@ -89,7 +89,7 @@ const WebDevelopmentCompany = () => {
                                               <p className="font-md color-grey-900">We build stunning websites, exciting eCommerce platforms, and dynamic web applications that meet your business needs. Our custom web solutions enhance the user experience and productivity.</p>
                                               <p className="font-md color-grey-900 mt-10">Are you looking to transform your online visibility? Contact us through our contact form or give us a call to see how we can help you achieve your web development goals. Our dedicated staff is ready to help you create a compelling and engaging online presence. Contact us today to get started!</p>
                                               <div className="box-button text-start mt-20">
-                                                <Link className="btn btn-brand-1 hover-up" href="#get-in-touch">Get in Touch</Link>
+                                                <Link className="btn btn-brand-1 hover-up" href="/contact">Get in Touch</Link>
                                             </div>
                                           </div>
                                       </div>
@@ -218,9 +218,9 @@ If you are looking for a back-end and front-end web development company in Banga
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer1.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10">Front-End Development</h4>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/web-development-company">Front-End Development</Link></h4>
                                         <p className="font-md color-grey-500 mb-5">We specialize in modern and user-friendly front-end solutions that enhance the user experience. Our team of designers and manufacturers uses high-tech technology to provide your customers with immersive interaction.</p>
-                                        <div className="box-button-offer"><Link href="/mobile-app-development-company" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        <div className="box-button-offer"><Link href="/web-development-company" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></Link></div>
@@ -233,10 +233,10 @@ If you are looking for a back-end and front-end web development company in Banga
                                     <div className="card-info">
                                         <h4 className="color-brand-1 mb-10">Back-End Development</h4>
                                         <p className="font-md color-grey-500 mb-5">Our backend development services focus on providing robust, extensible, and secure solutions to manage complex business processes. We ensure our software is optimized for high performance and easily integrated with third-party systems.</p>
-                                        <div className="box-button-offer"><Link href="/software-development-company" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><Link href="/software-development-company" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></Link></div>
+                                            </svg></Link></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -246,10 +246,10 @@ If you are looking for a back-end and front-end web development company in Banga
                                     <div className="card-info">
                                         <h4 className="color-brand-1 mb-10">Full-Stack Development</h4>
                                         <p className="font-md color-grey-500 mb-5">Our Full-Stack development services cover both front-end and back-end development, ensuring an integrated and customized solution for your business needs. Our team specializes in various technologies and frameworks, including HTML, CSS, JavaScript, React, Angular, Node.js, and more. We ensure flawless front-end and back-end integration, delivering integrated and efficient solutions that enhance productivity and user experience.</p>
-                                        <div className="box-button-offer"><Link href="/digital-marketing-services" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><Link href="/digital-marketing-services" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></Link></div>
+                                            </svg></Link></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -259,10 +259,10 @@ If you are looking for a back-end and front-end web development company in Banga
                                     <div className="card-info">
                                         <h4 className="color-brand-1 mb-10">Custom CMS development</h4>
                                         <p className="font-md color-grey-500 mb-5">We understand businesses may have unique content management needs, so we offer customized CMS development services. Our team develops efficient, user-friendly systems that allow customers to easily manage their website or application content. We can also integrate with existing CMS solutions, such as WordPress or Joomla, and configure them to your specific needs.</p>
-                                        <div className="box-button-offer"><Link href="/cloud-migration-services" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><Link href="/cloud-migration-services" className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></Link></div>
+                                            </svg></Link></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -270,9 +270,9 @@ If you are looking for a back-end and front-end web development company in Banga
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer5.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10">E-Commerce Development</h4>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/ecommerce-development-company">E-Commerce Development</Link></h4>
                                         <p className="font-md color-grey-500 mb-5">We provide end-to-end eCommerce solutions, from building a user-friendly online store to implementing secure payment gateways and managing inventory. Our team has expertise in eCommerce platforms like Magento, Shopify, WooCommerce, and more. We also offer customized eCommerce promotions for businesses with specific requirements.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1" href='/ecommerce-development-company'>Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></a></div>
@@ -283,9 +283,9 @@ If you are looking for a back-end and front-end web development company in Banga
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10">Custom Web Application Development</h4>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/web-development-company">Custom Web Application Development</Link></h4>
                                         <p className="font-md color-grey-500 mb-5">Our team has extensive experience in custom web applications that cover a wide range of industries and needs. Our web applications meet the unique needs of our customers, from simple browsers to complex enterprise solutions. Our expertise includes PHP, Ruby on Rails, Java, .NET, and other technologies.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1" href='/web-development-company'>Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></a></div>
@@ -311,7 +311,7 @@ If you are looking for a back-end and front-end web development company in Banga
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/certification.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="icon-up-black">Certification</h6></Link></div>
+                                        <h6 className="icon-up-black">Education</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -319,7 +319,7 @@ If you are looking for a back-end and front-end web development company in Banga
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/conference.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Conference</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Construction</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -327,7 +327,7 @@ If you are looking for a back-end and front-end web development company in Banga
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/research.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Research</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Retail & Ecommerce</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -335,7 +335,7 @@ If you are looking for a back-end and front-end web development company in Banga
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/dispersal.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Dispersal</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Health Care</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -343,7 +343,7 @@ If you are looking for a back-end and front-end web development company in Banga
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/enterprise.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Enterprise</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Travel & Hospitality</h6></Link></div>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4 col-sm-6 col-12">
@@ -351,7 +351,55 @@ If you are looking for a back-end and front-end web development company in Banga
                                     <div className="card-image"><Link href="#">
                                         <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
                                     <div className="card-info"><Link href="#">
-                                        <h6 className="color-brand-1 icon-up">Team Building</h6></Link></div>
+                                        <h6 className="color-brand-1 icon-up">Oil & Gas</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-8">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Energy</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-10">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Entertainment</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-11">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">E-commerce</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-1">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Mining</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-2">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Public Sector</h6></Link></div>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4 col-sm-6 col-12">
+                                <div className="card-small bg-3">
+                                    <div className="card-image"><Link href="#">
+                                        <div className="box-image"><img src="assets/imgs/page/homepage3/team-building.png" alt="iori" /></div></Link></div>
+                                    <div className="card-info"><Link href="#">
+                                        <h6 className="color-brand-1 icon-up">Logistics</h6></Link></div>
                                 </div>
                             </div>
                         </div>
