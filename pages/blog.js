@@ -39,7 +39,7 @@ const Blog = () => {
                             </div>
                         </div>
                         <div className="col-xxl-6 col-lg-6 col-md-6 pr-0">
-                            <div className="d-none d-lg-block pl-50"><img className="w-100 d-block" src="assets/imgs/page/blog/banner.png" alt="iori" /></div>
+                            <div className="d-none d-lg-block pl-50"><img className="w-100 d-block" src="assets/imgs/blogs-banner.webp" alt="iori" /></div>
                         </div>
                     </div>
                 </section>
