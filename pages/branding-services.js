@@ -214,12 +214,12 @@ const BrandingServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer1.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">Brand Identity Development</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Brand Identity Development</h4>
                                         <p className="font-md color-grey-500 mb-5">Brand identity is one of the most essential elements of your business's success. It is carefully designed to capture your business's essence. Our integrated design package includes logo design, typography, color palettes, and more.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -227,12 +227,12 @@ const BrandingServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer2.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Brand Guidelines</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Brand Guidelines</h4>
                                         <p className="font-md color-grey-500 mb-5">Fleek Vertex's brand guide service ensures that your brand's visual and verbal messaging remains consistent across all platforms. Our brand guide contains expert tips on how to maximize the potential of your logo, color scheme, typography, and images.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -240,12 +240,12 @@ const BrandingServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer3.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="No lag time, no lost effort when priorities change, no email black hole. As team collaboration improves">Naming & Brand Identity Creation</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Naming & Brand Identity Creation</h4>
                                         <p className="font-md color-grey-500 mb-5">Fleek Vertex understands how important your brand name and identity are to how people recognize your work. Brand Identity Creation enables your organization to establish a name that reflects its values and mission and resonates with your target audience.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -253,12 +253,12 @@ const BrandingServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer4.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Share updates instantly within our project management software, and get the entire team collaborating">Brand Collateral Design</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Brand Collateral Design</h4>
                                         <p className="font-md color-grey-500 mb-5">Fleek Vertex offers comprehensive collateral design solutions that extend the brand identity at every touchpoint. We ensure that everything, from business cards and brochures to digital assets and promotional materials, reflects your brand's unique style and message.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -266,12 +266,12 @@ const BrandingServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer5.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="Seamless importing and round-tripping of Microsoft Project plans, Excel files & CSV files.">Digital Branding</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Digital Branding</h4>
                                         <p className="font-md color-grey-500 mb-5">Our digital branding enhances your brand's impact across all digital platforms. Our first step is to assess your digital footprint. Our experts then develop a strategy for your brand that includes web design, social media profiles, online advertising, and other digital touchpoints.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>
@@ -279,12 +279,12 @@ const BrandingServices = () => {
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="What makes us different from others? We give holistic solutions with strategy, design & technology.">Print & Traditional Advertising</Link></h4>
+                                        <h4 className="color-brand-1 mb-10">Print & Traditional Advertising</h4>
                                         <p className="font-md color-grey-500 mb-5">Our Print and Traditional Advertising leverages these media's creative potential. Our advertisements are designed to capture attention and convey your brand's message clearly and effectively. We create eye-catching posters, billboards, magazine ads, and flyers that adhere to your brand's standards.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        {/* <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></a></div>
+                                            </svg></a></div> */}
                                     </div>
                                 </div>
                             </div>

@@ -30,12 +30,9 @@ const pageTerm = () => {
                         <div className="content-main mt-10">
                             <div className="text-center">
                                 <h2 className="color-brand-1 mb-10">Terms and Condition</h2>
-                                <p className="font-lg color-grey-500 pb-20">Welcome to Fleek Vertex. You agree to follow and be bound by these terms and conditions when you use our website and services. Before you use our services, please read them carefully. You should not use our services if you don't agree with any of these fundamental principles.</p>
-                                <ul>
-                                <li>"Fleek Vertex," "we," "us," and "our" refer to the business entity offering the services through this site</li>
-                                <li>"User," "you," or "your" refers to any individual, company, or organization accessing or using our services.</li>
-                                <li>"Services" refers to all products, services, and content Fleek Vertex provides.</li>
-                                </ul>
+                                <p className="font-lg color-grey-500 pb-10">Welcome to Fleek Vertex. You agree to follow and be bound by these terms and conditions when you use our website and services. Before you use our services, please read them carefully. You should not use our services if you don't agree with any of these fundamental principles.</p>
+                                <p className="font-lg color-grey-500 pb-20">"Fleek Vertex," "we," "us," and "our" refer to the business entity offering the services through this site.<br></br>"User," "you," or "your" refers to any individual, company, or organization accessing or using our services.,<br></br>"Services" refers to all products, services, and content Fleek Vertex provides.</p>
+                                
                             </div>
                             <div className="row mt-70">
                                 <div className="col-lg-2 col-md-5">

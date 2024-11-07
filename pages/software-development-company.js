@@ -218,7 +218,7 @@ Businesses need to find a reputable, high-quality custom software development co
                                     <div className="card-info">
                                         <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/mobile-app-development-company">Mobile App Development Services</Link></h4>
                                         <p className="font-md color-grey-500 mb-5">Our team specializes in making apps that work on iOS and Android so users can enjoy the same experience on all their devices. Use our knowledge to create top-notch mobile apps that keep customers interested and help your business grow.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1" href="/mobile-app-development-company">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></a></div>
@@ -229,9 +229,9 @@ Businesses need to find a reputable, high-quality custom software development co
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer2.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="#">Web Development Services</Link></h4>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/web-development-company">Web Development Services</Link></h4>
                                         <p className="font-md color-grey-500 mb-5">Our web development services create responsive, attractive websites that improve your online profile. We create unique web solutions that meet your business goals and give users a great experience, from e-commerce platforms to content management systems.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1" href="/web-development-company">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></a></div>
@@ -242,9 +242,9 @@ Businesses need to find a reputable, high-quality custom software development co
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer3.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="#">E-commerce Development Services</Link></h4>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/ecommerce-development-company">E-commerce Development Services</Link></h4>
                                         <p className="font-md color-grey-500 mb-5">Our e-commerce software services are all about creating safe, scalable, and working online stores. Our custom ecommerce solutions can help you increase sales and give your users a great shopping experience.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1" href="/ecommerce-development-company">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></a></div>
@@ -255,9 +255,9 @@ Businesses need to find a reputable, high-quality custom software development co
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer4.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="#">Cloud Migration Services.</Link></h4>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/cloud-migration-services">Cloud Migration Services.</Link></h4>
                                         <p className="font-md color-grey-500 mb-5">Moving your business to the cloud will give you more freedom and save money. If you switch to cloud-based services, you'll have better access to cutting-edge technology, more secure data, and better ways to work together. Our team will ensure the transfer goes smoothly and doesn't cause too much trouble for your business.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1" href="/cloud-migration-services">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></a></div>
@@ -268,9 +268,9 @@ Businesses need to find a reputable, high-quality custom software development co
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer5.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="#">JIRA Administration</Link></h4>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/jira-administration-services">JIRA Administration</Link></h4>
                                         <p className="font-md color-grey-500 mb-5">Our JIRA administrators will help you set up, set up, and maintain your instance of JIRA to ensure it meets your project management needs. Our professional JIRA administration services will help you get more done and make your processes more efficient.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1" href="/jira-administration-services">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></a></div>
@@ -281,9 +281,9 @@ Businesses need to find a reputable, high-quality custom software development co
                                 <div className="card-offer card-we-do hover-up">
                                     <div className="card-image"><img src="assets/imgs/page/homepage4/offer6.png" alt="iori" /></div>
                                     <div className="card-info">
-                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="#">Software Testing Services</Link></h4>
+                                        <h4 className="color-brand-1 mb-10"><Link className="color-brand-1" href="/software-testing-company">Software Testing Services</Link></h4>
                                         <p className="font-md color-grey-500 mb-5">Our testing services include functional testing, speed testing, and security testing. They are all meant to create strong and reliable software solutions. You can count on our team to find and fix any problems with your software before it goes live. This will give you peace of mind and ensure that users have a great time.</p>
-                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1">Learn More
+                                        <div className="box-button-offer"><a className="btn btn-default font-sm-bold pl-0 color-brand-1" href="/software-testing-company">Learn More
                                             <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                             </svg></a></div>
