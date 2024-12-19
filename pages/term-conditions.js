@@ -48,6 +48,7 @@ const pageTerm = () => {
                                         <li> <Link href="#Termination">Termination</Link></li>
                                         <li> <Link href="#GoverningLaw">Governing Law</Link></li>
                                         <li> <Link href="#ImportantNotes">Important Notes</Link></li>
+                                        <li> <Link href="#RefundPolicy">Refund Policy </Link></li>
                                         {/* <li> <Link href="#refund">Refund Policy</Link></li>
                                         <li> <Link href="#email">Email &amp; Newsletter</Link></li>
                                         <li> <Link href="#agreement">License Agreement</Link></li>
@@ -95,6 +96,10 @@ const pageTerm = () => {
 5. Headings are for reference purposes only and do not limit or affect these terms.
 </p>
 <p className="font-md color-grey-500 mb-30">We appreciate your attention to our Terms and Conditions. We are committed to delivering secure and dependable services. However, if you have any queries or concerns regarding these terms, please do not hesitate to reach out to us at info@fleekvertex.com for further clarification. We are grateful for the chance to serve you and appreciate your business. So, please feel free to peruse our services and inform us if there is anything we can do to enhance your experience with Fleek Vertex.</p>
+<h4 className="color-brand-1 mb-10" id="RefundPolicy">Refund Policy</h4>
+                                    <p className="font-md color-grey-500 mb-10">Our service price range starts from Rs.2000<br />
+
+If refund is approved, your refund will be processed, and a credit will automatically be applied to your original method of payment within 7-10 business days</p>
                                 </div>
                             </div>
                         </div>
