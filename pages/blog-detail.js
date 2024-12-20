@@ -19,7 +19,13 @@ const BlogDetails = () => {
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                                     </svg>Home</Link></li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 448 512" fill='grey'>
+  <path d="M190.5 116.1c-12.3-12.3-12.3-32.2 0-44.5s32.2-12.3 44.5 0l176 176c12.3 12.3 12.3 32.2 0 44.5l-176 176c-12.3 12.3-32.2 12.3-44.5 0s-12.3-32.2 0-44.5L339.5 256 190.5 116.1z"/>
+</svg>
                                 <li> <Link href="#">Blog</Link></li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 448 512" fill='grey'>
+  <path d="M190.5 116.1c-12.3-12.3-12.3-32.2 0-44.5s32.2-12.3 44.5 0l176 176c12.3 12.3 12.3 32.2 0 44.5l-176 176c-12.3 12.3-32.2 12.3-44.5 0s-12.3-32.2 0-44.5L339.5 256 190.5 116.1z"/>
+</svg>
                                 <li> <Link href="#">The Betty Crocker Secret to an Email Marketing Strategy People Enjoy</Link></li>
                             </ul>
                         </div>

@@ -10,7 +10,7 @@ const pageAbout = () => {
                 <title>Fleek - About Us</title>
             </Head>
             <Layout>
-            <div className="section breadcrumbs-path pt-20">
+            <div className="section breadcrumbs-path pt-20 pb-20">
                     <div className="container">
                         <div className="breadcrumbs ">
                             <ul>
@@ -18,10 +18,6 @@ const pageAbout = () => {
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                                     </svg> Home</Link></li>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 448 512" fill='grey'>
-  <path d="M190.5 116.1c-12.3-12.3-12.3-32.2 0-44.5s32.2-12.3 44.5 0l176 176c12.3 12.3 12.3 32.2 0 44.5l-176 176c-12.3 12.3-32.2 12.3-44.5 0s-12.3-32.2 0-44.5L339.5 256 190.5 116.1z"/>
-</svg>
-
                                 <li> <Link href="#">About Us</Link></li>
                             </ul>
                         </div>
@@ -126,19 +122,19 @@ const pageAbout = () => {
                             </div>
                             <div className="col-lg-4">
                                 <ul className="list-core-value">
-                                    <li> <svg className="ticked" xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill='green'  viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                                    <li> <span className="ticked" />
                                         <h5 className="color-brand-1 mb-5">Our Passion</h5>
                                         <div className="box-border-dashed">
                                             <p className="font-md color-grey-500 mb-20">Our passion makes everything we do better and drives us to go above and beyond and take on tasks with spirit. We work on every job with unwavering dedication and a genuine love for what we do. Our team is driven by this desire to develop new ideas, push the limits, and provide solutions that make a difference.</p>
                                         </div>
                                     </li>
-                                    <li> <svg className="ticked" xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill='green'  viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                                    <li> <span className="ticked" />
                                         <h5 className="color-brand-1 mb-5">Act With Integrity</h5>
                                         <div className="box-border-dashed">
                                             <p className="font-md color-grey-500 mb-20">We’re honest, transparent and committed to doing what’s best for our customers and our company. We openly collaborate in pursuit of the truth. We have no tolerance for politics, hidden agendas or passive-aggressive behavior.</p>
                                         </div>
                                     </li>
-                                    <li> <svg className="ticked" xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill='green'  viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                                    <li> <span className="ticked" />
                                         <h5 className="color-brand-1 mb-5">Integrity is essential.</h5>
                                         <div className="box-border-dashed">
                                             <p className="font-md color-grey-500 mb-20">We promise to always be honest and open with our clients, team members, and business partners. We think honesty is important for making friends and keeping connections going for a long time. This way of doing things ensures that we keep our promises and are responsible for what we do.</p>
@@ -148,19 +144,19 @@ const pageAbout = () => {
                             </div>
                             <div className="col-lg-4">
                                 <ul className="list-core-value">
-                                    <li> <svg className="ticked" xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill='green'  viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                                    <li> <span className="ticked" />
                                         <h5 className="color-brand-1 mb-5">Respectful</h5>
                                         <div className="box-border-dashed">
                                             <p className="font-md color-grey-500 mb-20">Communication and making decisions are based on showing respect. We value what each person brings to the table and listen with understanding to see things from different points of view. This respect makes a place where everyone feels respected and free to do their best, where people can work together and help each other. Maintaining a mindset of mutual respect helps us get along better with each other and achieve our goals as a team.</p>
                                         </div>
                                     </li>
-                                    <li> <svg className="ticked" xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill='green'  viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                                    <li> <span className="ticked" />
                                         <h5 className="color-brand-1 mb-5">Ownership</h5>
                                         <div className="box-border-dashed">
                                             <p className="font-md color-grey-500 mb-20">Ownership is at the center of our culture. We offer everyone on the team the tools to be active and responsible, ensuring that projects are handled with care and dedication. This feeling of ownership makes the workplace lively, where everyone cares about our goals and works together to get great results. We encourage new ideas, keep improving our method, and set new standards of excellence by taking responsibility.</p>
                                         </div>
                                     </li>
-                                    <li> <svg className="ticked" xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill='green'  viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                                    <li> <span className="ticked" />
                                         <h5 className="color-brand-1 mb-5">Unified</h5>
                                         <div className="box-border-dashed">
                                             <p className="font-md color-grey-500 mb-20">The essence of our culture is unity. Working together leads to new ideas and better results as a cohesive team. We can face challenges and celebrate successes together because we all have the same goal and work together. This makes sure that everyone moves forward at the same time.</p>
