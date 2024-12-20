@@ -307,7 +307,7 @@ const HomePage = () => {
                                     <div className="box-info-video"> {/* <span className="btn btn-tag">Business</span> */}
                                         <h3 className="color-brand-2 mt-10 mb-15">We Develop the Future-Ready World</h3>
                                         <p className="font-md color-white">Fleek Vertex is a development company and an inclusive community of top engineers who want to improve the world through digital innovation. We use our skills, knowledge, and experience to help our clients get ahead and improve the world. Our company's goal is easy to explain but hard to execute. We develop IT options. With the help of our clients, we make the world a better and more comfortable place for everyone. We believe as a company that technology has the power to make the world a better place for everyone and to remain. We help clients in many fields, like healthcare, education, business, and more, build custom solutions that meet their unique needs and solve their problems.</p>
-                                        <div className="box-button-video"><a className="text-white font-sm-bold">Learn More</a></div>
+                                        {/* <div className="box-button-video"><a className="text-white font-sm-bold">Learn More</a></div> */}
                                     </div>
                                 </div>
                             </div>

@@ -496,7 +496,7 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                 <div className="card-info">
                                     <h3 className="color-brand-1 mb-20">Financial Management</h3>
                                     <p className="font-md color-grey-500 mb-20">Track, manage, and control your expenses. The only financial management tool you’ll ever need.</p>
-                                    <div className="text-center"> <Link href="#"><img className="mr-10" src="/assets/imgs/template/appstore.png" alt="iori" /></Link><Link href="#"><img src="/assets/imgs/template/google-play.png" alt="iori" /></Link></div>
+                                    {/* <div className="text-center"> <Link href="#"><img className="mr-10" src="/assets/imgs/template/appstore.png" alt="iori" /></Link><Link href="#"><img src="/assets/imgs/template/google-play.png" alt="iori" /></Link></div> */}
                                 </div>
                                 <div className="card-image"> <img src="/assets/imgs/page/homepage7/img-financial.png" alt="iori" /></div>
                             </div>
@@ -506,10 +506,10 @@ Our commitment doesn’t end at the launch. We offer reliable support and mainte
                                 <div className="card-info">
                                     <h3 className="color-brand-1 mb-20">Automated Platform</h3>
                                     <p className="font-md color-grey-500 mb-20">Synchronize and automate all your business in the cloud. Save time and effort, enjoy great vacations.</p>
-                                    <div className="mt-0"> <Link className="btn btn-brand-1-small" href="#">Get Started Now
+                                    {/* <div className="mt-0"> <Link className="btn btn-brand-1-small" href="#">Get Started Now
                                         <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                        </svg></Link></div>
+                                        </svg></Link></div> */}
                                 </div>
                                 <div className="card-image"> <img src="/assets/imgs/page/homepage7/automated.png" alt="iori" /></div>
                             </div>
