@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "formidable": "^3.5.1",
-    "next": "^14.2.14",
+    "next": "^14.2.21",
     "nodemailer": "^6.9.15",
     "react": "^18.3.1",
     "react-bootstrap": "^2.7.0",

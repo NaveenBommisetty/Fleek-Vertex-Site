@@ -375,7 +375,7 @@ const HomePage = () => {
                                 </div>
                             <div className="col-xl-4 col-lg-6 col-md-6">
                             <div className="card-blog-grid card-blog-grid-3 hover-up">
-                                        <div className="card-image"><Link href="/blogs/how-jira-enhances-web-and-software-development-projects"><img src="assets/imgs/page/blog/img4.png" alt="iori" /></Link>
+                                        <div className="card-image"><Link href="/blogs/how-jira-enhances-web-and-software-development-projects"><img src="assets/imgs/page/blog/jira.jpg" alt="iori" /></Link>
                                             <Link href="#"><label className="lbl-border">JIRA Administration</label></Link>
                                         </div>
                                         <div className="card-info"><Link href="/blogs/how-jira-enhances-web-and-software-development-projects">

@@ -29,7 +29,9 @@
                                             <li><Link href="/about-fleek-vertex">Company</Link></li>
                                             <li className="has-children"><Link href="">Our Services</Link>
                                                 <ul className="sub-menu">
-                                                    <li><Link href="/software-development-company">Software Development</Link></li>
+                                                    <li>  <Link href="/software-development-company" legacyBehavior>
+    <a  rel="noopener noreferrer">Software Development</a>
+  </Link></li>
                                                     <li><Link href="/web-development-company">Web Development</Link></li>
                                                     <li><Link href="/mobile-app-development-company">Mobile App Development</Link></li>
                                                     <li><Link href="/ecommerce-development-company">Ecommerce Development</Link></li>

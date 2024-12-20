@@ -24,24 +24,31 @@ const pageAbout = () => {
                     </div>
                 </div>
                 <section className="section banner-contact">
-                    <div className="container pt-100">
-                        <div className="banner-1">
-                            <div className="row align-items-center">
-                                <div className="col-lg-7"><span className="title-line line-48">Who we are</span>
-                                    <h1 className="color-brand-5 mb-20 mt-10">About Fleek Vertex</h1>
-                                    <div className="row">
-                                        <div className="col-lg-9">
-                                            <p className="font-md color-gray-900">We’re not just a tech company—innovators passionate about creating industry-changing solutions. Our journey began with a simple idea: harnessing the power of technology to solve real-world challenges. Today, we pride ourselves on our commitment to excellence, working with forward-thinking businesses to achieve success through innovative digital solutions.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-5 d-none d-lg-block">
-                                    <div className="box-banner-contact"><img src="assets/imgs/page/contact/banner.png" alt="iori" /></div>
-                                </div>
-                            </div>
-                        </div>
+    <div className="container pt-10">
+        <div className="row align-items-center">
+            <div className="col-lg-7">
+                <span className="title-line line-48">Who we are</span>
+                <h1 className="color-brand-5 mb-20 mt-10">About Fleek Vertex</h1>
+                <div className="row">
+                    <div className="col-lg-9">
+                        <p className="font-md color-gray-900">
+                            We’re not just a tech company—innovators passionate about creating industry-changing solutions. 
+                            Our journey began with a simple idea: harnessing the power of technology to solve real-world challenges. 
+                            Today, we pride ourselves on our commitment to excellence, working with forward-thinking businesses 
+                            to achieve success through innovative digital solutions.
+                        </p>
                     </div>
-                </section>
+                </div>
+            </div>
+            <div className="col-lg-5 d-lg-block text-end">
+                <div className="box-banner-contact">
+                    <img src="assets/imgs/page/contact/banner.png" alt="Banner Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
                 <section className="section pt-90 banner-about">
                     <div className="container text-center">
                         <h6 className="color-grey-400 mb-15">Who we are</h6>
@@ -92,7 +99,7 @@ const pageAbout = () => {
                             </div>
                             <div className="col-lg-6">
                                 <div className="item-core mb-30">
-                                    <div className="item-image"><img src="assets/imgs/page/about/img1.png" alt="iori" /></div>
+                                    <div className="item-image"><img src="assets/imgs/page/blog/ceo2.jpg" alt="iori" /></div>
                                     <div className="item-desc">
                                         <p className="font-md color-grey-400 mb-15">“We created a revolutionary online knowledge and competencies assessment solution. It empowers thousands of organizations worldwide to grow by allowing them to get a broader picture and draw better conclusions”</p>
                                         <h6 className="color-brand-1">Palla</h6><span className="color-grey-500 font-xs">Co Founder</span>

@@ -33,7 +33,7 @@ const Footer = () => {
                                     <li><Link href="/jira-administration-services">jira administration</Link></li>
                                 </ul>
                             </div>
-                            <div className="col-lg-3 width-16 mb-30">
+                            {/* <div className="col-lg-3 width-16 mb-30">
                                 <h5 className="mb-10 color-brand-5">Industries We Cover</h5>
                                 <ul className="menu-footer">
                                     <li><Link href="">Education</Link></li>
@@ -42,7 +42,7 @@ const Footer = () => {
                                     <li><Link href="">Health Care</Link></li>
                                     <li><Link href="">Public Sector</Link></li>
                                 </ul>
-                            </div>
+                            </div> */}
                             <div className="col-lg-3 width-23">
                                 <div>
                                 <div className="font-md mb-20 color-branding-dark"><strong className="font-md-bold">Hours:</strong> 9:00 - 17:00, Mon - Fri</div>
