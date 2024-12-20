@@ -553,8 +553,9 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #98c222;
+  color: #98c222 !important;
 }
+
 
 @media (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -2690,7 +2691,7 @@ body {
 }
 
 .banner-2 {
-  background: url(../imgs/innovative-it-solutions.webp)  no-repeat right center;
+  background: url(../imgs/banner-site.png)  no-repeat right center;
   min-height: 580px;
   background-size:cover;
 }
@@ -6048,6 +6049,8 @@ footer a {
   display: inline-block;
   vertical-align: middle;
   margin-right: 15px;
+  text-decoration: none;
+  color: #222;
 }
 .btn-app img {
   display: block;
